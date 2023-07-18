@@ -61,8 +61,8 @@
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/to.xsl -->
    <xsl:param name="outputDir">docs/</xsl:param>
    
-   <xsl:param name="homeLabel">Jezuitika</xsl:param>
-   <xsl:param name="homeURL">http://hdl.handle.net/20.500.12325/31</xsl:param>
+   <xsl:param name="homeLabel">Ucbeniki</xsl:param>
+   <xsl:param name="homeURL">#</xsl:param>
    
    <xsl:param name="splitLevel">1</xsl:param>
    
@@ -98,7 +98,7 @@
    </doc>
    <xsl:template name="nav-index-head">
       <xsl:param name="thisLanguage"/>
-      <xsl:text>Filtri</xsl:text>
+      <xsl:text>Tabelarni prikaz</xsl:text>
    </xsl:template>
    
    
@@ -167,8 +167,8 @@
       <xsl:if test="self::tei:divGen[@type='index'][@xml:id='main']">
          <xsl:call-template name="datatables-main"/>
       </xsl:if>
-      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='provenience']">
-         <xsl:call-template name="datatables-provenience"/>
+      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='author']">
+         <xsl:call-template name="datatables-author"/>
       </xsl:if>
       <xsl:if test="self::tei:divGen[@type='index'][@xml:id='genre']">
          <xsl:call-template name="datatables-genre"/>
@@ -177,8 +177,8 @@
          <xsl:call-template name="datatables-type"/>
       </xsl:if>
       <!-- genre2, Zvrstna opredelitev, row[5] -->
-      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='genre2']">
-         <xsl:call-template name="datatables-genre2"/>
+      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='place']">
+         <xsl:call-template name="datatables-place"/>
       </xsl:if>
       <!-- year, Leto (ali šolsko leto) uprizoritve, row[6] -->
       <xsl:if test="self::tei:divGen[@type='index'][@xml:id='year']">
@@ -483,7 +483,7 @@
    
    <!-- Novo procesiranje vsebine v body//div -->
    
-   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+   <!--<doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
       <desc></desc>
    </doc>
    <xsl:template match="tei:head[ancestor::tei:body][not(parent::tei:div[parent::tei:body])]">
@@ -606,7 +606,7 @@
             <xsl:value-of select="normalize-space(.)"/>
          </div>
       </div>
-   </xsl:template>
+   </xsl:template>-->
    
    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
       <desc></desc>
@@ -625,6 +625,7 @@
       <script type="text/javascript" src="{if ($localWebsite='true') then 'pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js'}"></script>
       <script type="text/javascript" src="{if ($localWebsite='true') then 'vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js'}"></script>
       <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/plug-ins/1.13.4/dataRender/ellipsis.js'}"></script>
       <!-- določi, kje je naša dodatna DataTables js datoteka -->
       <script type="text/javascript" src="{if ($localWebsite='true') then 'range-filter-external-main.js' else 'range-filter-external-main.js'}"></script>
       
@@ -685,19 +686,24 @@
       </ul>
       
       <div>
-         <table id="datatableMain" class="display responsive nowrap targetTable" width="100%" cellspacing="0">
+         <table id="datatableMain" class="display responsive targetTable" width="100%" cellspacing="0">
             <thead>
                <tr>
                   <th>ID</th>
+                  <th>Naslov (prva izdaja)</th>
+                  <th>Avtor</th>
                   <th>Leto</th>
-                  <th>Naslov</th>
-                  <th>Priložnost</th>
+                  <th>Kraj (prva izdaja)</th>
+                  <th>Predmet</th>
                </tr>
             </thead>
             <tfoot>
                <tr>
                   <th></th>
-                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
+                  <!--                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>-->
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                </tr>
@@ -706,9 +712,13 @@
             <xsl:result-document href="docs/data-main.json" method="text" encoding="UTF-8">
                <xsl:text>{
   "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:body/tei:div/tei:div">
+               <xsl:for-each select="//tei:body/tei:div">
                   <xsl:variable name="playID" select="@xml:id"/>
-                  <xsl:variable name="playYear" select="parent::tei:div/tei:head"/>
+                  <xsl:variable name="playTitle" select="descendant::tei:row/tei:cell[@ana='title']"/>
+                  <xsl:variable name="playAuthor" select="descendant::tei:row/tei:cell[@ana='author']"/>
+                  <xsl:variable name="playYear" select="descendant::tei:row/tei:cell[@ana='year']"/>
+                  <xsl:variable name="playPlace" select="descendant::tei:row/tei:cell[@ana='place']"/>
+                  <xsl:variable name="playSubject" select="descendant::tei:row/tei:cell[@ana='subject']"/>
                   <xsl:text>[&#xA;</xsl:text>
                   
                   <!-- ID -->
@@ -716,16 +726,25 @@
                   <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
                   <xsl:text>&quot;,&#xA;</xsl:text>
                   
+                  <!-- Naslov --><!--
+                  <xsl:variable name="prvihXznakov" select="substring($playTitle, 1, 20)" />-->
+                  <xsl:value-of select="concat('&quot;',$playTitle,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  <!-- avtor -->
+                  <xsl:value-of select="concat('&quot;',$playAuthor,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
                   <!-- Leto -->
                   <xsl:value-of select="concat('&quot;',$playYear,'&quot;')"/>
                   <xsl:text>,&#xA;</xsl:text>
                   
-                  <!-- Naslov -->
-                  <xsl:value-of select="concat('&quot;',substring-after(normalize-space(tei:head),': '),'&quot;')"/>
+                  <!-- Kraj -->
+                  <xsl:value-of select="concat('&quot;',$playPlace,'&quot;')"/>
                   <xsl:text>,&#xA;</xsl:text>
                   
-                  <!-- Priložnost -->
-                  <xsl:value-of select="concat('&quot;',substring-before(normalize-space(tei:head),': '),'&quot;')"/>
+                  <!-- Predmet -->
+                  <xsl:value-of select="concat('&quot;',$playSubject,'&quot;')"/>
                   <xsl:text>&#xA;</xsl:text>
                   
                   <xsl:text>]</xsl:text>
@@ -788,15 +807,13 @@
             <thead>
                <tr>
                   <th>ID</th>
-                  <th>Zvrst</th>
                   <th>Naslov</th>
-                  <th>Priložnost</th>
+                  <th>Predmet</th>
                </tr>
             </thead>
             <tfoot>
                <tr>
                   <th></th>
-                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                </tr>
@@ -805,8 +822,10 @@
             <xsl:result-document href="docs/data-genre.json" method="text" encoding="UTF-8">
                <xsl:text>{
   "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:label[@type='genre']">
-                  <xsl:variable name="playID" select="parent::tei:div/@xml:id"/>
+               <xsl:for-each select="//tei:body/tei:div">
+                  <xsl:variable name="playID" select="@xml:id"/>
+                  <xsl:variable name="playTitle" select="descendant::tei:row/tei:cell[@ana='title']"/>
+                  <xsl:variable name="playSubject" select="descendant::tei:row/tei:cell[@ana='subject']"/>
                   <xsl:text>[&#xA;</xsl:text>
                   
                   <!-- ID -->
@@ -814,16 +833,12 @@
                   <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
                   <xsl:text>&quot;,&#xA;</xsl:text>
                   
-                  <!-- Stopnja ohranjenosti -->
-                  <xsl:value-of select="concat('&quot;',normalize-space(.),'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
                   <!-- Naslov -->
-                  <xsl:value-of select="concat('&quot;',substring-after(normalize-space(parent::tei:div/tei:head),': '),'&quot;')"/>
+                  <xsl:value-of select="concat('&quot;',$playTitle,'&quot;')"/>
                   <xsl:text>,&#xA;</xsl:text>
                   
-                  <!-- Priložnost -->
-                  <xsl:value-of select="concat('&quot;',substring-before(normalize-space(parent::tei:div/tei:head),': '),'&quot;')"/>
+                  <!-- predmet -->
+                  <xsl:value-of select="concat('&quot;',$playSubject,'&quot;')"/>
                   <xsl:text>&#xA;</xsl:text>
                   
                   <xsl:text>]</xsl:text>
@@ -945,7 +960,7 @@
    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
       <desc></desc>
    </doc>
-   <xsl:template name="datatables-provenience">
+   <xsl:template name="datatables-author">
       <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css'}" />
       <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js'}"></script>
       
@@ -980,13 +995,13 @@
       </script>
       
       <div>
-         <table id="datatableProvenience" class="display responsive nowrap targetTable" width="100%" cellspacing="0">
+         <table id="datatableProvenience" class="display responsive targetTable" width="100%" cellspacing="0">
             <thead>
                <tr>
                   <th>ID</th>
-                  <th>Ohranjenost</th>
                   <th>Naslov</th>
-                  <th>Priložnost</th>
+                  <th>Avtor</th>
+                  <th>Avtor priredbe / Prevajalec / Urednik: </th>
                </tr>
             </thead>
             <tfoot>
@@ -998,11 +1013,14 @@
                </tr>
             </tfoot>
             <!--<tbody>-->
-            <xsl:result-document href="docs/data-provenience.json" method="text" encoding="UTF-8">
+            <xsl:result-document href="docs/data-author.json" method="text" encoding="UTF-8">
                <xsl:text>{
   "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:label[@type='provenience']">
-                  <xsl:variable name="playID" select="parent::tei:div/@xml:id"/>
+               <xsl:for-each select="//tei:body/tei:div">
+                  <xsl:variable name="playID" select="@xml:id"/>
+                  <xsl:variable name="playTitle" select="descendant::tei:row/tei:cell[@ana='title']"/>
+                  <xsl:variable name="playAuthor" select="descendant::tei:row/tei:cell[@ana='author']"/>
+                  <xsl:variable name="playAuthor2" select="descendant::tei:row/tei:cell[@ana='author2']"/>
                   <xsl:text>[&#xA;</xsl:text>
                   
                   <!-- ID -->
@@ -1010,16 +1028,17 @@
                   <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
                   <xsl:text>&quot;,&#xA;</xsl:text>
                   
-                  <!-- Stopnja ohranjenosti -->
-                  <xsl:value-of select="concat('&quot;',normalize-space(.),'&quot;')"/>
+                  <!-- Naslov --><!--
+                  <xsl:variable name="prvihXznakov" select="substring($playTitle, 1, 20)" />-->
+                  <xsl:value-of select="concat('&quot;',$playTitle,'&quot;')"/>
                   <xsl:text>,&#xA;</xsl:text>
                   
-                  <!-- Naslov -->
-                  <xsl:value-of select="concat('&quot;',substring-after(normalize-space(parent::tei:div/tei:head),': '),'&quot;')"/>
+                  <!-- avtor -->
+                  <xsl:value-of select="concat('&quot;',$playAuthor,'&quot;')"/>
                   <xsl:text>,&#xA;</xsl:text>
                   
-                  <!-- Priložnost -->
-                  <xsl:value-of select="concat('&quot;',substring-before(normalize-space(parent::tei:div/tei:head),': '),'&quot;')"/>
+                  <!-- avtor priredbe/urednik/prevajalec -->
+                  <xsl:value-of select="concat('&quot;',$playAuthor2,'&quot;')"/>
                   <xsl:text>&#xA;</xsl:text>
                   
                   <xsl:text>]</xsl:text>
@@ -1044,7 +1063,7 @@
    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
       <desc></desc>
    </doc>
-   <xsl:template name="datatables-genre2">
+   <xsl:template name="datatables-place">
       <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css'}" />
       <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js'}"></script>
       
@@ -1083,15 +1102,13 @@
             <thead>
                <tr>
                   <th>ID</th>
-                  <th>Zvrstna opredelitev</th>
                   <th>Naslov</th>
-                  <th>Priložnost</th>
+                  <th>Kraj (prva izdaja)</th>
                </tr>
             </thead>
             <tfoot>
                <tr>
                   <th></th>
-                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                </tr>
@@ -1100,8 +1117,10 @@
             <xsl:result-document href="docs/data-genre2.json" method="text" encoding="UTF-8">
                <xsl:text>{
   "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:table/tei:row/tei:cell[.='Zvrstna opredelitev'][string-length(following-sibling::tei:cell[1]) gt 0]">
-                  <xsl:variable name="playID" select="ancestor::tei:div[1]/@xml:id"/>
+               <xsl:for-each select="//tei:body/tei:div">
+                  <xsl:variable name="playID" select="@xml:id"/>
+                  <xsl:variable name="playTitle" select="descendant::tei:row/tei:cell[@ana='title']"/>
+                  <xsl:variable name="playPlace" select="descendant::tei:row/tei:cell[@ana='place']"/>
                   <xsl:text>[&#xA;</xsl:text>
                   
                   <!-- ID -->
@@ -1109,43 +1128,14 @@
                   <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
                   <xsl:text>&quot;,&#xA;</xsl:text>
                   
-                  <!-- Zvrstna opredelitev -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:for-each select="following-sibling::tei:cell[1]">
-                     <xsl:choose>
-                        <xsl:when test="tei:p">
-                           <xsl:value-of select="normalize-space(tei:p[1])"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                           <xsl:choose>
-                              <xsl:when test="contains(.,':')">
-                                 <xsl:value-of select="substring-before(normalize-space(.),':')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:choose>
-                                    <xsl:when test=" string-length(.) gt 50">
-                                       <xsl:value-of select="concat(substring( normalize-space(.),1,50),' [...]')"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                       <xsl:value-of select="normalize-space(.)"/>
-                                    </xsl:otherwise>
-                                 </xsl:choose>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:otherwise>
-                     </xsl:choose>
-                  </xsl:for-each>
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
                   <!-- Naslov -->
-                  <xsl:value-of select="concat('&quot;',substring-after(normalize-space(ancestor::tei:div[1]/tei:head),': '),'&quot;')"/>
+                  <xsl:value-of select="concat('&quot;',$playTitle,'&quot;')"/>
                   <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Priložnost -->
-                  <xsl:value-of select="concat('&quot;',substring-before(normalize-space(ancestor::tei:div[1]/tei:head),': '),'&quot;')"/>
+                                    
+                  <!-- Kraj -->
+                  <xsl:value-of select="concat('&quot;',$playPlace,'&quot;')"/>
                   <xsl:text>&#xA;</xsl:text>
-                  
+                                    
                   <xsl:text>]</xsl:text>
                   <xsl:if test="position() != last()">
                      <xsl:text>,
@@ -1207,15 +1197,13 @@
             <thead>
                <tr>
                   <th>ID</th>
-                  <th>Leto (ali šolsko leto) uprizoritve</th>
                   <th>Naslov</th>
-                  <th>Priložnost</th>
+                  <th>Leto</th>
                </tr>
             </thead>
             <tfoot>
                <tr>
                   <th></th>
-                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                </tr>
@@ -1223,9 +1211,11 @@
             <!--<tbody>-->
             <xsl:result-document href="docs/data-year.json" method="text" encoding="UTF-8">
                <xsl:text>{
-  "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:table/tei:row/tei:cell[.='Leto (ali šolsko leto) uprizoritve'][string-length(following-sibling::tei:cell[1]) gt 0]">
-                  <xsl:variable name="playID" select="ancestor::tei:div[1]/@xml:id"/>
+  "data": [&#xA;</xsl:text>               
+               <xsl:for-each select="//tei:body/tei:div">
+                  <xsl:variable name="playID" select="@xml:id"/>
+                  <xsl:variable name="playTitle" select="descendant::tei:row/tei:cell[@ana='title']"/>
+                  <xsl:variable name="playYear" select="descendant::tei:row/tei:cell[@ana='year']"/>
                   <xsl:text>[&#xA;</xsl:text>
                   
                   <!-- ID -->
@@ -1233,42 +1223,15 @@
                   <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
                   <xsl:text>&quot;,&#xA;</xsl:text>
                   
-                  <!-- Leto (ali šolsko leto) uprizoritve -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:for-each select="following-sibling::tei:cell[1]">
-                     <xsl:choose>
-                        <xsl:when test="tei:p">
-                           <xsl:value-of select="normalize-space(tei:p[1])"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                           <xsl:choose>
-                              <xsl:when test="contains(.,':')">
-                                 <xsl:value-of select="substring-before(normalize-space(.),':')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:choose>
-                                    <xsl:when test=" string-length(.) gt 50">
-                                       <xsl:value-of select="concat(substring( normalize-space(.),1,50),' [...]')"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                       <xsl:value-of select="normalize-space(.)"/>
-                                    </xsl:otherwise>
-                                 </xsl:choose>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:otherwise>
-                     </xsl:choose>
-                  </xsl:for-each>
-                  <xsl:text>&quot;</xsl:text>
+                  <!-- Naslov --><!--
+                  <xsl:variable name="prvihXznakov" select="substring($playTitle, 1, 20)" />-->
+                  <xsl:value-of select="concat('&quot;',$playTitle,'&quot;')"/>
                   <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Naslov -->
-                  <xsl:value-of select="concat('&quot;',substring-after(normalize-space(ancestor::tei:div[1]/tei:head),': '),'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Priložnost -->
-                  <xsl:value-of select="concat('&quot;',substring-before(normalize-space(ancestor::tei:div[1]/tei:head),': '),'&quot;')"/>
+                                    
+                  <!-- Leto -->
+                  <xsl:value-of select="concat('&quot;',$playYear,'&quot;')"/>
                   <xsl:text>&#xA;</xsl:text>
+                  
                   
                   <xsl:text>]</xsl:text>
                   <xsl:if test="position() != last()">

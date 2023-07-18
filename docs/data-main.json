@@ -1,239 +1,63 @@
 {
   "data": [
 [
-"<a href=\"ucb002.html\" target=\"_blank\">ucb002</a>",
-"Latinska slovnica za slovensko mladež. Spisal P. Ladislav Hrovat, profesor na c. k. gimnaziji novomeški. (1874)",
-"Hrovat, Ladislav",
-"1874",
-"Novo Mesto (1874)",
-"Latinščina"
+"<a href=\"ucb-001.html\" target=\"_blank\">ucb-001</a>",
+"Naslov (prva izdaja)",
+"Izvirni avtor (če gre za priredbo) / Avtor (če gre za izvirno delo)",
+"Leto",
+"Kraj (prva izdaja)",
+"Predmet"
 ],
                      [
-"<a href=\"ucb003.html\" target=\"_blank\">ucb003</a>",
-"Latinsko-slovenske vaje za I. gimnasijski razred. Izdelal po Jul. Alb. Dünnebier-ju S. Žepič, profesor gimnasijski. (1875)",
-"Žepič, Sebastijan",
-"1875",
-"Novo Mesto (1875)",
-"Latinščina"
+"<a href=\"ucb-002.html\" target=\"_blank\">ucb-002</a>",
+"Prirodopis s kepami za národne šole (1878)",
+"Agustich, Imre",
+"1878",
+"Budapest / Budimpešta (1878)",
+"Naravoslovje"
 ],
                      [
-"<a href=\"ucb004.html\" target=\"_blank\">ucb004</a>",
-"Latinsko-slovenske vaje za II. gimnasijski razred. Izdelal po Ivanu Aleks. Rožeku S. Žepič, profesor gimnasijski. (1875)",
-"Žepič, Sebastijan",
-"1875",
-"Novo Mesto (1875)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb005.html\" target=\"_blank\">ucb005</a>",
-"Slovar k Latinskim vajam za I. in II. razred gimnasijski, I. del (1875)",
-"Žepič, Sebastijan",
-"1875",
-"Novo Mesto (1875)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb006.html\" target=\"_blank\">ucb006</a>",
-"Slovar k Latinskim vajam za I. in II. razred gimnasijski, II. del (1875)",
-"Žepič, Sebastijan",
-"1875",
-"Novo Mesto (1875)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb007.html\" target=\"_blank\">ucb007</a>",
-"Latinsko-slovenski slovnik za tretji in četrti gimnasijski razred. Izdelan po latinsko-nemškem J. A. Rožek-a (1882)",
-"Rožek, Johann Aleksander",
-"1882",
-"Ljubljana (1882)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb008.html\" target=\"_blank\">ucb008</a>",
-"Vadbe v skladnji latinski. Prvi del za tretji gymnasijski razred. Sostavil prof. V. Kermavner. (1882)",
-"Kermavner, Valentin",
-"1882",
-"Ljubljana (1882)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb009.html\" target=\"_blank\">ucb009</a>",
-"Vadbe v skladnji latinski. Drugi del za četrti gymnasijski razred. Sostavil prof. V. Kermavner. (1883)",
-"Kermavner, Valentin",
-"1883",
-"Ljubljana (1883)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb010.html\" target=\"_blank\">ucb010</a>",
-"Latinske vadbe za tretji gimnazijski razred. Sestavil dr. L. Požar, c. kr. gimn. profesor. (1896)",
-"Požar, Lovro",
-"1896",
-"Ljubljana (1896)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb011.html\" target=\"_blank\">ucb011</a>",
-"Latinske vadbe za četrti gimnazijski razred. Sestavil dr. L. Požar, c. kr. gimnaz. profesor. (1901)",
-"Požar, Lovro",
-"1901",
-"Ljubljana (1901)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb012.html\" target=\"_blank\">ucb012</a>",
-"Latinska slovnica. Spisal dr. Jos. Tominšek. (1906)",
-"Tominšek, Josip",
-"1906",
-"Ljubljana (1906)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb013.html\" target=\"_blank\">ucb013</a>",
-"Latinsko-slovenski slovar k Latinski čitanki za tretji gimnazijski razred. Sestavil prof. J. Košan. (1908)",
-"Košan, Janko",
-"1908",
-"Ljubljana (1908)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb014.html\" target=\"_blank\">ucb014</a>",
-"Grška slovnica (1908)",
-"Tominšek, Josip",
-"1908",
-"Ljubljana (1908)",
-"Grščina"
-],
-                     [
-"<a href=\"ucb015.html\" target=\"_blank\">ucb015</a>",
-"Grška vadnica (1908)",
-"Tominšek, Josip",
-"1908",
-"Ljubljana (1908)",
-"Grščina"
-],
-                     [
-"<a href=\"ucb016.html\" target=\"_blank\">ucb016</a>",
-"Latinska čitanka za četrti (in peti) gimnazijski razred. Iz Cezarja, Flora, Evtropija, Justina, Plinija Starejšega in Mlajšega in Suetonija izbral in za šolski pouk priredil prof. J. Košan. (1912)",
-"Košan, Janko",
-"1912",
-"Ljubljana (1912)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb017.html\" target=\"_blank\">ucb017</a>",
-"Latinsko-slovenski slovarček k Latinski čitanki za IV. (in V.) gimnazijski razred (1912)",
-"Košan, Janko",
-"1912",
-"Ljubljana (1912)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb018.html\" target=\"_blank\">ucb018</a>",
-"Latinske vadbe za prvi gymnasijski razred. Sestavil Fr. Wiesthaler, c. kr. gymn. professor. (1885)",
-"Wiesthaler, Fran",
-"1885, 1892, 1898, 1910",
-"Ljubljana (1885)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb019.html\" target=\"_blank\">ucb019</a>",
-"Latinska slovnica. Spisal V. Kermavner, c. k. gimn. professor. (1885)",
-"Kermavner, Valentin",
-"1885, 1893",
-"Ljubljana (1885)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb020.html\" target=\"_blank\">ucb020</a>",
-"Latinske vadbe za drugi gymnasijski razred (1886)",
-"Wiesthaler, Fran",
-"1886, 1896, 1908",
-"Ljubljana (1886)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb021.html\" target=\"_blank\">ucb021</a>",
-"Latinska čitanka za tretji gimnazijski razred. Iz Kornelija Nepota in Kvinta Kurcija Rufa izbral in za šolski pouk priredil prof. J. Košan.                            (1908)",
-"Košan, Janko",
-"1908",
-"Ljubljana (1908)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb022.html\" target=\"_blank\">ucb022</a>",
-"Latinska slovnica. Po gimnazijskem učnem načrtu z dne 20. marca 1909, št. 116.662 spisal Jos. Pipenbacher. (1913)",
-"Pipenbacher, Josip",
-"1910, 1913",
-"Ljubljana (1910)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb023.html\" target=\"_blank\">ucb023</a>",
-"Latinska vadnica za prvi razred gimnazij in realnih gimnazij. Po gimnazijskem učnem načrtu z dne 20. marca 1903, št. 11.662 sestavil dr. Josip Pipenbacher. (1910)",
-"Pipenbacher, Josip",
-"1910, 1913",
-"Ljubljana (1910)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb024.html\" target=\"_blank\">ucb024</a>",
-"Latinska vadnica za drugi razred gimnazij in realnih gimnazij. Po gimnazijskem učnem načrtu z dne 20. marca 1909, št. 11.662 sestavil dr. Josip Pipenbacher. (1918)",
-"Pipenbacher, Josip",
-"1911, 1918",
-"Ljubljana (1911)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb025.html\" target=\"_blank\">ucb025</a>",
-"Latinska vadnica za tretji razred gimnazij in realnih gimnazij. Po gimnazijskem učnem načrtu z dne 20. marca 1909, št. 11.662 sestavil dr. Josip Pipenbacher. (1912)",
-"Pipenbacher, Josip",
-"1912",
-"Ljubljana (1912)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb026.html\" target=\"_blank\">ucb026</a>",
-"Latinska vadnica za četrti razred gimnazij in realnih gimnazij. Po gimnazijskem učnem načrtu z dne 20. marca 1909, št. 11.662 sestavil dr. Josip Pipenbacher. (1913)",
-"Pipenbacher, Josip",
-"1913",
-"Ljubljana (1913)",
-"Latinščina"
-],
-                     [
-"<a href=\"ucb027.html\" target=\"_blank\">ucb027</a>",
-"Fizika in kemija za višje razrede ljudskih šol in za meščanske šole : s 87 lesorezi (1876)",
-"Decker, Avgust",
+"<a href=\"ucb-003.html\" target=\"_blank\">ucb-003</a>",
+"Návuk vogrszkoga jezika. Za zacsétnike. (1876)",
+"Agustich, Imre",
 "1876",
-"Wien / Dunaj (1876)",
-"Fizika, Kemija"
+"Budapest / Budimpešta (1876)",
+"Madžarščina"
 ],
                      [
-"<a href=\"ucb028.html\" target=\"_blank\">ucb028</a>",
-"Fizika za nižje gimnazije, realke in učiteljišča (I. del) (1882)",
-"Čebular, Jakob",
-"1882",
-"Gorizia / Gorica (1882)",
-"Fizika"
+"<a href=\"ucb-004.html\" target=\"_blank\">ucb-004</a>",
+"Zveden kmet ali Najpotrebniši nauki kmetijstva : za nedeljske šole po deželi (1856)",
+"Aleš, Peter",
+"1856",
+"Trieste / Trst (1856)",
+"Pouk kmetijstva"
 ],
                      [
-"<a href=\"ucb029.html\" target=\"_blank\">ucb029</a>",
-"Fizika za nižje gimnazije, realke in učiteljišča (II. del) (1883)",
-"Čebular, Jakob",
-"1883",
-"Gorizia / Gorica (1883)",
-"Fizika"
+"<a href=\"ucb-005.html\" target=\"_blank\">ucb-005</a>",
+"Ta male katekismus is praşhajnami inu odgovormi sa te narmajnshe otroke u' zesarskeh, tudi zesarskeh kraleveh deshelah = Der kleine Katechismus mit Fragen und Antworten für die kleinsten Kinder der kasiral. auch kaiserl. königl. Staaten (1806)",
+"Alič, Jurij",
+"1806, 1815, 1817, 1818, 1819, 1825, 1830, 1831, 1834, 1842",
+"Trieste / Trst (1806)",
+"Verouk"
 ],
                      [
-"<a href=\"ucb030.html\" target=\"_blank\">ucb030</a>",
-"Fizika za nižje razrede srednjih šol : v berilo je vtisnenih 200 slik (1883)",
-"Senekovič, Andrej",
-"1883, 1902, 1910",
-"Ljubljana (1883)",
-"Fizika"
+"<a href=\"ucb-006.html\" target=\"_blank\">ucb-006</a>",
+"Majhine bukvize branja sa sholarje na desheli v' esterrajharskimu Zesarstvu. Pervi dejl kershanskiga navuka = Kleines Lesebuch für Schüler der Trivial-Schulen in den kaiserl. österr. Staaten. Erster Theil, Religionslehre (1814, 1826)",
+"Alič, Jurij",
+"1814, 1826, 1828, 1831, 1835, 1837, 1840, 1843, 1847, 1848",
+"Graz / Gradec (1814)",
+"Verouk"
 ],
                      [
-"<a href=\"ucb031.html\" target=\"_blank\">ucb031</a>",
+"<a href=\"ucb-007.html\" target=\"_blank\">ucb-007</a>",
+"Zgodovinska učna snov za ljudske šole, Drugi snopič (1902-1906)",
+"Apih, Josip (avtor); Potočnik, Matko (avtor); Bežek, Viktor (urednik); Ilešič, Fran (urednik)",
+"1902-1906",
+"Ljubljana (1902-1906)",
+"Zgodovina"
+],
+                     [
+"<a href=\"ucb-008.html\" target=\"_blank\">ucb-008</a>",
 "Kemija in mineralogija : za IV. razred realk in za sorodne šole : s 76 slikami (1910)",
 "Baebler, Baltazar",
 "1910",
@@ -241,63 +65,63 @@
 "Kemija"
 ],
                      [
-"<a href=\"ucb032.html\" target=\"_blank\">ucb032</a>",
-"Kemija in mineralogija za IV. razred gimnazij in realnih gimnazij (1910)",
-"Herle, Vladimir",
-"1910, 1911",
-"Ljubljana (1910)",
-"Kemija"
+"<a href=\"ucb-009.html\" target=\"_blank\">ucb-009</a>",
+"Szlovenszki abeczedár za drouvno deczo vö stampani (1786)",
+"Bakoš, Mihal",
+"1786",
+"Bratislava (1786)",
+"Slovenščina"
 ],
                      [
-"<a href=\"ucb033.html\" target=\"_blank\">ucb033</a>",
-"Mala fizika za narodne ali ljudske šole v pogovorih : z navodom o mnogih, povsodi in brez priprav lehko izpeljevih poskusih : (z mnogimi lesorezi) (1875)",
-"Netoliczka, Eugen",
-"1875",
-"Graz / Gradec",
-"Fizika"
+"<a href=\"ucb-010.html\" target=\"_blank\">ucb-010</a>",
+"Nuovi Gráduvál, vu sterom sze vö zebráne, pobugsane, i zdaj nuovi réd posztávlene dühovne peszmi nahájajo szamomi Bougi na díko vö dáni (1789)",
+"Bakoš, Mihal",
+"1789",
+"Sopron / Šopron (1789)",
+"Glasba, verouk"
 ],
                      [
-"<a href=\"ucb034.html\" target=\"_blank\">ucb034</a>",
-"Naravoslovje alj fiziko po domače zložil K. Robida (1849)",
-"Robida, Karel",
-"1849, 1854",
-"Ljubljana (1849)",
-"Naravoslovje"
+"<a href=\"ucb-011.html\" target=\"_blank\">ucb-011</a>",
+"Perve knige-čtenyá za katholičánske vesničke šolé na povelênye Drűžbe svétoga Števana. Správlene po Bárány Ignáci (1871)",
+"Bárány, Ignác",
+"1871, 1886",
+"Budapest / Budimpešta (1871)",
+"Slovenščina"
 ],
                      [
-"<a href=\"ucb035.html\" target=\"_blank\">ucb035</a>",
-"Osnovni nauki iz fizike in kemije za ljudske in meščanske šole : v treh oddelkih. Del 1 (1892)",
-"Senekovič, Andrej",
-"1892, 1898, 1904, 1912",
-"Ljubljana (1892)",
-"Fizika, Kemija"
+"<a href=\"ucb-012.html\" target=\"_blank\">ucb-012</a>",
+"Abecednik za katholičanske vesničke šolé po velejnyi S. Števana drüšbe po rédi Bárány Ignáca slobodno správleni od Murkovič Jánoša Bellatinskoga učitela (1871)",
+"Bárány, Ignác",
+"1871, 1878",
+"Budapest / Budimpešta (1871)",
+"Slovenščina"
 ],
                      [
-"<a href=\"ucb036.html\" target=\"_blank\">ucb036</a>",
-"Osnovni nauki iz fizike in kemije za meščanske šole : v treh stopnjah. Stopnja 2 (1894)",
-"Senekovič, Andrej",
-"1894, 1903, 1913",
-"Ljubljana (1894)",
-"Fizika, Kemija"
+"<a href=\"ucb-013.html\" target=\"_blank\">ucb-013</a>",
+"Krszcsanszke nôve peszmene knige szprávlene evangyelicsánszkim gmainam (1823)",
+"Barla, Mihál",
+"1823",
+"Sopron / Šopron (1823)",
+"Glasba, verouk"
 ],
                      [
-"<a href=\"ucb037.html\" target=\"_blank\">ucb037</a>",
-"Osnovni nauki iz fizike in kemije za meščanske šole : v treh stopnjah. Stopnja 3 (1899)",
-"Senekovič, Andrej",
-"1899, 1914",
-"Ljubljana (1899)",
-"Fizika, Kemija"
+"<a href=\"ucb-014.html\" target=\"_blank\">ucb-014</a>",
+"Dvakrat 52 bibliszke histori za evangelicsanszke solé ino hi'ze. Szlovencsene po Terplán Sándori püczonszkom farari. Z vnôgimi nôvimi obrázki. (1847)",
+"Barth, Christian Gottlob",
+"1847, 1878",
+"Köszeg (1847)",
+"Verouk, pouk branja"
 ],
                      [
-"<a href=\"ucb038.html\" target=\"_blank\">ucb038</a>",
-"Kemični poskusi s preprostimi sredstvi (1910)",
-"Vales, Alfons",
-"1910",
-"Ljubljana (1910)",
-"Kemija"
+"<a href=\"ucb-015.html\" target=\"_blank\">ucb-015</a>",
+"Katolicsanszki katekizmus za solare III.-V. razreda (1909)",
+"Baša, Ivan",
+"1909, 1913",
+"Budapest / Budimpešta (1909)",
+"Verouk"
 ],
                      [
-"<a href=\"ucb039.html\" target=\"_blank\">ucb039</a>",
+"<a href=\"ucb-016.html\" target=\"_blank\">ucb-016</a>",
 "Slovenska stenografija po sestavu Frančiška Ks. Gabelsbergerja (1893)",
 "Bezenšek, Anton",
 "1893",
@@ -305,7 +129,2287 @@
 "Stenografija"
 ],
                      [
-"<a href=\"ucb040.html\" target=\"_blank\">ucb040</a>",
+"<a href=\"ucb-017.html\" target=\"_blank\">ucb-017</a>",
+"Zemljepis za spodnje in srednje razrede srednjih šol. Drugi oddelek: Opis dežel razen Avstro-Ogrske (1899)",
+"Bežek, Viktor",
+"1899",
+"Ljubljana (1899)",
+"Zemljepis "
+],
+                     [
+"<a href=\"ucb-018.html\" target=\"_blank\">ucb-018</a>",
+"Slovensko berilo za četerti gimnazijalni razred (1855)",
+"Bleiweis, Janez ",
+"1855",
+"Ljubljana (1855)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-019.html\" target=\"_blank\">ucb-019</a>",
+"Slovensko berilo za tretji gimnazijalni razred (1854)",
+"Bleiweis, Janez ",
+"1854",
+"Ljubljana (1854)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-020.html\" target=\"_blank\">ucb-020</a>",
+"Bukve sa kméta, kako se ima per kupovanju, plemenenju, rêji in opravljanju kónj splòh obnashati, de bi jih bolésen obvaroval in v njih unanjih in notrajnih bolésnih sam sebi svetoval in pomagal : I. dél s podóbshino sa sposnanje starosti is sób (1843)",
+"Bleiweis, Janez ",
+"1843",
+"Ljubljana (1843)",
+"Pouk kmetijstva"
+],
+                     [
+"<a href=\"ucb-021.html\" target=\"_blank\">ucb-021</a>",
+"Zgodovina za meščanske šole (1909)",
+"Brinar, Josef ",
+"1909",
+"Ljubljana (1909)",
+"Zgodovina"
+],
+                     [
+"<a href=\"ucb-022.html\" target=\"_blank\">ucb-022</a>",
+"Čitanka za meščanske šole. 1. del (1908)",
+"Brinar, Josip",
+"1908",
+"Wien / Dunaj (1908)",
+"slovenščina"
+],
+                     [
+"<a href=\"ucb-023.html\" target=\"_blank\">ucb-023</a>",
+"Čitanka za meščanske šole. 3. del (1912)",
+"Brinar, Josip",
+"1912",
+"Wien / Dunaj (1912)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-024.html\" target=\"_blank\">ucb-024</a>",
+"Čitanka za meščanske šole. 2. del (1909)",
+"Brinar, Josip",
+"1909, 1911",
+"Wien / Dunaj (1909)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-025.html\" target=\"_blank\">ucb-025</a>",
+"Slovenska slovnica za obče ljudske šole : v treh stopnjah. Vaje iz slovnice, pravopisa in spisja za nižjo stopnjo (1914)",
+"Brinar, Josip",
+"1914",
+"Wien / Dunaj (1914)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-026.html\" target=\"_blank\">ucb-026</a>",
+"Knishiza spitavanya téh pet glavnih shtükov kershanskoga navüka. Na visóko sapoved Dühovnih Poglavarov is nemshkih prestavlena, ino tretjo krat vün dana. K-pomozhi vseh Gospodov Farmeshtrov, Meshnikov Shkolnikov, Dezé, Starshov, vséh Bratov, ino Séster kershanskega navüka. (1777)",
+"Canisius, Petrus",
+"1758, 1764, 1777",
+"",
+"Verouk, začetni pouk"
+],
+                     [
+"<a href=\"ucb-027.html\" target=\"_blank\">ucb-027</a>",
+"Catechismus, tu je Bukvize tega sprashuvanja is pet shtukou kershanskega navuka zhastitega patra Petra Canisiusa is Tovarshtva Jesusovega : h' perpomaganju vseh gospudou farmastrou, duhouneh oskerbnikou ... (1762)",
+"Canisius, Petrus",
+"med 1760 in 1762, 1762, 1764, 1790",
+"Klagenfurt / Celovec (med 1760 in 1762)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-028.html\" target=\"_blank\">ucb-028</a>",
+"Catechismus, tu je Bukvize Tiga isprashuvania is pet shtukou Kershanskiga navuka. Zhastitiga paterja Petra Canisiusa Is Tovarshtva Jesusoviga. K' shpoganio vsih Gospudou Faimashtrou, Duhounih oskerbnikou, vuzhenikou: tudi otrok, inu starishou, bratou, inu sester Bratoushine Kershanskiga navuka. (1760)",
+"Canisius, Petrus",
+"1760, 1761, 1762, 1766, 1770",
+"Ljubljana (1760)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-029.html\" target=\"_blank\">ucb-029</a>",
+"Ta male katechismus. Tu je: Bukuvze tega sprashuvanja s' pet poglavitneh shtukov kristianskega nauka, visoku zhastitega p. Petra Kanisia, s' Jesusovega tovarshtva : k' shpoganju usseh vissoku zhastiteh gospudov duhovneh pastiriov, inu uzhenikov, ... otrok, koker tudi k' dobremu ushitku bratov, inu sester bratovshne kristianskega nauka na novezh pobulshane, inu ... na svitlu dane (1768)",
+"Canisius, Petrus",
+"1768",
+"Wien / Dunaj (1768)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-030.html\" target=\"_blank\">ucb-030</a>",
+"Slovenski lepopisni izgledi (1849)",
+"Centrih, Franc",
+"1849",
+"Ljubljana (1849)",
+"Pouk lepopisa"
+],
+                     [
+"<a href=\"ucb-031.html\" target=\"_blank\">ucb-031</a>",
+"Vcsenyê konfirmátzie szpravleno po Czipott Rudolfi… (1888)",
+"Cipot, Rudolf",
+"1888",
+"Murska Sobota / Muraszombat (1888)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-032.html\" target=\"_blank\">ucb-032</a>",
+"Fizika za nižje gimnazije, realke in učiteljišča (I. del) (1882)",
+"Čebular, Jakob",
+"1882",
+"Gorizia / Gorica (1882)",
+"Fizika"
+],
+                     [
+"<a href=\"ucb-033.html\" target=\"_blank\">ucb-033</a>",
+"Fizika za nižje gimnazije, realke in učiteljišča (II. del) (1883)",
+"Čebular, Jakob",
+"1883",
+"Gorizia / Gorica (1883)",
+"Fizika"
+],
+                     [
+"<a href=\"ucb-034.html\" target=\"_blank\">ucb-034</a>",
+"Računica za obče ljudske šole. Zv. 1, Števila 1-20 (1902)",
+"Črnivec, Anton",
+"1902, 1908, 1913, 1918",
+"Wien / Dunaj (1902)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-035.html\" target=\"_blank\">ucb-035</a>",
+"Računica za obče ljudske šole. Zv. 2, Števila 1-100 (1902)",
+"Črnivec, Anton",
+"1902, 1904, 1908, 1909, 1913",
+"Wien / Dunaj (1902)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-036.html\" target=\"_blank\">ucb-036</a>",
+"Računica za obče ljudske šole. Zv. 3, Oddelek A in oddelek B (1906)",
+"Črnivec, Anton",
+"1906, 1907, 1908, 1911, 1912, 1914, 1915",
+"Wien / Dunaj (1906)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-037.html\" target=\"_blank\">ucb-037</a>",
+"Navodilo k I. zvezku Računice za obče ljudske šole (1902)",
+"Črnivec, Anton",
+"1902",
+"Ljubljana (1902)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-038.html\" target=\"_blank\">ucb-038</a>",
+"Abecedna knižica na hitro ino lehko podvüčenje Slovenskega branja (1824)",
+"Dajnko, Peter",
+"1824, 1833",
+"Radkersburg / Radgona (1824)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-039.html\" target=\"_blank\">ucb-039</a>",
+"Lehrbuch der Windischen Sprache : ein Versuch zur gründlichen Erlernung derselben für Deutsche, zur vollkommeneren Ketniss für Slowenen (1824)",
+"Dajnko, Peter",
+"1824",
+"Graz / Gradec (1824)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-040.html\" target=\"_blank\">ucb-040</a>",
+"Vu sili pomoč na življenje rešenje zadušenih, vtopljenih, zmerznenih, obešenih, zadavlenih, ojadenih ino od bliska pobitih = Noth- und Hülfs- Tafel zur Lebensrettung der Erstickten, Ertrunkenen, Erfrornen, Erhängten, Erwürgten, Vergifteten und vom Blitze Getroffenen (1825)",
+"Dajnko, Peter",
+"1825",
+"s. l. (1825)",
+"Prva pomoč"
+],
+                     [
+"<a href=\"ucb-041.html\" target=\"_blank\">ucb-041</a>",
+"Krajnski plateltof (1791)",
+"Debevec, Janez",
+"1791",
+"Ljubljana (1791)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-042.html\" target=\"_blank\">ucb-042</a>",
+"Nov popravleni plateltaf ali Bukve teh zherk, inu besedi : sa vsse kateri sè ozho Kransku brati is fundamenta vuzhiti (1794)",
+"Debevec, Janez",
+"1794, 1802, 1805, 1808, 1814, 1815",
+"Ljubljana (1794)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-043.html\" target=\"_blank\">ucb-043</a>",
+"Fizika in kemija za višje razrede ljudskih šol in za meščanske šole : s 87 lesorezi (1876)",
+"Decker, Avgust",
+"1876",
+"Wien / Dunaj (1876)",
+"Fizika, Kemija"
+],
+                     [
+"<a href=\"ucb-044.html\" target=\"_blank\">ucb-044</a>",
+"Lira. Zv. 1 : srednješolska pesmarica (1912)",
+"Druzovič, Hinko ",
+"1912",
+"Ljubljana (1912)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-045.html\" target=\"_blank\">ucb-045</a>",
+"Lira. Zv. 2 : srednješolska pesmarica (1912)",
+"Druzovič, Hinko ",
+"1912",
+"Ljubljana (1912)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-046.html\" target=\"_blank\">ucb-046</a>",
+"Pesmarica I : zbirka pesmi za ljudsko šolo : nižja stopnja (1909)",
+"Druzovič, Hinko ",
+"1909",
+"Wien / Dunaj (1909)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-047.html\" target=\"_blank\">ucb-047</a>",
+"Pesmarica II : zbirka pesmi in pevskih vaj za ljudsko šolo : srednja stopnja (1909)",
+"Druzovič, Hinko ",
+"1909",
+"Wien / Dunaj (1909)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-048.html\" target=\"_blank\">ucb-048</a>",
+"Pesmarica III : zbirka pesmi in pevskih vaj za ljudsko šolo : višja stopnja (1909)",
+"Druzovič, Hinko ",
+"1909",
+"Wien / Dunaj (1909)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-049.html\" target=\"_blank\">ucb-049</a>",
+"Posebno ukoslovje petja v ljudski šoli (1906)",
+"Druzovič, Hinko ",
+"1906",
+"Ljubljana (1906)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-050.html\" target=\"_blank\">ucb-050</a>",
+"Isvlezhik tega velikiga catehisma s' uprashajnami, inu odgovorami : k' poduzhenju te deshelske mladoste v' zesarskeh krayleveh deshelah (1779)",
+"Edling, Janez Nepomuk Jakob",
+"1779",
+"Ljubljana (1779)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-051.html\" target=\"_blank\">ucb-051</a>",
+"Prirodopis rudninstva ali mineralogija : v porabo nižjim razredom gimnazije in realke : v knjigo vtisnenih je 37 podob (1883)",
+"Erjavec, Fran",
+"1883",
+"Ljubljana (1883)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-052.html\" target=\"_blank\">ucb-052</a>",
+"Cerkvena pesmarica : za učence slovenskih ljudskih šol : opus 163 (1900)",
+"Fajgelj, Danilo",
+"1900",
+"Ljubljana (1900)",
+"Glasba, verouk"
+],
+                     [
+"<a href=\"ucb-053.html\" target=\"_blank\">ucb-053</a>",
+"Cerkvena pesmarica : za učence slovenskih ljudskih šol : opus 163. Izdaja za organiste (1900)",
+"Fajgelj, Danilo",
+"1900",
+"Ljubljana (1900)",
+"Glasba, verouk"
+],
+                     [
+"<a href=\"ucb-054.html\" target=\"_blank\">ucb-054</a>",
+"Rudninoslovje ali mineralogija za niže gimnazije in realke (1867)",
+"Fellöcker, Sigmund",
+"1867",
+"Ljubljana (1867)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-055.html\" target=\"_blank\">ucb-055</a>",
+"Šolarske pesmi (1860)",
+"Fleišman, Jurij ",
+"1860",
+"Ljubljana (1860)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-056.html\" target=\"_blank\">ucb-056</a>",
+"Kratek navod za poduk v petji : za kterikoli glas (1867-1869)",
+"Foerster, Anton ",
+"1867-1869",
+"Ljubljana (1867-1869)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-057.html\" target=\"_blank\">ucb-057</a>",
+"Nauk o harmoniji in generalbasu, o modulaciji, o kontrapunktu, o imitáciji, kánonu in fugi s predhajajočo občno teorijo glasbe z glavnim ozirom na učence orgljarske šole (1881)",
+"Foerster, Anton ",
+"1881, 1904",
+"Ljubljana (1881)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-058.html\" target=\"_blank\">ucb-058</a>",
+"Pesmaričica po številkah za nežno mladino (1882)",
+"Foerster, Anton ",
+"1882, 1887",
+"Ljubljana (1882)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-059.html\" target=\"_blank\">ucb-059</a>",
+"Teoretično-praktična klavirska šola = Theoretisch-praktische Klavier-Schule (1886-1889)",
+"Foerster, Anton ",
+"1886-1889",
+"Ljubljana (1886-1889)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-060.html\" target=\"_blank\">ucb-060</a>",
+"Teoretično-praktična pevska šola = Theoretisch-praktische Gesangschule (1874)",
+"Foerster, Anton ",
+"1874, 1880, 1888, 1894, 1895, 1905",
+"Ljubljana (1874)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-061.html\" target=\"_blank\">ucb-061</a>",
+"Jezikovni pouk v ljudski šoli (1890)",
+"Gabršek, Fran",
+"1890",
+"Ljubljana (1890)",
+"Metodika, slovenščina"
+],
+                     [
+"<a href=\"ucb-062.html\" target=\"_blank\">ucb-062</a>",
+"Berilo za obče ljudske šole. Del 1, Abecednik : prvo šolsko leto (1906)",
+"Gabršek, Fran; Razinger, Anton",
+"1906, 1908, 1911, 1916, 1918",
+"Ljubljana (1906)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-063.html\" target=\"_blank\">ucb-063</a>",
+"Berilo za obče ljudske šole. Del 2: S slovniškim dodatkom : drugo šolsko leto (1908)",
+"Gabršek, Fran; Razinger, Anton",
+"1908, 1917, 1918, 1920",
+"Ljubljana (1908)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-064.html\" target=\"_blank\">ucb-064</a>",
+"Berilo o svetkih in nedeljah za dorašeno mladost (1850)",
+"Galura, Bernard ",
+"1850",
+"Trieste / Trst (1850)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-065.html\" target=\"_blank\">ucb-065</a>",
+"Nôve knige cstenyá za vesznicski sôl drügi zlöcs. Szprávlene po Gáspár Jánosi (1870)",
+"Gáspár, János",
+"1870",
+"Budapest / Budimpešta (1870)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-066.html\" target=\"_blank\">ucb-066</a>",
+"Nôve knige cstenyá za vesznicski sôl IV. zlôcs. Szprávlene po Gáspár Jánosi (1871)",
+"Gáspár, János",
+"1871, 1872",
+"Budapest / Budimpešta (1871)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-067.html\" target=\"_blank\">ucb-067</a>",
+"Nove knige cstenyá za III. zlőcs po Gáspár Jánosi. (1871)",
+"Gáspár, János",
+"1871, 1872",
+"Budapest / Budimpešta (1871)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-068.html\" target=\"_blank\">ucb-068</a>",
+"Szlovenszke nôve knige cstenyá za vesznicski sôl II. zlöcs. Szprávlene po Gáspár Jánosi (1872)",
+"Gáspár, János",
+"1872",
+"Budapest / Budimpešta (1872)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-069.html\" target=\"_blank\">ucb-069</a>",
+"Szlovenszke nôve knige cstenyá za vesznicski sôl III. zlöcs. (1872)",
+"Gáspár, János",
+"1872",
+"Budapest / Budimpešta (1872)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-070.html\" target=\"_blank\">ucb-070</a>",
+"Mála biblia z-kejpami ali zgodba zvelicsanya za málo decsiczo za I-II razréd normálszke sôle piszana po Gerely Józsefi z-27 z-leszá pritisznyenimi kejpmi od prof. G. Morelli (1897)",
+"Gerely, József",
+"1897, 1898",
+"Budapest / Budimpešta (1897)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-071.html\" target=\"_blank\">ucb-071</a>",
+"Mála biblia z-kejpami ali zgodba zvelicsanya za málo decsiczo za III-V razréd normálszke sôle piszana po Gerely Józsefi na szlovenszko obrno Kollár Peter z-70 z-leszá pritisznyenimi kejpmi od G. Morelli (1898)",
+"Gerely, József",
+"1898",
+"Szombathely / Sombotel (1898)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-072.html\" target=\"_blank\">ucb-072</a>",
+"Vaje v številjenju : šolski mladosti za rabo (1864)",
+"Gerkman, Franc",
+"1864",
+"Ljubljana (1864)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-073.html\" target=\"_blank\">ucb-073</a>",
+"Prestave vaj iz Slov.-nemške gramatike za II. razred glavnih šol (1864)",
+"Gerkman, Franc",
+"1864",
+"Ljubljana (1864)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-074.html\" target=\"_blank\">ucb-074</a>",
+"Prestave vaj iz slovensko - nemške gramatike za III. razred glavnih šol (I. zvezek) (1864)",
+"Gerkman, Franc",
+"1864, 1867",
+"Ljubljana (1864)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-075.html\" target=\"_blank\">ucb-075</a>",
+"Navod rabiti pervo nemško slovnico za slovenske ljudske šole (1870)",
+"Gerkman, Franc",
+"1870, 1874",
+"Ljubljana (1870)",
+"Nemščina, metodika"
+],
+                     [
+"<a href=\"ucb-076.html\" target=\"_blank\">ucb-076</a>",
+"Némşhka pişmenoşt sa slovénsko-némshke şhole v' zesar. kralj. dershavah (1838)",
+"Gollmayr, Jurij",
+"1838, 1845",
+"Wien / Dunaj (1838)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-077.html\" target=\"_blank\">ucb-077</a>",
+"Nôve ABC i zacsétne knige cstenyá za vesznícski sôl prvi zlôcs (1871)",
+"Gönczy, Pál",
+"1871, 1899",
+"Budapest / Budimpešta (1871)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-078.html\" target=\"_blank\">ucb-078</a>",
+"Návod vu szlovenszke A-B-C-szke i zácsétnoga cstenyá kniga za vucsitele piszan po Gönczy Pál. (1873)",
+"Gönczy, Pál",
+"1873",
+"Budapest* / Budimpešta* (1873 [Buda])",
+"Slovenščina, metodika"
+],
+                     [
+"<a href=\"ucb-079.html\" target=\"_blank\">ucb-079</a>",
+" Pisanka za učence ljudskih šol (1897 [?])",
+"Greiner, M.",
+"1879 [?]",
+"Wien / Dunaj (1879 [?])",
+"pouk lepopisa"
+],
+                     [
+"<a href=\"ucb-080.html\" target=\"_blank\">ucb-080</a>",
+"Ta velki Katekismus s'prashanjami, in odgovarmi sa ozhitnu, inu possebnu podvuzhenje te mladosti v'zessarskih krajlevih dushelah (1790)",
+"Gutsman, Ožbalt",
+"1790, 1792",
+"Klagenfurt / Celovec (1790)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-081.html\" target=\"_blank\">ucb-081</a>",
+"ABC ali Bukvize teh zherk inu besied sa şhularje inu druge, katiri ozhejo se navuzhiti prau slovensku brati (1790)",
+"Gutsman, Ožbalt",
+"1790",
+"Klagenfurt / Celovec (1790)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-082.html\" target=\"_blank\">ucb-082</a>",
+"Windische Sprachlehre (1777)",
+"Gutsman, Ožbalt",
+"1777, 1829",
+"Klagenfurt / Celovec (1777)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-083.html\" target=\"_blank\">ucb-083</a>",
+"Mešnu petje, Litanie inu Molitve, kaker so per Novei Napravi Božje službe h' povsodnemu shpoganju bile priedpisane (1784)",
+"Gutsman, Ožbalt",
+"1784",
+"Klagenturt / Celovec (1784)",
+"glasba, verouk"
+],
+                     [
+"<a href=\"ucb-084.html\" target=\"_blank\">ucb-084</a>",
+"Računica za meščanske šole. Del 1 (1906)",
+"Hauptmann, France",
+"1906, 1913",
+"Wien / Dunaj (1906)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-085.html\" target=\"_blank\">ucb-085</a>",
+"Računica za meščanske šole. Del 2 (1909)",
+"Hauptmann, France",
+"1909, 1915",
+"Wien / Dunaj (1909)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-086.html\" target=\"_blank\">ucb-086</a>",
+"Računica za meščanske šole. Del 3 (1909)",
+"Hauptmann, France",
+"1909",
+"Wien / Dunaj (1909)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-087.html\" target=\"_blank\">ucb-087</a>",
+"Grammatik der deutschen Sprache für Mittelschulen und verwandte Anstalten besonders in mehrsprachigen Ländern (1873)",
+"Heinrich, Anton",
+"1873, 1874, 1875, 1880, 1881, 1899, 1912, 1914",
+"Ljubljana (1873)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-088.html\" target=\"_blank\">ucb-088</a>",
+"Kemija in mineralogija za IV. razred gimnazij in realnih gimnazij (1910)",
+"Herle, Vladimir",
+"1910, 1911",
+"Ljubljana (1910)",
+"Kemija"
+],
+                     [
+"<a href=\"ucb-089.html\" target=\"_blank\">ucb-089</a>",
+"Kratek popis Cesarstva Avstrijanskega sploh in njegovih dežel posebej. Za nižje gimnazije in nižje realne šole (1861)",
+"Heufler, Ludovik",
+"1861",
+"Wien / Dunaj (1861)",
+"Zemljepis, zgodovina"
+],
+                     [
+"<a href=\"ucb-090.html\" target=\"_blank\">ucb-090</a>",
+"Mineralogija za nižje razrede srednjih šol in za enake zavode (1903)",
+"Hinterlechner, Karel",
+"1903",
+"Ljubljana (1903)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-091.html\" target=\"_blank\">ucb-091</a>",
+"Nauk murve in svilne gosence rediti in svilo pridelovati : s podobami na 4 listih (1851)",
+"Hlubek, Franc Ksaver",
+"1851",
+"Graz / Gradec (1851)",
+"pouk kmetijstva"
+],
+                     [
+"<a href=\"ucb-092.html\" target=\"_blank\">ucb-092</a>",
+"Zgodbe svetiga pisma stare in nove zaveze za šolsko mladost (1858)",
+"Hočevar, Matija",
+"1858",
+"Wien / Dunaj (1858)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-093.html\" target=\"_blank\">ucb-093</a>",
+"Mladinski glasi I. Mladinske pesmi Jos. Stritarja. Ponatis iz 'Angeljčka' (1900)",
+"Hribar, Angelik P.",
+"1900",
+"Ljubljana (1900)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-094.html\" target=\"_blank\">ucb-094</a>",
+"Mladinski glasi II. Pesmi svetne in cerkvene. Ponatis iz 'Angeljčka' (1901)",
+"Hribar, Angelik P.",
+"1901",
+"Ljubljana (1901)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-095.html\" target=\"_blank\">ucb-095</a>",
+"Mladinski glasi III. Dvo-, tri- in četveroglasno. Ponatis iz 'Angeljčka' (1906)",
+"Hribar, Angelik P.",
+"1906",
+"Ljubljana (1906)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-096.html\" target=\"_blank\">ucb-096</a>",
+"Latinska slovnica za slovensko mladež. Spisal P. Ladislav Hrovat, profesor na c. k. gimnaziji novomeški. (1874)",
+"Hrovat, Ladislav",
+"1874",
+"Novo Mesto (1874)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-097.html\" target=\"_blank\">ucb-097</a>",
+"Prirodopis za ljudske in meščanske šole v 3 delih. Del 1 (1892)",
+"Hubad, Josip",
+"1892",
+"Ljubljana (1892)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-098.html\" target=\"_blank\">ucb-098</a>",
+"Splošna, elementarna glasbena teorija ali začetni nauk o glasbi (1902)",
+"Hubad, Matej ",
+"1902",
+"Ljubljana (1902)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-099.html\" target=\"_blank\">ucb-099</a>",
+"Potikazács na zacsetno rovatanye. Návod za sólszke vucsitele. Szprávlen po Maszák Hugói. (1871)",
+"Hugó Maszák",
+"1871",
+"Budapest* / Budimpešta* (1871 [V-Büdini])",
+"Metodika"
+],
+                     [
+"<a href=\"ucb-100.html\" target=\"_blank\">ucb-100</a>",
+"Krscsansztva ABÉZCe to je krszcsanszke vere návuka prvi zacsétek. Za deczo evangelicsanzko oszem, devét lêt sztaro etc. Z vogrszkoga jezika obrnyeni. (1845)",
+"Illés, Pál Edvi",
+"1845, 1869, 1900",
+"s. l. (1845)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-101.html\" target=\"_blank\">ucb-101</a>",
+"Slovenska slovnica s kratkim pregledom slovenskega slovstva ter z malim cirliskim in glagoliškim berilom za Slovence (1854)",
+"Janežič, Anton",
+"1854, 1857, 1863, 1864, 1869, 1876, 1889, 1894, 1900, 1906, 1911",
+"Klagenfurt / Celovec (1854)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-102.html\" target=\"_blank\">ucb-102</a>",
+"Slovensko berilo za Nemce s kratkimi razjasnjenji in potrebnim abecedninim imenikom = Slovenisches Lesebuch für Deutsche mit kurzen Erklärungen und dem nöthigen alphabetischen Nachschlageregister (1854)",
+"Janežič, Anton",
+"1854",
+"Klagenfurt / Celovec (1854)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-103.html\" target=\"_blank\">ucb-103</a>",
+"Kurzer leichtfaßlicher Unterricht in der Slovenischen Sprache : für Deutsche (1849)",
+"Janežič, Anton",
+"1849, 1850, 1854, 1860, 1863, 1865, 1868, 1872, 1875",
+"Klagenfurt / Celovec (1849)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-104.html\" target=\"_blank\">ucb-104</a>",
+"Cvetnik: berilo za slovensko mladino. Pervi del (1865)",
+"Janežič, Anton",
+"1865, 1873, 1881",
+"Klagenfurt / Celovec (1865)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-105.html\" target=\"_blank\">ucb-105</a>",
+"Cvetnik : berilo za slovensko mladino. Drugi del (1865)",
+"Janežič, Anton; Jakob Sket (1886)",
+"1865, 1867, 1886",
+"Klagenfurt / Celovec (1865)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-106.html\" target=\"_blank\">ucb-106</a>",
+"Ta velki catekismus s' praşhanjami, inu odgovarmi sa ozhitnu, inu possebnu podvuzhenje te mladoşti v' zessarşkih krajlevih duschelah = Der grosse Katechismus mit Fragen, und Antworten zu dem öffentlichen und privat Unterrichte der Jugend, in den kaiserl. königl. Staaten (1779)",
+"Japelj, Jurij ",
+"1779, 1787, 1789, 1793, 1804, 1809",
+"Ljubljana (1779)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-107.html\" target=\"_blank\">ucb-107</a>",
+"Lysti inu evangelia, na vse nedele, inu prasnike zhes lejtu / katere je s' perpushenjam ... Karlna, dvajssetiga lublanskiga shkofa novizh na krajnski jesik prestavil Juri Japel (1787)",
+"Japelj, Jurij ",
+"1787, 1792, 1796, 1800, 1803, 1805, 1806, 1809",
+"Ljubljana, Celje (1787)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-108.html\" target=\"_blank\">ucb-108</a>",
+"Zerkovne pesmi, litanie, inu molitve, per boshji slushbi. Is Nęmshkiga na Slovęnsku prestavlené. (1784)",
+"Japelj, Jurij ",
+"1784, 1785 [dve izdaji], 1788, 1804",
+"Ljubljana (1784)",
+"glasba, verouk"
+],
+                     [
+"<a href=\"ucb-109.html\" target=\"_blank\">ucb-109</a>",
+"Slovénska abecednica za otroke v novi in stari pisavi (1853)",
+"Jeran, Luka",
+"1851, 1852, 1853, 1857, 1866",
+"Ljubljana (1853)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-110.html\" target=\"_blank\">ucb-110</a>",
+"Občna zgodovina za niže razrede srednjih šol. Del 1, Stari vek (1871)",
+"Jesenko, Janez ",
+"1871, 1883",
+"Trieste / Trst (1871)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-111.html\" target=\"_blank\">ucb-111</a>",
+"Občna zgodovina. Del 2, Srednji vek (1878)",
+"Jesenko, Janez ",
+"1878, 1886",
+"Ljubljana (1878)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-112.html\" target=\"_blank\">ucb-112</a>",
+"Občna zgodovina. Del 3, Novi vek (1881)",
+"Jesenko, Janez ",
+"1881, 1896",
+"Ljubljana (1881)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-113.html\" target=\"_blank\">ucb-113</a>",
+"Zemljepis za prvi razred srednjih šol (1882)",
+"Jesenko, Janez ",
+"1882, 1890",
+"Ljubljana (1882)",
+"zemljepis "
+],
+                     [
+"<a href=\"ucb-114.html\" target=\"_blank\">ucb-114</a>",
+"Mali občni zemljepis (1876)",
+"Jesenko, Janez ",
+"1876",
+"Gorizia / Gorica (1876)",
+"zemljepis "
+],
+                     [
+"<a href=\"ucb-115.html\" target=\"_blank\">ucb-115</a>",
+"Zemljepisna začetnica za gimnazije in realke (1865)",
+"Jesenko, Janez ",
+"1865",
+"Gorizia / Gorica (1865)",
+"zemljepis "
+],
+                     [
+"<a href=\"ucb-116.html\" target=\"_blank\">ucb-116</a>",
+"Občni zemljepis (1873)",
+"Jesenko, Janez ",
+"1873",
+"Ljubljana (1873)",
+"zemljepis "
+],
+                     [
+"<a href=\"ucb-117.html\" target=\"_blank\">ucb-117</a>",
+"Zemljepis za drugi in tretji razred srednjih šol (1883) ",
+"Jesenko, Janez ",
+"1883",
+"Ljubljana (1883)",
+"zemljepis "
+],
+                     [
+"<a href=\"ucb-118.html\" target=\"_blank\">ucb-118</a>",
+"Avstrijsko-ogerska monarhija. Domovinoznanstvo za četrti razred srednjih šol (1885)",
+"Jesenko, Janez ",
+"1885",
+"Ljubljana (1885)",
+"Zemljepis, zgodovina"
+],
+                     [
+"<a href=\"ucb-119.html\" target=\"_blank\">ucb-119</a>",
+"Bukve sa pomozh, inu prid kmetam potrebne ukupsloshene sa Şlovenze od Joannesa Paula Jeschenagg .... Pervi deil od oskerblenja tih njiv (1821)",
+"Ješenak, Janez Pavel",
+"1821",
+"Celje (1821)",
+"pouk kmetijstva"
+],
+                     [
+"<a href=\"ucb-120.html\" target=\"_blank\">ucb-120</a>",
+"Sittenbüchlein für die Jugend = Bukvice tega zaderžanja za mladust (1794)",
+"Joachim Heinrich Campe",
+"1794",
+"Klagenfurt / Celovec (1794)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-121.html\" target=\"_blank\">ucb-121</a>",
+"Krajnski Zhbelarzhik, to je: kratko poduzhenje zhbéle rediti, in s' njimi prav ravnati (1836)",
+"Jonke, Jurij",
+"1836, 1844",
+"Ljubljana (1836)",
+"pouk kmetijstva"
+],
+                     [
+"<a href=\"ucb-122.html\" target=\"_blank\">ucb-122</a>",
+"Tretje berilo za tretji razred občih ljudskih šol s slovniškim dodatkom. po M. Josinu in E. Ganglu, preuredila slovenska učitelja (1919)",
+"Josin Maks; Gangl Engelbert",
+"1919",
+"Milano (1919)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-123.html\" target=\"_blank\">ucb-123</a>",
+"Drugo berilo in slovnica za obče ljudske šole (1897)",
+"Josin Maks; Gangl Engelbert",
+"1897, 1898, 1901, 1903, 1908, 1915, 1917, 1918",
+"Ljubljana (1897)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-124.html\" target=\"_blank\">ucb-124</a>",
+"Tretje berilo za štiri- in večrazredne obče ljudske šole (1901)",
+"Josin Maks; Gangl Engelbert",
+"1901, 1902, 1917",
+"Ljubljana (1901)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-125.html\" target=\"_blank\">ucb-125</a>",
+"Učna knjiga francoskega jezika za srednje in njim sorodne šole. I. del. (1910)",
+"Juvančič, Friderik",
+"1910",
+"Ljubljana (1910)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-126.html\" target=\"_blank\">ucb-126</a>",
+"Učna knjiga francoskega jezika za srednje in njim sorodne šole. II. del. (1911)",
+"Juvančič, Friderik",
+"1911",
+"Ljubljana (1911)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-127.html\" target=\"_blank\">ucb-127</a>",
+"Krátki návuk krsztsansztva naime za deczo obcsin evangelicsanszki okroglíne szlovenszke k-sztoli goszpodnovomi odprvim prihájati ?zelocso szprávleni ino vödáni po Kardos Jánosi hódoskom dühovniki. (1837)",
+"Kardoš, Janoš",
+"1837",
+"Pest / Pešta (1837)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-128.html\" target=\"_blank\">ucb-128</a>",
+"Mála historia bibliszka ali Sz. Píszma Mêsta prígodna. Navküpe z-napredányem pogübelnoszti Jeru'zálema. Naime za deczo sôl evangelicsanszki vödána po Kardos Jánosi, hodoskom dühovniki. (1840)",
+"Kardoš, Janoš",
+"1840",
+"Körmend / Kermendin (1840)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-129.html\" target=\"_blank\">ucb-129</a>",
+"ABC ali Návuk na píszajôcs-cstenyé za szlovenszke vucsevnice vödáni (1867)",
+"Kardoš, Janoš",
+"1867",
+"Wien / Dunaj (1867)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-130.html\" target=\"_blank\">ucb-130</a>",
+"Krsztsanszke czerkevne peszmi. Vödáne szpráviscsam evangelicsanszkim (1848)",
+"Kardoš, Janoš",
+"1848, 1855 (?), ok. 1875, ok. 1908",
+"Kőszeg / Küseg (1848)",
+"glasba, verouk"
+],
+                     [
+"<a href=\"ucb-131.html\" target=\"_blank\">ucb-131</a>",
+"Zgodovina razodetja božjega v Stari zavezi : za nižje razrede srednjih šol (1896)",
+"Karlin, Andrej",
+"1896, 1897",
+"Ljubljana (1896)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-132.html\" target=\"_blank\">ucb-132</a>",
+"Zgodovina razodetja božjega v Novi zavezi (1897)",
+"Karlin, Andrej",
+"1897",
+"Ljubljana (1897)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-133.html\" target=\"_blank\">ucb-133</a>",
+"Katoliška liturgika za šolski in domači pouk (1904)",
+"Kavčič, Jakob",
+"1904, 1907",
+"Maribor (1904)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-134.html\" target=\"_blank\">ucb-134</a>",
+"Kratek katekisem v' vprashanjih in odgovorih (1837)",
+"Kek, Jožef",
+"1837, 1838, 1851, 1853, 1854, 1855, 1858, 1861, 1864, 1866, 1872, 1877, 1879, 1882, 1884, 1886, 1887, 1888, 1889, 1890",
+"Ljubljana (1837)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-135.html\" target=\"_blank\">ucb-135</a>",
+"Kleines Wörterbuch der slowenischen und deutschen Sprache : zunächst für Slowenen, welche die deutsche Sprache lernen wollen = Mali besednják slovénskiga in némshiga jesíka: şosebno sa Şlovénze, ktéri se hozhejo némshkiga jesika uzhiti (1834)",
+"Kek, Jožef",
+"1834, 1843, 1854, 1874, 1890, 1898",
+"Ljubljana (1834)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-136.html\" target=\"_blank\">ucb-136</a>",
+"Kleines Wörterbuch der slowenischen und deutschen Sprache : zunächst für Slowenen, welche die deutsche Sprache lernen wollen = Mali besednják slovénskiga in némshiga jesíka: şosebno sa Şlovénze, ktéri se hozhejo némshkiga jesika uzhiti (1834)",
+"Kek, Jožef; Metelko, Franc Serafin; Šlaker, Janez Nepomuk",
+"1834, 1843",
+"Ljubljana (1834)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-137.html\" target=\"_blank\">ucb-137</a>",
+"Vadbe v skladnji latinski. Prvi del za tretji gymnasijski razred. Sostavil prof. V. Kermavner. (1882)",
+"Kermavner, Valentin",
+"1882",
+"Ljubljana (1882)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-138.html\" target=\"_blank\">ucb-138</a>",
+"Vadbe v skladnji latinski. Drugi del za četrti gymnasijski razred. Sostavil prof. V. Kermavner. (1883)",
+"Kermavner, Valentin",
+"1883",
+"Ljubljana (1883)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-139.html\" target=\"_blank\">ucb-139</a>",
+"Latinska slovnica. Spisal V. Kermavner, c. k. gimn. professor. (1885)",
+"Kermavner, Valentin",
+"1885, 1893",
+"Ljubljana (1885)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-140.html\" target=\"_blank\">ucb-140</a>",
+"Zgodovina avstrijsko-ogrske monarhije za srednje šole in učiteljska izobraževališča (1874)",
+"Kersnik, Janko ",
+"1874, 1877",
+"Ljubljana (1874)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-141.html\" target=\"_blank\">ucb-141</a>",
+"Pesem o vinarjih (1916)",
+"Kimovec, Franc (skladatelj); Opeka, Mihael (pisec besedila)",
+"1916",
+"Ljubljana (1916) ",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-142.html\" target=\"_blank\">ucb-142</a>",
+"Diktomszke, versuske i molitvene kni'zicze za to málo sôlszko deczo szprávlene po Kis Jánosi, visziko postüvanom superintendensi ti prêk dunajski evangelicsanszki czerkev. Na szlovenszki jezik obrnyene po Barla Miháli, kövágo örske fare dühovnom pasztéri. (1820)",
+"Kis, János",
+"1820",
+"Sopron / Šopron (1820)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-143.html\" target=\"_blank\">ucb-143</a>",
+"Slovensko berilo za drugi gimnazialni razred (1852)",
+"Kleeman, Johhan in Janez Bleiweis ",
+"1852",
+"Ljubljana (1852)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-144.html\" target=\"_blank\">ucb-144</a>",
+"Slovensko berilo za pervi gimnazijalni razred (1850)",
+"Kleeman, Johhan; Janez Bleiweis",
+"1850",
+"Ljubljana (1850)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-145.html\" target=\"_blank\">ucb-145</a>",
+"Zgodbe Sv. pisma za nižje razrede ljudskih šol : s 47 podobami (1889)",
+"Knecht, Friedrich Justus",
+"1889, 1892, 1896, 1899, 1903, 1909",
+"Wien / Dunaj (1889)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-146.html\" target=\"_blank\">ucb-146</a>",
+"Kocenov zemljepis za narodne šole (1877)",
+"Kocen, Blaž",
+"1877, 1879",
+"Maribor (1877)",
+"zemljepis "
+],
+                     [
+"<a href=\"ucb-147.html\" target=\"_blank\">ucb-147</a>",
+"Abecédnik za šóle po méstih (1846)",
+"Kociančič, Štefan",
+"1846, 1850",
+"Trieste / Trst (1846)",
+"slovenščina"
+],
+                     [
+"<a href=\"ucb-148.html\" target=\"_blank\">ucb-148</a>",
+"Povestice za pervo začetno šolo (1846)",
+"Kociančič, Štefan",
+"1846",
+"Trieste / Trst (1846)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-149.html\" target=\"_blank\">ucb-149</a>",
+"Zgodovina in geografija Avstro-Ogrske (1916)",
+"Komatar, Franc; Šarabon, Vinko",
+"1916",
+"Ljubljana (1916) ",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-150.html\" target=\"_blank\">ucb-150</a>",
+"Slovenska slovnica z naukom, kako se pišejo pisma in opravilni sestavki : za najvišji razred ljudskih šol (1870)",
+"Končnik, Peter",
+"1870, 1874, 1875, 1876, 1879, 1881, 1883",
+"Wien / Dunaj (1870)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-151.html\" target=\"_blank\">ucb-151</a>",
+"Drugo berilo in slovnica za občne ljudske šole (1878)",
+"Končnik, Peter",
+"1878, 1880, 1881, 1886, 1889, 1893, 1895, 1896, 1897, 1898, 1900, 1906, 1908, 1911, 1913, 1917",
+"Wien / Dunaj (1878)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-152.html\" target=\"_blank\">ucb-152</a>",
+"Tretje berilo za obče ljudske šole (1880)",
+"Končnik, Peter",
+"1880, 1886, 1888, 1895, 1896, 1897, 1901-1904, 1906, 1908, 1910, 1918",
+"Wien / Dunaj (1880)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-153.html\" target=\"_blank\">ucb-153</a>",
+"Četrto berilo za ljudske in nadaljevalne šole (1883)",
+"Končnik, Peter",
+"1883, 1885, 1888, 1890, 1895, 1897, 1898, 1901, 1903, 1904, 1906, 1908, 1913, 1914, 1916",
+"Wien / Dunaj (1883)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-154.html\" target=\"_blank\">ucb-154</a>",
+"Slovenska slovnica za občne ljudske šole (1885)",
+"Končnik, Peter",
+"1885, 1886, 1887, 1889, 1890, 1892, 1893, 1895, 1896, 1897, 1899, 1901, 1902, 1903, 1904, 1906, 1907, 1910, 1911, 1912, 1913, 1915, 1918",
+"Wien / Dunaj (1885)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-155.html\" target=\"_blank\">ucb-155</a>",
+"Dvodelno P. Končnikovo berilo za eno-, dvo- in trirazredne ljudske šole. D. 1, Ožja domovina : srednja stopnja, 3. in 4., oziroma 2., 3. in 4. šolsko leto (Cobiss) = Dvodelno berilo za eno-, dvo- in trirazredne ljudske šole (Verordnungsblatt) (1916)",
+"Končnik, Peter; Flere, Pavle; Senkovič, Matija; Požegar, Avgust",
+"1916",
+"Wien / Dunaj (1916)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-156.html\" target=\"_blank\">ucb-156</a>",
+"Deutsches Lesebuch für die erste Klasse slowenischer und slowenisch-utraquistischer Mittelschulen und verwandter Lehranstalten. Bd. 1 (1910)",
+"Končnik, Peter; Fon, Ivan",
+"1910",
+"Ljubljana (1910)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-157.html\" target=\"_blank\">ucb-157</a>",
+"Deutsches Lesebuch für die erste Klasse slowenischer und slowenisch-utraquistischer Mittelschulen und verwandter Lehranstalten. Bd. 1 (1910)",
+"Končnik, Peter; Fon, Ivan",
+"1914",
+"Ljubljana (1914)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-158.html\" target=\"_blank\">ucb-158</a>",
+"Začetnica za slovenske ljudske šole (1897)",
+"Koprivnik, Janez; Majcen, Gabriel",
+"1897, 1898, 1899, 1900, 1901, 1903, 1904, 1906, 1907, 1908, 1909, 1910, 1911, 1913, 1914, 1915, 1916, 1917",
+"Wien / Dunaj (1897)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-159.html\" target=\"_blank\">ucb-159</a>",
+"Poduk v igranju na citrah II. zvezek (1896)",
+"Korun-Koželjski, Fran ",
+"1896",
+"Brežice ob Savi (1896)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-160.html\" target=\"_blank\">ucb-160</a>",
+"Poduk v igranju na citrah III. zvezek (1897)",
+"Korun-Koželjski, Fran ",
+"1896",
+"Brežice ob Savi (1897)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-161.html\" target=\"_blank\">ucb-161</a>",
+"Poduk v igranju na citrah IV. zvezek (1907 (?))",
+"Korun-Koželjski, Fran ",
+"1907 (?)",
+"Ljubljana (1907 (?))",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-162.html\" target=\"_blank\">ucb-162</a>",
+"Poduk v igranju na citrah. I. zvezek (1895)",
+"Korun-Koželjski, Fran ",
+"1895",
+"Brežice ob Savi (1895)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-163.html\" target=\"_blank\">ucb-163</a>",
+"Vijolinska šola ali pouk v igranju na goslih (1910)",
+"Korun-Koželjski, Fran ",
+"1910",
+"Ljubljana (1910)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-164.html\" target=\"_blank\">ucb-164</a>",
+"Venček triglasnih narodnih pesmi za šolo in dom I (1907)",
+"Kosi, Anton ",
+"1907",
+"Središče ob Dravi (1907)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-165.html\" target=\"_blank\">ucb-165</a>",
+"Venček triglasnih narodnih pesmi za šolo in dom II (1909)",
+"Kosi, Anton ",
+"1909",
+"Središče ob Dravi (1909)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-166.html\" target=\"_blank\">ucb-166</a>",
+"Venček triglasnih narodnih pesmi za šolo in dom III (1911)",
+"Kosi, Anton ",
+"1911",
+"Središče ob Dravi (1911)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-167.html\" target=\"_blank\">ucb-167</a>",
+"Domoljubne in vojaške pesmi za šolsko mladino (1917)",
+"Kosi, Anton ",
+"1917",
+"Wien / Dunaj (1917)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-168.html\" target=\"_blank\">ucb-168</a>",
+"Šopek šolskih pesmi. Drugi del : s posebnim ozirom na narodne in v narodnem duhu zložene napeve (1906)",
+"Kosi, Anton ",
+"1906",
+"Središče ob Dravi (1906)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-169.html\" target=\"_blank\">ucb-169</a>",
+"Štirideset napevov za šolske pesmi v Koprivnik-Majcenovi 'Začetnici' (1898)",
+"Kosi, Anton ",
+"1898",
+"Ljubljana (1898)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-170.html\" target=\"_blank\">ucb-170</a>",
+"Vojaške narodne pesmi za šolo in dom (1915)",
+"Kosi, Anton ",
+"1915",
+"Ljubljana (1915)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-171.html\" target=\"_blank\">ucb-171</a>",
+"Slovenski abecedar za tiste, ki se želé v kratkim času slovensko brati naučiti : v novi in stari pisavi (1855)",
+"Kosmač, Jurij",
+"1855, 1866",
+"Ljubljana (1855)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-172.html\" target=\"_blank\">ucb-172</a>",
+"Latinsko-slovenski slovar k Latinski čitanki za tretji gimnazijski razred. Sestavil prof. J. Košan. (1908)",
+"Košan, Janko",
+"1908",
+"Ljubljana (1908)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-173.html\" target=\"_blank\">ucb-173</a>",
+"Latinska čitanka za tretji gimnazijski razred. Iz Kornelija Nepota in Kvinta Kurcija Rufa izbral in za šolski pouk priredil prof. J. Košan. (1908)",
+"Košan, Janko",
+"1908",
+"Ljubljana (1908)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-174.html\" target=\"_blank\">ucb-174</a>",
+"Latinska čitanka za četrti (in peti) gimnazijski razred. Iz Cezarja, Flora, Evtropija, Justina, Plinija Starejšega in Mlajšega in Suetonija izbral in za šolski pouk priredil prof. J. Košan. (1912)",
+"Košan, Janko",
+"1912",
+"Ljubljana (1912)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-175.html\" target=\"_blank\">ucb-175</a>",
+"Latinsko-slovenski slovarček k Latinski čitanki za IV. (in V.) gimnazijski razred (1912)",
+"Košan, Janko",
+"1912",
+"Ljubljana (1912)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-176.html\" target=\"_blank\">ucb-176</a>",
+"Zobriszani Szloven i Szlovenka med Mürov i Rábov (ok. 1845)",
+"Košič, Jožef",
+"ok. 1845",
+"Körmend / Kermendin (ok. 1845)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-177.html\" target=\"_blank\">ucb-177</a>",
+"Zgodbe vogerszkoga králesztva. Szpiszao Kossics József plebanos na gorejnyem Sziniki (1848)",
+"Košič, Jožef",
+"1848",
+"Szombathely / Sombotel (1848)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-178.html\" target=\"_blank\">ucb-178</a>",
+"Mali Blaže v pervi šoli. Kako se hitro brati uči (1850)",
+"Krajnc, Janez",
+"1850",
+"Ljubljana (1850)",
+"slovenščina"
+],
+                     [
+"<a href=\"ucb-179.html\" target=\"_blank\">ucb-179</a>",
+"Kmetijsko berilo za nadaljevalne tečaje ljudskih šol in gospodarjem v pouk : z 83. podobami (1887)",
+"Kramer, Ernest",
+"1887",
+"Trieste / Trst (1887)",
+"pouk kmetijstva"
+],
+                     [
+"<a href=\"ucb-180.html\" target=\"_blank\">ucb-180</a>",
+"Deutsch-windischer Christenlehr-Katechismus in Fragen und Antworten = Nemshko-slovenski katekismush sa kerschanski navuk v-pitanjih ino odgovorih",
+"Krempl, Anton",
+"1826",
+"Ptuj (1826)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-181.html\" target=\"_blank\">ucb-181</a>",
+"Moja prva čitanka : za najnižjo stopnjo občih ljudskih šol : po analitično-sintetični metodi (1913)",
+"Krulec, Ivan",
+"1913",
+"Wien / Dunaj (1913)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-182.html\" target=\"_blank\">ucb-182</a>",
+"Navodilo k 'Moji prvi čitanki' (1915)",
+"Krulec, Ivan",
+"1915",
+"Wien / Dunaj (1915)",
+"Metodika, slovenščina"
+],
+                     [
+"<a href=\"ucb-183.html\" target=\"_blank\">ucb-183</a>",
+"Svete zgodbe za male otroke (1898)",
+"Kržič, Anton",
+"1898, 1902, 1909",
+"Ljubljana (1898)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-184.html\" target=\"_blank\">ucb-184</a>",
+"Vodenja sa brati v' usse sorte pissanju sa sholarje tih dushelskih shol v' zessarskih krajlevih dushelah = Leseübungen in verschiedenen Schriftarten, für die Schüler der Landschulen in den kaiserlich-königlichen Staaten (1778)",
+"Kumerdej, Blaž",
+"1778, 1796, 1800, med 1800 in 1805, 1806(?)",
+"Ljubljana (1778)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-185.html\" target=\"_blank\">ucb-185</a>",
+"ABC bukve h'nucu teh, kateri se iz grunta na eno lehko vižo slovensku, inu nemšku brati, inu tudi ta začetek od rajteng, navučiti željio = Nahmensbüchel cum Gebrauch derer, die von Grund , auf eine leichte Art windisch, und deutsch lesen, und den Anfang zum Rechnen erlernen wollen (1813)",
+"Kušovic, Mihael",
+"1813",
+"Celje (1813)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-186.html\" target=\"_blank\">ucb-186</a>",
+"Szvéti evangyeliomi pouleg kalendárioma, i reda rimszkoga na vsze nedelne, i szvétesnye dni z-obcsinszkoga szvetoga piszma po zapouvidi nyih goszposztva, i náj visse postüvanoga goszpouda Szily Jánosa, z-Gornyega Szopora, szombotelszkoga püspeka, na sztari szlovenszki jezik, po postüvanom goszpoudi Küzmics Miklósi, Szvétoga Benedeka fare dühovniki, ino Okrogline szlovenszke vice-öspörössa obrnyeni, i sztroskom onoga nyih goszposztva püspeka vö zostampani. (1780)",
+"Küzmič, Mikloš",
+"1780, 1804, 1821, 1841, 1845, 1852, 1858, 1877, 1879, 1885, 1906, ok. 1913",
+"Sopron / Šopron (1780)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-187.html\" target=\"_blank\">ucb-187</a>",
+"Krátka summa velikoga katekizmusa z-szpitávanyem, i odgovárjanyem mladoszti na návuk vu czaszarszki, i kraleszki dr'sányaj. (1780)",
+"Küzmič, Mikloš",
+"1780, 1796, 1804, 1833, pred 25. 9. 1844, 1845, 1852, '1853 ali prej', ok. 1864, s.d. 'pred 9. februarjem 1868', s.d. 'med 1860 in 1870', 1873, 1883, 1892, 1906",
+"Sopron / Šopron (1780)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-188.html\" target=\"_blank\">ucb-188</a>",
+"Sztároga i nouvoga testamentoma szvete histórie krátka summa na sztári szlovenszki jezik obrnyena po postüvanom goszpoudi Küzmics Miklósi, Szvétoga Benedeka fare dühovniki, ino Okrogline szlovenszke vice öspörössa. (1796)",
+"Küzmič, Mikloš",
+"1796, ok. 1813, 1833, '1853 ali nekaj prej', ok. 1856, 1858, ok. 1864, ok. 1869 ",
+"Szombathely / Sombotel (1796)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-189.html\" target=\"_blank\">ucb-189</a>",
+"Kniga molitvena, v-steroj sze nahájajo rázlocsne ponizne molitvi, z-dvójim pridavekom, na haszek szlovenszkoga národa sz-pobo'snim sztroskom nikih plemenitih dobrocsinitelov na szvetloszt dána. (1783)",
+"Küzmič, Mikloš",
+"1783, 1796, 1813, 1821, 1838, 1843, 1846, 1847, 1853 [dve izdaji], 1855, 1864, 1868, 1869, 1877, 1891, 1904, 1907, 1909, 1910, 1914 [dva natisa]",
+"Sopron / Šopron (1783) ",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-190.html\" target=\"_blank\">ucb-190</a>",
+"Szlovenszki szilabikár, z-steroga sze decza steti more navcsiti, z-nikimi rejcsniczami navküpe pod prespan stampanya dáni. (1780)",
+"Küzmič, Mikloš",
+"1780, 1812, ok. 1821, 1828, 1847, 1851, '1853 ali malo prej', 1857, 1861, 1864, 1868, s. d. 'natis pred 1871', s.d. 'natis okoli 1871', 1895",
+"Sopron / Šopron (1780)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-191.html\" target=\"_blank\">ucb-191</a>",
+"ABC kni'sicza na národni soul haszek. ABC könyvetske a' nemzeti iskoláknak hasznokra. (1790)",
+"Küzmič, Mikloš",
+"1790 (dve izdaji)",
+"Budapest / Budimpešta (1790)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-192.html\" target=\"_blank\">ucb-192</a>",
+"Geometrija ali merstvo : za slovenske ljudske šole : s 95 v les vrezanimi slikami (1872)",
+"Lapajne, Ivan",
+"1872",
+"Ljubljana (1872)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-193.html\" target=\"_blank\">ucb-193</a>",
+"Kratek opis Štajerske, Koroške, Kranjske in Primorja : dodatek čitankam za slovenske ljudske šole (1876)",
+"Lapajne, Ivan",
+"1876",
+"Ljutomer (1876)",
+"Zemljepis, zgodovina"
+],
+                     [
+"<a href=\"ucb-194.html\" target=\"_blank\">ucb-194</a>",
+"Domovinoslovje : za ljudske šole (1878)",
+"Lapajne, Ivan",
+"1878, 1882",
+"Klagenfurt / Celovec (1878)",
+"Zemljepis, zgodovina"
+],
+                     [
+"<a href=\"ucb-195.html\" target=\"_blank\">ucb-195</a>",
+"Prva računica za ljudske šole : računanje v prostoru od 1 do 20 (1893)",
+"Lavtar, Luka",
+"1893",
+"Ljubljana (1893)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-196.html\" target=\"_blank\">ucb-196</a>",
+"Druga računica za ljudske šole : računanje sè števili od 1 do 100 : osnovni ulomki (1893)",
+"Lavtar, Luka",
+"1893",
+"Ljubljana (1893)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-197.html\" target=\"_blank\">ucb-197</a>",
+"Računica za ljudske šole : 1. nižja stopnja. Računanje v prostoru od 1 do 100 (1909)",
+"Lavtar, Luka",
+"1909, 1911",
+"Ljubljana (1909)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-198.html\" target=\"_blank\">ucb-198</a>",
+"Računica za ljudske šole : II. srednja stopnja. Računanje v neomejenem številnem prostoru (1909)",
+"Lavtar, Luka",
+"1909, 1910, 1918",
+"Ljubljana (1909)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-199.html\" target=\"_blank\">ucb-199</a>",
+"Računica za ljudske šole : III. višja stopnja. Praktično računanje (1912)",
+"Lavtar, Luka",
+"1912, 1913",
+"Ljubljana (1912)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-200.html\" target=\"_blank\">ucb-200</a>",
+"Slovenska čítanka za Nemce na srednjih šolah in učiteljiščih : s slovensko-nemškim slovarjem : nadaljevanje počétnice 'Slovenisches Elementarbuch' = Slovenisches Lesebuch für Deutsche an Mittelschulen und Lehrerbildungsanstalten : Hiezu ein slovenisch-deutsches Wörterbuch (1897)",
+"Lendovšek, Josip, Štritof, Anton",
+"1897",
+"Wien / Dunaj (1897)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-201.html\" target=\"_blank\">ucb-201</a>",
+"Slovensko-nemški slovár k Lendovšek-Štrítofovi 'Slovenski čítanki za Nemce' = Slowenisch-deutsches Wörterbuch zum 'Slowenischen Lesebuche für Deutsche' von Lendovšek-Štritof (1897)",
+"Lendovšek, Josip, Štritof, Anton",
+"1897",
+"Wien / Dunaj (1897)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-202.html\" target=\"_blank\">ucb-202</a>",
+"Kurze methodische Anleitung zum Unterrichte in der slovenischen Sprache: im Anschlusse an desselben Verfasesers 'Slovenischens Elementarbuch für Mittelschulen und Lehrerbildungsanstalten' (1890)",
+"Lendovšek, Josip",
+"1890",
+"Wien / Dunaj (1890)",
+"Slovenščina, metodika"
+],
+                     [
+"<a href=\"ucb-203.html\" target=\"_blank\">ucb-203</a>",
+"Slowenisches Elementarbuch für Mittelschulen und Lehrerbildungsanstalten (1890)",
+"Lendovšek, Josip",
+"1890, 1900, 1906",
+"Wien / Dunaj (1890)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-204.html\" target=\"_blank\">ucb-204</a>",
+"Liturgika ali sveti obredi pri vnanji službi božji : za gimnazijalno, realno in sploh odraslo mladost (1863)",
+"Lesar, Anton",
+"1863, 1881, 1890, 1896",
+"Brno (1863)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-205.html\" target=\"_blank\">ucb-205</a>",
+"Katekizem ali keršanski katoliški nauk (1862)",
+"Lesar, Anton",
+"1862, 1886",
+"Ljubljana (1862)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-206.html\" target=\"_blank\">ucb-206</a>",
+"Zgodbe svete katoliške cerkve (1863)",
+"Lesar, Anton",
+"1863, 1877, 1887",
+"Klagenfurt / Celovec (1863)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-207.html\" target=\"_blank\">ucb-207</a>",
+"Slovenska slovnica v spregledih (1863)",
+"Lesar, Anton",
+"1863",
+"Ljubljana (1863)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-208.html\" target=\"_blank\">ucb-208</a>",
+"Glasoslovje slovenskega jezika (1861)",
+"Lesar, Anton",
+"1861",
+"Ljubljana (1861)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-209.html\" target=\"_blank\">ucb-209</a>",
+"Slovenski lepopisni izgledi (1849)",
+"Levc, Janez",
+"1849",
+"Wien / Dunaj (1849)",
+"pouk lepopisa"
+],
+                     [
+"<a href=\"ucb-210.html\" target=\"_blank\">ucb-210</a>",
+"Mali slovenski pevec : v spomin 11. apr. 1869, zlate maše sv. očeta Pija IX. : zbirka dvoglasnih šolskih napevov (1869)",
+"Levičnik, Jožef ",
+"1869",
+"Ljubljana (1869)",
+"glasba, verouk"
+],
+                     [
+"<a href=\"ucb-211.html\" target=\"_blank\">ucb-211</a>",
+"Pozhétki gramatike to je Pismenosti Franzoske gospoda Lhomonda ... : sa latinske franzoske shole v' Illirii (1811)",
+"Lhomond, Charles François",
+"1811",
+"Ljubljana (1811)",
+"Francoščina"
+],
+                     [
+"<a href=\"ucb-212.html\" target=\"_blank\">ucb-212</a>",
+"Nôvi abeczedár z-nísteri nemski táksi kní'zicz vküp pobráni, i na szlovenszki jezik preobrnyen po L.S. P.S. (1820, 1856)",
+"Lülik, Števan",
+"1820, 1853, 1856, 1863",
+"Sopron / Šopron (1820)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-213.html\" target=\"_blank\">ucb-213</a>",
+"Györszki Kátekismus tou-je-tou: D. Luther Mártonna Máli Kátekismus, z drügimi lejpimi pobo`snimi pítanyami, ino szem szpodobnimi nísterimi molitvami, zdaj znouvics Na Szlovenszko obrnyen, za volo, v-Szlovenszkoj Okroglini L. Solszke Deczé (1796)",
+"Luther, Martin",
+"1796",
+"Sopron / Šopron (1796)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-214.html\" target=\"_blank\">ucb-214</a>",
+"D. Luther Martina Máli katekizmus ali glavni návuk szvete vere krsztsanszke. Naime za deczo správiscs evangelicsanszki. Vödáni po Kardos Jánosi Hodoskom Dühovniki. (1837)",
+"Luther, Martin",
+"1837, ok. 1875, 1851 (?), 1902",
+"Pest / Pešta (1837)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-215.html\" target=\"_blank\">ucb-215</a>",
+"Dr. Luther Mártona veliki kátekizmus. (1851)",
+"Luther, Martin",
+"1851",
+"s. l. (1851)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-216.html\" target=\"_blank\">ucb-216</a>",
+"Elemi katekizmus katholikus kezdő tanulók számára = Máli katekizmus za katholicsánszke soule (1888)",
+"Luttár, Miklos",
+"1888, 1891, 1892, 1894",
+"Murska Sobota / Muraszombat (1888)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-217.html\" target=\"_blank\">ucb-217</a>",
+"Prirodopis za meščanske šole : 1. stopnja : s 110 slikami (1905)",
+"Macher, Ivan",
+"1905, 1911",
+"Ljubljana (1905)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-218.html\" target=\"_blank\">ucb-218</a>",
+"Prirodopis za meščanske šole : 2. stopnja : s 109 slikami (1907)",
+"Macher, Ivan",
+"1907",
+"Ljubljana (1907)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-219.html\" target=\"_blank\">ucb-219</a>",
+"Prirodopis za deške meščanske šole : 3. stopnja : s 117 slikami (1908)",
+"Macher, Ivan",
+"1908",
+"Ljubljana (1908)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-220.html\" target=\"_blank\">ucb-220</a>",
+"Prirodopis za dekliške meščanske šole : 3. stopnja : s 117 slikami (1908)",
+"Macher, Ivan",
+"1908",
+"Ljubljana (1908)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-221.html\" target=\"_blank\">ucb-221</a>",
+"Prirodopis živalstva : za nižje razrede srednjih šol (1907)",
+"Macher, Ivan",
+"1907, 1913",
+"Ljubljana (1907)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-222.html\" target=\"_blank\">ucb-222</a>",
+"Prirodopis rastlinstva : za nižje razrede srednjih šol : s 171 slikami in s 15 podobami v barvotisku (1909)",
+"Macher, Ivan",
+"1909, 1913",
+"Ljubljana (1909)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-223.html\" target=\"_blank\">ucb-223</a>",
+"Deutsch-krainisches Nahmnebüchlein für Landschulen in den kaiserl. königl. Staaten (1829)",
+"Machner, Joseph",
+"1829, 1831, 1834, 1836, 1837, 1841, 1843, 1844, 1845, 1849",
+"Ljubljana (1829)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-224.html\" target=\"_blank\">ucb-224</a>",
+"Abecedna knižica za deželne šole vu cesarsko kralovskih deržavah (1831)",
+"Machner, Joseph",
+"1831, 1833, 1835",
+"Graz / Gradec",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-225.html\" target=\"_blank\">ucb-225</a>",
+"Abecédnęk za slovénske šóle vę ces. kral. dęržávah (1829, 1832)",
+"Machner, Joseph",
+"1829, 1832, 1834, 1845, 1850",
+"Ljubljana (1829)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-226.html\" target=\"_blank\">ucb-226</a>",
+"Cvetje jugoslavljansko s dodanimi cveti drugih slavljanskih vertov: I. cvetje slovenskiga pesništva (1850)",
+"Macun, Ivan ",
+"1850",
+"Trieste / Trst (1850)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-227.html\" target=\"_blank\">ucb-227</a>",
+"Deutsches Lesebuch für die erste Klasse an Gymnasien und Realschulen (1872)",
+"Madiera, Antonín Karel",
+"1872",
+"Praha / Praga (1872)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-228.html\" target=\"_blank\">ucb-228</a>",
+"Deutsches Lesebuch für die zweite Klasse an Gymnasien und Realschulen (1874)",
+"Madiera, Antonín Karel",
+"1874",
+"Praha / Praga (1874)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-229.html\" target=\"_blank\">ucb-229</a>",
+"Slovnica za Slovence (1850)",
+"Majar, Matija",
+"1850",
+"Ljubljana (1850)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-230.html\" target=\"_blank\">ucb-230</a>",
+"Šolske pesmi : druga stopnja (1888)",
+"Majcen, Gabriel ",
+"1888",
+"Maribor (1888)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-231.html\" target=\"_blank\">ucb-231</a>",
+"Šolske pesmi : prva stopnja (1888)",
+"Majcen, Gabriel ",
+"1888",
+"Maribor (1888)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-232.html\" target=\"_blank\">ucb-232</a>",
+"Šolske pesmi : tretja stopnja (na podlagi tretjega in četrtega berila) (1889)",
+"Majcen, Gabriel ",
+"1889, 1901",
+"Maribor (1889)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-233.html\" target=\"_blank\">ucb-233</a>",
+"Slovenska slovnica za perve slovenske šole v mestih in na deželi (1849)",
+"Malavašič, Franc",
+"1849",
+"Ljubljana (1849)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-234.html\" target=\"_blank\">ucb-234</a>",
+"Deutsch-slovenische Kinder-Gesangschule für Normal- und Trivialschulen (1859)",
+"Mašek, Kamilo ",
+"1859",
+"Ljubljana (1859)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-235.html\" target=\"_blank\">ucb-235</a>",
+"Geometrija za nižje gimnazije. Del 1 (1896)",
+"Matek, Blaž",
+"1896, 1907",
+"Ljubljana (1896)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-236.html\" target=\"_blank\">ucb-236</a>",
+"Geometrija za nižje gimnazije. Del 2 (1896)",
+"Matek, Blaž",
+"1896",
+"Ljubljana (1896)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-237.html\" target=\"_blank\">ucb-237</a>",
+"Aritmetika za nižje gimnazije. Del 1 (1896)",
+"Matek, Blaž",
+"1896",
+"Ljubljana (1896)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-238.html\" target=\"_blank\">ucb-238</a>",
+"Aritmetika za nižje gimnazije. Del 2 (1898)",
+"Matek, Blaž",
+"1898",
+"Ljubljana (1898)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-239.html\" target=\"_blank\">ucb-239</a>",
+"Bl. Matekova aritmetika za nižjo stopnjo srednjih šol. Po novih učnih načrtih priredil Anton Peterlin (1910)",
+"Matek, Blaž",
+"1910",
+"Ljubljana (1910)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-240.html\" target=\"_blank\">ucb-240</a>",
+"Aritmetika in algebra za četrti in peti gimnazijski razred (1910)",
+"Matek, Blaž",
+"1910",
+"Ljubljana (1910)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-241.html\" target=\"_blank\">ucb-241</a>",
+"Geometrija za četrti in peti gimnazijski razred. Izpopolnil Jos. Mazi (1910)",
+"Matek, Blaž",
+"1910",
+"Ljubljana (1910)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-242.html\" target=\"_blank\">ucb-242</a>",
+"Zgodovina starega veka za nižje razrede srednjih šol (1894)",
+"Mayer, Franz Martin",
+"1894, 1909",
+"Ljubljana (1894)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-243.html\" target=\"_blank\">ucb-243</a>",
+"Zgodovina srednjega veka za nižje razrede srednjih šol (1897)",
+"Mayer, Franz Martin",
+"1897",
+"Ljubljana (1897)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-244.html\" target=\"_blank\">ucb-244</a>",
+"Zgodovina novega veka za nižje razrede srednjih šol : z 31. podobami (1901)",
+"Mayer, Franz Martin",
+"1901",
+"Ljubljana (1901)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-245.html\" target=\"_blank\">ucb-245</a>",
+"Geometrijski nazorni nauk za prvi razred srednjih šol : 45 slik (1909)",
+"Mazi, Josip",
+"1909",
+"Ljubljana (1909)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-246.html\" target=\"_blank\">ucb-246</a>",
+"Geometrija za drugi razred srednjih šol (1910)",
+"Mazi, Josip",
+"1910",
+"Ljubljana (1910)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-247.html\" target=\"_blank\">ucb-247</a>",
+"Geometrija za tretji razred srednjih šol : 83 slik (1911)",
+"Mazi, Josip",
+"1911",
+"Ljubljana (1911)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-248.html\" target=\"_blank\">ucb-248</a>",
+"Igre in pesmi za otroška zabavišča in ljudske šole (1893)",
+"Mercina, Ivan ",
+"1893",
+"Ljubljana (1893)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-249.html\" target=\"_blank\">ucb-249</a>",
+"Štęvilstvo za slovénske šóle po zes. kralj. dęržávah (1830)",
+"Metelko, Franc Serafin",
+"1830",
+"Ljubljana (1830)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-250.html\" target=\"_blank\">ucb-250</a>",
+"Lehrgebäude der slowenischen Sprache im Königreiche Illyrien und in den benachbarten Provinzen : nach dem Lehrgebäude der böhm. Sprache des Hrn. Abbé Dobrowsky (1825)",
+"Metelko, Franc Serafin",
+"1825",
+"Ljubljana (1825)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-251.html\" target=\"_blank\">ucb-251</a>",
+"Berilo sa male shóle na kmétih po z.k. Estrajshkih dershavah (1834)",
+"Metelko, Franc Serafin",
+"1834, 1845",
+"Wien / Dunaj (1834)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-252.html\" target=\"_blank\">ucb-252</a>",
+"Slovensko-nemška začetnica za ljudske šole = Slovenisch-deutsche Fibel für Volksschulen (1881)",
+"Miklošič, Ivan",
+"1881, 1887, 1889, 1893, 1894, 1896, 1897, 1898, 1900, 1907, 1910, 1913",
+"Wien / Dunaj (1881)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-253.html\" target=\"_blank\">ucb-253</a>",
+"Začetnica in prvo berilo za občne ljudske šole (1878)",
+"Miklošič, Ivan",
+"1878, 1881, 1888, 1890, 1893, 1895",
+"Wien / Dunaj (1878)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-254.html\" target=\"_blank\">ucb-254</a>",
+"Začetnica in prvo berilo za ljudske šole (1878)",
+"Miklošič, Ivan",
+"1880, 1881, 1883, 1884, 1887, 1888, 1889, 1890, 1891, 1892, 1893, 1895",
+"Wien / Dunaj (1878)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-255.html\" target=\"_blank\">ucb-255</a>",
+"Napeljevanje iz glave poštevati : za pervi klas ljudskih šol (1846)",
+"Močnik, Franc",
+"1846",
+"Trieste / Trst (1846)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-256.html\" target=\"_blank\">ucb-256</a>",
+"Napeljevanje v računstvo za drugi in tretji klas farnih in glavnih šol (1847)",
+"Močnik, Franc",
+"1847",
+"Trieste / Trst (1847)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-257.html\" target=\"_blank\">ucb-257</a>",
+"Napeljevanje is glave poshtevati sa pervi klas ljudskih shol v' z. kr. dershavah (1847)",
+"Močnik, Franc",
+"1847",
+"Wien / Dunaj (1847)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-258.html\" target=\"_blank\">ucb-258</a>",
+"Napeljevanje v razhunştvo sa drugi in tretji klas farnih in glavnih shol v' z. kr. dershavah (1847)",
+"Močnik, Franc",
+"1847",
+"Wien / Dunaj (1847)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-259.html\" target=\"_blank\">ucb-259</a>",
+"Vadba v računjenji za drugi in tretji oddélek učivnic na kmetih ino v méstih v c. k. deržavah. V nemsčini spisal Dr. Franc Močnik, učitelj štertega oddelka glavne učivnice ve vlaški Gorici. Poslovenil O. C-f (1848)",
+"Močnik, Franc",
+"1848",
+"Wien / Dunaj (1848)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-260.html\" target=\"_blank\">ucb-260</a>",
+"Navod iz glave poštevati z mnogimi vajami in nalogami za I. razred ljudskih šol avstrijanskega cesarstva : za učenike in učeniške pripravljance (1856)",
+"Močnik, Franc",
+"1856",
+"Wien / Dunaj (1856)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-261.html\" target=\"_blank\">ucb-261</a>",
+"Lehrbuch der Geometrie : zum Gebrauche der Unter-Realschulen : mit 265 in den Text eingedruckten Holzschnitten und eingeschalteter Terminologie in slovenischer Sprache (1856)",
+"Močnik, Franc",
+"1856, 1864",
+"Wien / Dunaj (1856)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-262.html\" target=\"_blank\">ucb-262</a>",
+"Računica za slovenske šole na deželi v avstrijanskem cesarstvu (1857)",
+"Močnik, Franc",
+"1857, 1859, 1861, 1862, 1864, 1867, 1868, 1870",
+"Wien / Dunaj (1857)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-263.html\" target=\"_blank\">ucb-263</a>",
+"Perva računica za slovenske ljudske šole. Števila od 1 do 20. (1871)",
+"Močnik, Franc",
+"1871, 1872, 1873, 1874, 1875, 1876, 1877, 1879, 1880, 1881, 1882, 1884, 1885, 1887, 1888, 1889, 1890, 1891, 1892, 1893",
+"Wien / Dunaj (1871)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-264.html\" target=\"_blank\">ucb-264</a>",
+"Druga računica za slovenske ljudske šole. Številjenje s cenami od 1 do 100. (1871)",
+"Močnik, Franc",
+"1871, 1872, 1873, 1874, 1875, 1876, 1877, 1880, 1881, 1882, 1885, 1886, 1887, 1888, 1889, 1890, 1891, 1892, 1893",
+"Wien / Dunaj (1871)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-265.html\" target=\"_blank\">ucb-265</a>",
+"Tretja računica za slovenske ljudske šole. Številjenje s števili do tisoč z vajami v tristavkah. Številbe v viših številnih prostorih. (1871)",
+"Močnik, Franc",
+"1871, 1872, 1873, 1876, 1880, 1881, 1882, 1884, 1887, 1888, 1889, 1890, 1892, 1893",
+"Wien / Dunaj (1871)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-266.html\" target=\"_blank\">ucb-266</a>",
+"Návod k pervi računici za slovenske ljudske šole : številjenje s števili do 20 (1871)",
+"Močnik, Franc",
+"1871",
+"Wien / Dunaj (1871)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-267.html\" target=\"_blank\">ucb-267</a>",
+"Návod k drugi računici za slovenske ljudske šole : številjenje s cénami od 1 do 100 (1871)",
+"Močnik, Franc",
+"1871",
+"Wien / Dunaj (1871)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-268.html\" target=\"_blank\">ucb-268</a>",
+"Četerta računica za slovenske ljudske šole. Številčenje z desetinskimi drobi, mnogoimnimi števili in navadnimi drobi. Mére, uteži in denarji (1873)",
+"Močnik, Franc",
+"1873, 1875, 1876, 1878, 1880, 1881, 1883, 1884, 1886, 1887, 1890, 1891, 1892, 1893",
+"Wien / Dunaj (1873)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-269.html\" target=\"_blank\">ucb-269</a>",
+"Nova avstrijska mera in vaga : knjižica slovenskim šolam v porabo (1874)",
+"Močnik, Franc",
+"1874, 1875",
+"Wien / Dunaj (1874)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-270.html\" target=\"_blank\">ucb-270</a>",
+"Navod k pervej in drugej računici za slovenske ljudske šole (1876)",
+"Močnik, Franc",
+"1876",
+"Wien / Dunaj (1876)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-271.html\" target=\"_blank\">ucb-271</a>",
+"Navod k III. - V. računici za slovenske ljudske šole (1876)",
+"Močnik, Franc",
+"1876",
+"Wien / Dunaj (1876)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-272.html\" target=\"_blank\">ucb-272</a>",
+"Peta računica za jedno-, dvo- in trirazredne ljudske šole. Računske naloge za poslednja šolska leta. (1878)",
+"Močnik, Franc",
+"1878, 1882, 1884, 1886, 1888, 1891, 1892",
+"Wien / Dunaj (1878)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-273.html\" target=\"_blank\">ucb-273</a>",
+"Aritmetika za nižje gimnazije. Del 1 (1882)",
+"Močnik, Franc",
+"1882, 1891",
+"Ljubljana (1882)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-274.html\" target=\"_blank\">ucb-274</a>",
+"Aritmetika za nižje gimnazije. Del 2 (1884)",
+"Močnik, Franc",
+"1884",
+"Ljubljana (1884)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-275.html\" target=\"_blank\">ucb-275</a>",
+"Geometrija za nižje gimnazije. Del 1 (1883)",
+"Močnik, Franc",
+"1883, 1891",
+"Ljubljana (1883)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-276.html\" target=\"_blank\">ucb-276</a>",
+"Geometrija za nižje gimnazije. Del 2 (1884)",
+"Močnik, Franc",
+"1884",
+"Ljubljana (1884)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-277.html\" target=\"_blank\">ucb-277</a>",
+"Računica za občne ljudske šole : izdaja v treh delih. Prva stopnja. (1894)",
+"Močnik, Franc",
+"1894, 1895, 1896, 1897, 1898, 1899, 1900, 1901, 1902, 1903, 1904, 1906, 1908, 1910, 1911, 1913, 1915, 1916",
+"Wien / Dunaj (1894)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-278.html\" target=\"_blank\">ucb-278</a>",
+"Računica za občne ljudske šole : izdaja v treh delih. Druga stopnja (1894)",
+"Močnik, Franc",
+"1894, 1895, 1896, 1897, 1898, 1899, 1900, 1901, 1902, 1903, 1904, 1905, 1907, 1910, 1911, 1914, 1915, 1916",
+"Wien / Dunaj (1894)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-279.html\" target=\"_blank\">ucb-279</a>",
+"Računica za občne ljudske šole : izdaja v treh delih. Tretja stopnja (1894)",
+"Močnik, Franc",
+"1894, 1895, 1896, 1897, 1898, 1899, 1900, 1902, 1904, 1905, 1906, 1910, 1911, 1912, 1913, 1914, 1916 ",
+"Wien / Dunaj (1894)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-280.html\" target=\"_blank\">ucb-280</a>",
+"Geometrijsko oblikoslovje za dekliške meščanske šole (1897)",
+"Močnik, Franc",
+"1897",
+"Ljubljana (1897)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-281.html\" target=\"_blank\">ucb-281</a>",
+"Dr. Fr. viteza pl. Močnika Računica za avstrijske obče ljudske šole : izdaja v treh delih. Del 1, Nižja stopnja (1903)",
+"Močnik, Franc",
+"1903, 1906, 1908, 1910, 1913, 1914, 1916, 1917",
+"Wien / Dunaj (1903)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-282.html\" target=\"_blank\">ucb-282</a>",
+"Dr. Fr. viteza pl. Močnika Računica za avstrijske obče ljudske šole : izdaja v treh delih. Del 2, Srednja stopnja (1904)",
+"Močnik, Franc",
+"1904, 1907, 1910, 1911, 1913, 1915, 1918",
+"Wien / Dunaj (1904)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-283.html\" target=\"_blank\">ucb-283</a>",
+"Dr. Fr. viteza Močnika Računica za avstrijske obče ljudske šole : izdanje v treh delih. Del 3, Višja stopnja (1905)",
+"Močnik, Franc",
+"1905, 1910, 1912, 1913, 1914, 1916, 1918",
+"Wien / Dunaj (1905)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-284.html\" target=\"_blank\">ucb-284</a>",
+"Erstes Lesebuch für den deutschen Sprachunterricht in nicht-deutschen Volksschulen (1861)",
+"Močnik, Franc",
+"1861, 1862, 1863, 1868",
+"Wien / Dunaj (1861)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-285.html\" target=\"_blank\">ucb-285</a>",
+"Zweites Lesebuch für den deutschen Sprachunterricht in nicht-deutschen Volksschulen (1861)",
+"Močnik, Franc",
+"1861, 1862, 1863, 1868",
+"Wien / Dunaj (1861)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-286.html\" target=\"_blank\">ucb-286</a>",
+"Drittes Lesebuch für den deutschen Sprachunterricht in nicht-deutschen Volksschulen (1861)",
+"Močnik, Franc",
+"1861, 1862",
+"Wien / Dunaj (1861)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-287.html\" target=\"_blank\">ucb-287</a>",
+"Zemljepisna začetnica (1869)",
+"Močnik, Matej",
+"1869",
+"Ljubljana (1869)",
+"zemljepis"
+],
+                     [
+"<a href=\"ucb-288.html\" target=\"_blank\">ucb-288</a>",
+"Theoretisch-praktische Slowenische Sprachlehre für Deutsche, nach den Volkssprecharten der Slowenen in Steiermark, Kärnten, Krain und Ungarns westlichen Distrikten : nebst einem Anhange der zum Sprechen nothwendigsten Wörter, einer Auswahl deutsch-slowenischer Gespräche für das gesellschaftliche Leben, und kurzer slowenischer Aufsätze zum Uebersetzen ins Deutsche (1832)",
+"Murko, Anton",
+"1832, 1843, 1850",
+"Graz / Gradec (1832)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-289.html\" target=\"_blank\">ucb-289</a>",
+"Kratka slovenska slovnica za pervence (1847)",
+"Muršec, Jožef",
+"1847",
+"Graz / Gradec (1847)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-290.html\" target=\"_blank\">ucb-290</a>",
+"Navod v' branje sa mladost nedélskih shol (1832)",
+"Musi, Peter",
+"1832, 1839 ali 1840, 1845, 1846, 1847, 1849, 1852",
+"Celje (1832)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-291.html\" target=\"_blank\">ucb-291</a>",
+"Jezícsna flíszanya za vesznícski sôl II. zlôcs. píszana po Nagy László. (1871)",
+"Nagy, László",
+"1871",
+"Budapest / Budimpešta (1871)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-292.html\" target=\"_blank\">ucb-292</a>",
+"Návod na vogrszki jezik za vesznícski sôl I. i II. zlôcs. Szprávlen po Nagy László (1871)",
+"Nagy, László",
+"1871",
+"Budapest* / Budimpešta* (1871 [V-Büdini])",
+"madžarščina"
+],
+                     [
+"<a href=\"ucb-293.html\" target=\"_blank\">ucb-293</a>",
+"Návod na flíszanya vu govorênyi i razmênyi za vesznícski sôl prvi i drűgi zlôcs. Szprávlen po Nagy Lászlóni solszko-kro'znom ravnateli. (1870)",
+"Nagy, László",
+"1870",
+"Budapest* / Budimpešta* (1870 [V-Büdini])",
+"Metodika"
+],
+                     [
+"<a href=\"ucb-294.html\" target=\"_blank\">ucb-294</a>",
+"Kratek nauk o glasbi (1893)",
+"Nedvěd, Anton ",
+"1893",
+"Ljubljana (1893)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-295.html\" target=\"_blank\">ucb-295</a>",
+"Pesmi za mladost : največ za deške in dekliške šole (1866)",
+"Nedvěd, Anton ",
+"1866",
+"Wien / Dunaj (1866)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-296.html\" target=\"_blank\">ucb-296</a>",
+"Slavček : zbirka šolskih pesmi (1879)",
+"Nedvěd, Anton ",
+"1879, 1885-1886, 1892-1897, 1906-1912",
+"Ljubljana (1879)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-297.html\" target=\"_blank\">ucb-297</a>",
+"Vaje v petji (1894-1893)",
+"Nedvěd, Anton ",
+"1894-1893",
+"Ljubljana (1894-1893)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-298.html\" target=\"_blank\">ucb-298</a>",
+"Mala fizika za narodne ali ljudske šole v pogovorih : z navodom o mnogih, povsodi in brez priprav lehko izpeljevih poskusih : (z mnogimi lesorezi) (1875)",
+"Netoliczka, Eugen",
+"1875",
+"Graz / Gradec (1875)",
+"Fizika"
+],
+                     [
+"<a href=\"ucb-299.html\" target=\"_blank\">ucb-299</a>",
+"Mali prirodopis s podobami : za narodne ali ljudske šole in za pervi poduk na višjih dekliških šolah (1875)",
+"Netoliczka, Eugen",
+"1875",
+"Brno (1875)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-300.html\" target=\"_blank\">ucb-300</a>",
+"Občna zgodovina za višje razrede narodnih in meščanskih šol (1876)",
+"Netoliczka, Eugen",
+"1876",
+"Maribor (1876)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-301.html\" target=\"_blank\">ucb-301</a>",
+"Slike iz štajerske zgodovine. Za slovenske štajerske šole (1907)                  ",
+"NN",
+"1907",
+"Graz / Gradec (1907)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-302.html\" target=\"_blank\">ucb-302</a>",
 "Slovenska stenografija. Del 1: Korespondenčno pismo. (1900)",
 "Novak, Franc",
 "1900, 1910, 1916",
@@ -313,7 +2417,7 @@
 "Stenografija"
 ],
                      [
-"<a href=\"ucb041.html\" target=\"_blank\">ucb041</a>",
+"<a href=\"ucb-303.html\" target=\"_blank\">ucb-303</a>",
 "Slovenska stenografija. Del 2: Debatno pismo. (1901)",
 "Novak, Franc",
 "1901",
@@ -321,443 +2425,1707 @@
 "Stenografija"
 ],
                      [
-"<a href=\"ucb042.html\" target=\"_blank\">ucb042</a>",
-"Elemi katekizmus katholikus kezdő tanulók számára = Máli katekizmus za katholicsánszke soule (1888)",
-"Luttár, Miklos",
-"1888, 1891, 1892, 1894",
-"Murska Sobota / Muraszombat (1888)",
-"verouk"
+"<a href=\"ucb-304.html\" target=\"_blank\">ucb-304</a>",
+"Zemljepis za meščanske šole. Druga stopnja (1894)",
+"Orožen, Fran",
+"1894, 1903",
+"Ljubljana (1894)",
+"zemljepis "
 ],
                      [
-"<a href=\"ucb043.html\" target=\"_blank\">ucb043</a>",
-"Mála biblia z-kejpami ali zgodba zvelicsanya za málo decsiczo za I-II razréd normálszke sôle piszana po Gerely Józsefi z-27 z-leszá pritisznyenimi kejpmi od prof. G. Morelli (1897)",
-"Gerely, József",
-"1897, 1898",
-"Budapest / Budimpešta (1897)",
-"verouk"
-],
-                     [
-"<a href=\"ucb044.html\" target=\"_blank\">ucb044</a>",
-"Mála biblia z-kejpami ali zgodba zvelicsanya za málo decsiczo za III-V razréd normálszke sôle piszana po Gerely Józsefi na szlovenszko obrno Kollár Peter z-70 z-leszá pritisznyenimi kejpmi od G. Morelli",
-"Gerely, József",
-"1898",
-"Szombathely / Sombotel (1898)",
-"verouk"
-],
-                     [
-"<a href=\"ucb045.html\" target=\"_blank\">ucb045</a>",
-"Mála molitvena kniga z potrejbnimi molítvami i vnógimi peszmami za katholicsánszko mladézen. Szpíszana po Pusztai Józsefi, skolniki.",
-"Pustai, Jóžef",
-"1900",
-"Szentgotthárd / Monošter (1900)",
-"verouk"
-],
-                     [
-"<a href=\"ucb046.html\" target=\"_blank\">ucb046</a>",
-"Katolicsanszki katekizmus z glávnimi zgodbami biblije za soláre I.-II. razreda (1907)",
-"Sakovič, Jožef",
-"1907, 1909",
-"Budapest / Budimpešta (1907)",
-"verouk"
-],
-                     [
-"<a href=\"ucb047.html\" target=\"_blank\">ucb047</a>",
-"Katolicsanszki katekizmus za solare III.-V. razreda (1909)",
-"Baša, Ivan",
-"1909, 1913",
-"Budapest / Budimpešta (1909)",
-"verouk"
-],
-                     [
-"<a href=\"ucb048.html\" target=\"_blank\">ucb048</a>",
-"Ta velki Katekismus s'prashanjami, in odgovarmi sa ozhitnu, inu possebnu podvuzhenje te mladosti v'zessarskih krajlevih dushelah (1790)",
-"Gutsman, Ožbalt",
-"1790, 1792",
-"Klagenfurt / Celovec (1790)",
-"verouk"
-],
-                     [
-"<a href=\"ucb049.html\" target=\"_blank\">ucb049</a>",
-"Isvlezhik tega velikiga catehisma s' uprashajnami, inu odgovorami : k' poduzhenju te deshelske mladoste v' zesarskeh krayleveh deshelah",
-"Edling, Janez Nepomuk Jakob",
-"1779",
-"Ljubljana (1779)",
-"verouk"
-],
-                     [
-"<a href=\"ucb050.html\" target=\"_blank\">ucb050</a>",
-"Ta velki catekismus s' praşhanjami, inu odgovarmi sa ozhitnu, inu possebnu podvuzhenje te mladoşti v' zessarşkih krajlevih duschelah = Der grosse Katechismus mit Fragen, und Antworten zu dem öffentlichen und privat Unterrichte der Jugend, in den kaiserl. königl. Staaten (1779)",
-"Japelj, Jurij ",
-"1779, 1787, 1789, 1793, 1804, 1809",
-"Ljubljana (1779) ",
-"verouk"
-],
-                     [
-"<a href=\"ucb051.html\" target=\"_blank\">ucb051</a>",
-"[Tu se pri naslovu pojavi težava. Japljev mali katekizem, ki je bil vsekakor namenjen tudi za šolski pouk je namreč del njegovega večjega dela Lysti inu evangelia. Ker ostala besedila, ki so vključena v pričujoče delo niso bila namenjena šolskemu pouku ne vem, ali bi bilo morda bolje, da namesto naslova celotnega zbornika navedeva le naslov malega katekizma. Najbrž bi bilo sicer bolje, da stvar rešiva tako, da te stvari razčistiva v opombah in tam poudariva, da večina dela ni bila namenjena šolarjem, mali katekizem, ki je bil vanj vključen, pa je bil namenjen utdi za šolski pouk. Zaenkrat se s transkripcijami naslovov zato nisem ukvarjal. To bom storil, ko bova zadevo dokončno dorekla.]",
-"Japelj, Jurij ",
-"1787, 1792, 1796, 1800, 1803, 1805, 1806, 1809",
-"Ljubljana, Celje (1787)",
-"verouk"
-],
-                     [
-"<a href=\"ucb052.html\" target=\"_blank\">ucb052</a>",
-"Kershanski navuk sa Illirske deshele : vsét is Katehisma sa vse zerkve Franzoskiga zesarstva (1811)",
-"Vodnik, Valentin",
-"1811, 1812",
-"Ljubljana (1811)",
-"verouk"
-],
-                     [
-"<a href=\"ucb053.html\" target=\"_blank\">ucb053</a>",
-"Ta male katekismus is praşhajnami inu odgovormi sa te narmajnshe otroke u' zesarskeh, tudi zesarskeh kraleveh deshelah / Der kleine Katechismus mit Fragen und Antworten für die kleinsten Kinder der kasiral. auch kaiserl. königl. Staaten (1806)",
-"Alič, Jurij",
-"1806, 1815, 1817, 1818, 1819, 1825, 1830, 1831, 1834, 1842",
-"Trst (1806)",
-"verouk"
-],
-                     [
-"<a href=\"ucb054.html\" target=\"_blank\">ucb054</a>",
-"Majhine bukvize branja sa sholarje na desheli v' esterrajharskimu Zesarstvu. Pervi dejl kershanskiga navuka (1814, 1826); Majhine bukvize branja sa şholarje na desheli v' esterrajhiskimu zesarstvu. Pervi dél, Kershanski navuk (1831, 1837); Bukvize branja sa şholarje na desheli v' esterajhskimu zesarstvu. Pervi dél, Kershanski navuk (1840, 1843, 1847); Bukvize branja sa sholarje na desheli v' esterajhskimu zesarstvu. Pervi dél, Kershanski navuk (1848)",
-"Alič, Jurij",
-"1814, 1826, 1828, 1831, 1835, 1837, 1840, 1843, 1847, 1848",
-"Graz / Gradec (1814)",
-"verouk"
-],
-                     [
-"<a href=\"ucb055.html\" target=\"_blank\">ucb055</a>",
-"Kershanski katolshki nauk sa male shóle na kmétih, vsét is vélikiga katekisma, sapovédaniga po z. k. Estrajshkih dershavah ",
-"NN",
-"1834, 1835, 1840, 1843, 1844, 1847",
-"Dunaj (1834)",
-"verouk"
-],
-                     [
-"<a href=\"ucb056.html\" target=\"_blank\">ucb056</a>",
-"Kęrščanskę nauk za slovénske šole poleg katekizma po c. k. dęržavah",
-"NN",
-"1831",
-"Ljubljana (1831)",
-"verouk"
-],
-                     [
-"<a href=\"ucb057.html\" target=\"_blank\">ucb057</a>",
-"Deutsch-windischer Christenlehr-Katechismus in Fragen und Antworten = Nemshko-slovenski katekismush sa kerschanski navuk v-pitanjih ino odgovorih",
-"Krempl, Anton",
-"1826",
-"Ptuj (1826)",
-"verouk"
-],
-                     [
-"<a href=\"ucb058.html\" target=\"_blank\">ucb058</a>",
-"Keršanski katolski nauk za drugo pervinskih šol",
-"NN",
-"1846",
-"Trst (1846)",
-"verouk"
-],
-                     [
-"<a href=\"ucb059.html\" target=\"_blank\">ucb059</a>",
-"Mali katekizem v' vprašanjih in odgovorih",
-"NN",
-"1846",
-"Trst (1846)",
-"verouk"
-],
-                     [
-"<a href=\"ucb060.html\" target=\"_blank\">ucb060</a>",
-"Zgodovinski katekizem, ali celi keršansko-katolški navk v resničnih izgledih iz zgodovine za cerkev, šolo in dom",
-"Schmid, Johann Evangelist",
-"1853",
-"Klagenfurt / Celovec (1853)",
-"verouk"
-],
-                     [
-"<a href=\"ucb061.html\" target=\"_blank\">ucb061</a>",
-"Liturgika ali sveti obredi pri vnanji službi božji : za gimnazijalno, realno in sploh odraslo mladost (1863)",
-"Lesar, Anton",
-"1863, 1881, 1890, 1896",
-"Brno (1863)",
-"verouk"
-],
-                     [
-"<a href=\"ucb062.html\" target=\"_blank\">ucb062</a>",
-"Katekizem ali keršanski katoliški nauk (1862)",
-"Lesar, Anton",
-"1862, 1886",
-"Ljubljana (1862)",
-"verouk"
-],
-                     [
-"<a href=\"ucb063.html\" target=\"_blank\">ucb063</a>",
-"Zgodbe svete katoliške cerkve (1863)",
-"Lesar, Anton",
-"1863, 1877, 1887",
-"Klagenfurt / Celovec (1863)",
-"verouk"
-],
-                     [
-"<a href=\"ucb064.html\" target=\"_blank\">ucb064</a>",
-"Zgodbe Svetega pisma stare in nove zaveze : za katoliške ljudske šole (1863)",
-"Schuster, Ignaz",
-"1863, 1864, 1867, 1868, 1869, 1879, 1880, 1881, 1884, 1885, 1887, 1889, 1893, 1896, 1900, 1901, 1902, 1903, 1904, 1907, 1909, 1911, 1914",
-"Wien / Dunaj (1863)",
-"verouk"
-],
-                     [
-"<a href=\"ucb065.html\" target=\"_blank\">ucb065</a>",
-"Zgodbe svetiga pisma stare in nove zaveze za šolsko mladost (1858)",
-"Hočevar, Matija",
-"1858",
-"Wien / Dunaj (1858)",
-"verouk"
-],
-                     [
-"<a href=\"ucb066.html\" target=\"_blank\">ucb066</a>",
-"Mali katekizem za pervošolce (1851)",
-"Slomšek, Anton Martin",
-"1851, 1852, 1854, 1855, 1858, 1860, 1862, 1863, 1865, 1869, 1873",
-"Wien / Dunaj (1851)",
-"verouk"
-],
-                     [
-"<a href=\"ucb067.html\" target=\"_blank\">ucb067</a>",
-"Kratek katekisem v' vprashanjih in odgovorih (1837)",
-"Kek, Jožef",
-"1837, 1838, 1851, 1853, 1854, 1855, 1858, 1861, 1864, 1866, 1872, 1877, 1879, 1882, 1884, 1886, 1887, 1888, 1889, 1890",
-"Ljubljana (1837)",
-"verouk"
-],
-                     [
-"<a href=\"ucb068.html\" target=\"_blank\">ucb068</a>",
-"Veliki katekizem za ljudske šole (1861)",
-"NN",
-"1861, 1863, 1877, 1880, 1882, 1885, 1887, 1889, 1890, 1892, 1893 [standardna in revidirana izdaja], 1896",
-"Wien / Dunaj (1861)",
-"verouk"
-],
-                     [
-"<a href=\"ucb069.html\" target=\"_blank\">ucb069</a>",
-"Mali katekizem (1880)",
-"NN",
-"1880, 1881, 1885, 1886, 1887, 1889 [standardna in revidirana izdaja], 1890, 1893, 1894, 1896 [pregledana izdaja]",
-"Wien / Dunaj (1880)",
-"verouk"
-],
-                     [
-"<a href=\"ucb070.html\" target=\"_blank\">ucb070</a>",
-"Mali katekizem v vprašanjih in odgovorih : za krajnske šole (1854)",
-"NN",
-"1854",
-"Wien / Dunaj (1854)",
-"verouk"
-],
-                     [
-"<a href=\"ucb071.html\" target=\"_blank\">ucb071</a>",
-"Mali katekizem v vprašanjih in odgovorih za katoliške ljudske šole v avstrijanskem cesarstvu (1863)",
-"NN",
-"1863, 1871, 1875, 1877",
-"Wien / Dunaj (1863)",
-"verouk"
-],
-                     [
-"<a href=\"ucb072.html\" target=\"_blank\">ucb072</a>",
-"Keršanski Katolški Nauk za drugo pervinsko šolo (1859)",
-"NN",
-"1859, 1862",
-"Wien / Dunaj (1859)",
-"verouk"
-],
-                     [
-"<a href=\"ucb073.html\" target=\"_blank\">ucb073</a>",
-"Keršanski nauk v vprašanjih in odgovorih za četerti razred začetnih šol (1863)",
-"NN",
-"1863, 1870, 1875, 1880, 1882, 1886",
-"Wien / Dunaj (1863)",
-"verouk"
-],
-                     [
-"<a href=\"ucb074.html\" target=\"_blank\">ucb074</a>",
-"Sveti Listi, Berila in Evangelji za nedélje in praznike celega leta in vse dni svetega posta : z navadnimi molitvami pri službi božji (1863)",
-"NN",
-"1863, 1865, 1869, 1879, 1881, 1883, 1884, 1886, 1888, 1890, 1898, 1911",
-"Wien / Dunaj (1863)",
-"verouk"
-],
-                     [
-"<a href=\"ucb075.html\" target=\"_blank\">ucb075</a>",
-"Kerščanski katolški nauk okrajšan. : spisek iz velikoga katekizma v prašanjih ino odgovorih (1850)",
-"Rozman, Jožef",
-"1850, 1852, 1857, 1861, 1867, 1868, 1872, 1876, 1881, 1883, 1885, 1886, 1889, 1892, 1893, 1895",
-"Wien / Dunaj (1850)",
-"verouk"
-],
-                     [
-"<a href=\"ucb076.html\" target=\"_blank\">ucb076</a>",
-"Srednji katekizem za ljudske šole (1889)",
-"NN",
-"1889, 1890, 1891, 1892, 1895, 1896, 1897",
-"Wien / Dunaj",
-"verouk"
-],
-                     [
-"<a href=\"ucb077.html\" target=\"_blank\">ucb077</a>",
-"Keršanski nauk za pervi in drugi razred (1883)",
-"Zupan, Simon",
-"1883, 1884, 1888, 1889, 1892, 1894",
-"Ljubljana (1883)",
-"verouk"
-],
-                     [
-"<a href=\"ucb078.html\" target=\"_blank\">ucb078</a>",
-"Keršanski nauk za pervi razred (1880)",
-"Zupan, Simon",
-"1880",
-"Ljubljana (1880)",
-"verouk"
-],
-                     [
-"<a href=\"ucb079.html\" target=\"_blank\">ucb079</a>",
-"Zgodbe Sv. pisma za nižje razrede ljudskih šol : s 47 podobami (1889)",
-"Knecht, Friedrich Justus",
-"1889, 1892, 1896, 1899, 1903, 1909",
-"Wien / Dunaj (1889)",
-"verouk"
-],
-                     [
-"<a href=\"ucb080.html\" target=\"_blank\">ucb080</a>",
-"Zgodovina razodetja božjega v Stari zavezi : za nižje razrede srednjih šol (1896)",
-"Karlin, Andrej",
-"1896, 1897",
+"<a href=\"ucb-305.html\" target=\"_blank\">ucb-305</a>",
+"Zemljepis za meščanske šole. Tretja stopnja. S 6 slikami (1896)",
+"Orožen, Fran",
+"1896, 1905",
 "Ljubljana (1896)",
-"verouk"
+"zemljepis"
 ],
                      [
-"<a href=\"ucb081.html\" target=\"_blank\">ucb081</a>",
-"Veliki katekizem ali krščanski nauk (1896)",
-"NN",
-"1896, 1898, 1902, 1905, 1908, 1913",
-"Ljubljana (1896)",
-"verouk"
+"<a href=\"ucb-306.html\" target=\"_blank\">ucb-306</a>",
+"Zemljepis za meščanske šole. Prva stopnja. S 13 slikami (1891)",
+"Orožen, Fran",
+"1891, 1904",
+"Ljubljana (1891)",
+"zemljepis"
 ],
                      [
-"<a href=\"ucb082.html\" target=\"_blank\">ucb082</a>",
-"Mali katekizem ali krščanski nauk (1897)",
-"NN",
-"1897, 1898, 1901, 1903, 1905, 1907, 1911",
-"Ljubljana (1897)",
-"verouk"
+"<a href=\"ucb-307.html\" target=\"_blank\">ucb-307</a>",
+"Zemljepis za meščanske šole. Enodelna izdaja (1911)",
+"Orožen, Fran",
+"1911",
+"Ljubljana (1911)",
+"zemljepis"
 ],
                      [
-"<a href=\"ucb083.html\" target=\"_blank\">ucb083</a>",
-"Srednji katekizem ali krščanski nauk (1897)",
-"NN",
-"1897, 1898, 1900, 1903, 1904, 1905, 1907, 1910, 1913",
-"Ljubljana (1897)",
-"verouk"
+"<a href=\"ucb-308.html\" target=\"_blank\">ucb-308</a>",
+"Zemljepis avstrijsko-ogerske države. Domoznanstvo za četrti razred srednjih šol (1907)",
+"Orožen, Fran",
+"1907",
+"Ljubljana (1907)",
+"Zemljepis, zgodovina"
 ],
                      [
-"<a href=\"ucb084.html\" target=\"_blank\">ucb084</a>",
-"Mali katekizem ali krščanski nauk (1898)",
-"NN",
+"<a href=\"ucb-309.html\" target=\"_blank\">ucb-309</a>",
+"Kranjsko domoznanstvo (1909)",
+"Orožen, Fran",
+"1909",
+"Wien / Dunaj (1909)",
+"Zemljepis, zgodovina"
+],
+                     [
+"<a href=\"ucb-310.html\" target=\"_blank\">ucb-310</a>",
+"Metodika zemljepisnega pouka (1898)",
+"Orožen, Fran",
 "1898",
-"Klagenfurt / Celovec (1898)",
-"verouk"
-],
-                     [
-"<a href=\"ucb085.html\" target=\"_blank\">ucb085</a>",
-"Srednji katekizem ali krščanski nauk (1898)",
-"NN",
-"1898, 1912",
-"Klagenfurt / Celovec (1898)",
-"verouk"
-],
-                     [
-"<a href=\"ucb086.html\" target=\"_blank\">ucb086</a>",
-"Veliki katekizem ali krščanski nauk (1898)",
-"NN",
-"1898, 1911",
-"Klagenfurt / Celovec (1898)",
-"verouk"
-],
-                     [
-"<a href=\"ucb087.html\" target=\"_blank\">ucb087</a>",
-"Svete zgodbe za male otroke (1898)",
-"Kržič, Anton",
-"1898, 1902, 1909",
 "Ljubljana (1898)",
-"verouk"
+"Zemljepis, metodika"
 ],
                      [
-"<a href=\"ucb088.html\" target=\"_blank\">ucb088</a>",
-"Zgodovina razodetja božjega v Novi zavezi (1897)",
-"Karlin, Andrej",
-"1897",
-"Ljubljana (1897)",
-"verouk"
+"<a href=\"ucb-311.html\" target=\"_blank\">ucb-311</a>",
+"Zemljepis za srednje šole. I. del. (1909)",
+"Pajk, Milan",
+"1909",
+"Ljubljana (1909)",
+"zemljepis"
 ],
                      [
-"<a href=\"ucb089.html\" target=\"_blank\">ucb089</a>",
-"Kratka zgodovina katoliške cerkve za šole : z 28 podobami (1904)",
-"Stroj, Alojzij",
-"1904",
-"Klagenfurt / Celovec (1904)",
-"verouk"
-],
-                     [
-"<a href=\"ucb090.html\" target=\"_blank\">ucb090</a>",
+"<a href=\"ucb-312.html\" target=\"_blank\">ucb-312</a>",
 "Male zgodbe Svetega pisma stare in nove zaveze : za katoliško mladino nižjih razredov občih ljudskih šol (1907)",
 "Panholzer, Johann",
 "1907, 1908, 1912, 1914, 1916, 1918 ",
 "Wien / Dunaj (1907)",
-"verouk"
+"Verouk"
 ],
                      [
-"<a href=\"ucb091.html\" target=\"_blank\">ucb091</a>",
-"Kratke zgodbe svetega pisma Stare in Nove zaveze : za nižje razrede ljudskih šol (1906)",
-"Volc, Josip",
-"1906, 1916",
-"Ljubljana (1906)",
-"verouk"
-],
-                     [
-"<a href=\"ucb092.html\" target=\"_blank\">ucb092</a>",
-"Velike Zgodbe svetega pisma stare in nove zaveze : za višje razrede ljudskih šol in za meščanske šole",
-"Volc, Josip",
-"1909",
-"Ljubljana (1909)",
-"verouk"
-],
-                     [
-"<a href=\"ucb093.html\" target=\"_blank\">ucb093</a>",
-"Liturgika : nauk o bogočastnih obredih sv. katoliške Cerkve (1907)",
-"Stroj, Alojzij",
-"1907, 1916",
-"Ljubljana (1907)",
-"verouk"
-],
-                     [
-"<a href=\"ucb094.html\" target=\"_blank\">ucb094</a>",
+"<a href=\"ucb-313.html\" target=\"_blank\">ucb-313</a>",
 "Velike zgodbe Svetega pisma stare in nove zaveze : za katoliško mladino meščanskih šol in višjih razredov občih ljudskih šol : s 102 podobo in 3 zemljevidi (1909)",
 "Panholzer, Johann",
 "1909, 1913, 1916, 1917",
 "Wien / Dunaj (1909)",
-"verouk"
+"Verouk"
 ],
                      [
-"<a href=\"ucb095.html\" target=\"_blank\">ucb095</a>",
-"Katoliška liturgika za šolski in domači pouk (1904)",
-"Kavčič, Jakob",
-"1904, 1907",
-"Maribor (1904)",
-"verouk"
+"<a href=\"ucb-314.html\" target=\"_blank\">ucb-314</a>",
+"Prirodopis rastlinstva : za nižje razrede srednjih šol (1898)",
+"Paulin, Alfonz",
+"1898",
+"Ljubljana (1898)",
+"Naravoslovje"
 ],
                      [
-"<a href=\"ucb096.html\" target=\"_blank\">ucb096</a>",
+"<a href=\"ucb-315.html\" target=\"_blank\">ucb-315</a>",
+"Latinska vadnica za tretji razred gimnazij in realnih gimnazij. Po gimnazijskem učnem načrtu z dne 20. marca 1909, št. 11.662 sestavil dr. Josip Pipenbacher. (1912)",
+"Pipenbacher, Josip",
+"1912",
+"Ljubljana (1912)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-316.html\" target=\"_blank\">ucb-316</a>",
+"Latinska vadnica za četrti razred gimnazij in realnih gimnazij. Po gimnazijskem učnem načrtu z dne 20. marca 1909, št. 11.662 sestavil dr. Josip Pipenbacher. (1913)",
+"Pipenbacher, Josip",
+"1913",
+"Ljubljana (1913)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-317.html\" target=\"_blank\">ucb-317</a>",
+"Latinska slovnica. Po gimnazijskem učnem načrtu z dne 20. marca 1909, št. 116.662 spisal Jos. Pipenbacher. (1910)",
+"Pipenbacher, Josip",
+"1910, 1913",
+"Ljubljana (1910)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-318.html\" target=\"_blank\">ucb-318</a>",
+"Latinska vadnica za prvi razred gimnazij in realnih gimnazij. Po gimnazijskem učnem načrtu z dne 20. marca 1903, št. 11.662 sestavil dr. Josip Pipenbacher. (1910)",
+"Pipenbacher, Josip",
+"1910, 1913",
+"Ljubljana (1910)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-319.html\" target=\"_blank\">ucb-319</a>",
+"Latinska vadnica za drugi razred gimnazij in realnih gimnazij. Po gimnazijskem učnem načrtu z dne 20. marca 1909, št. 11.662 sestavil dr. Josip Pipenbacher. (1911)",
+"Pipenbacher, Josip",
+"1911, 1918",
+"Ljubljana (1911)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-320.html\" target=\"_blank\">ucb-320</a>",
+"Krajnski vertnar, ali Poduzhenje, v' kratkim veliko sadnih dreves sarediti, jih s' zeplenjam poshlahtniti, in lepe verte k' velikim pridu sasaditi : I. Del. (1830)",
+"Pirc, Franc",
+"1830, 1834, 1835, 1845, 1863",
+"Ljubljana (1830)",
+"pouk kmetijstva"
+],
+                     [
+"<a href=\"ucb-321.html\" target=\"_blank\">ucb-321</a>",
+"Bukuvze şa rajtengo, ali Kratku poduzhenje v' rajtengi : sa fantizhe, inu dekleta gmajn kraynskeh ludy, katiri se othe rajtati nauzhiti (1781)",
+"Pohlin, Marko",
+"1781",
+"Ljubljana (1781)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-322.html\" target=\"_blank\">ucb-322</a>",
+"Abecedika : sa taiste, katiri se otshejo Krajnsko brati nauzhiti (1765)",
+"Pohlin, Marko",
+"1765, 1789, 1798, 1813",
+"Ljubljana (1765)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-323.html\" target=\"_blank\">ucb-323</a>",
+"Rastlinstvo : prirodopis za niže gimnazije in realke (1864)",
+"Pokorny, Alois",
+"1864, 1872",
+"Klagenfurt / Celovec (1864)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-324.html\" target=\"_blank\">ucb-324</a>",
+"Živalstvo : prirodopis za niže gimnazije in realke (1864)",
+"Pokorny, Alois",
+"1864, 1872, 1881",
+"Klagenfurt / Celovec (1864)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-325.html\" target=\"_blank\">ucb-325</a>",
+"Praktična slovensko-nemška gramatika. Del 1, Za II. in III. odred slovensko-nemških šol v c. k. avstrijanskih deželah (1857)",
+"Potočnik, Blaž",
+"1857, 1858, 1861, 1863, 1864, 1865, 1868",
+"Wien / Dunaj (1857)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-326.html\" target=\"_blank\">ucb-326</a>",
+"Grammatik der slowenischen Sprache (1849)",
+"Potočnik, Blaž",
+"1849, 1858",
+"Ljubljana (1849)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-327.html\" target=\"_blank\">ucb-327</a>",
+"Praktisches slovenisch-deutsches Sprachbuch : für die oberste Klasse der slovenisch-deutschen Hauptschulen im Kaiserthum Österreich (1857)",
+"Potočnik, Blaž; Močnik, Franc*",
+"1857, 1863, 1866, 1868",
+"Wien / Dunaj (1857)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-328.html\" target=\"_blank\">ucb-328</a>",
+"Latinske vadbe za tretji gimnazijski razred. Sestavil dr. L. Požar, c. kr. gimn. profesor. (1896)",
+"Požar, Lovro",
+"1896",
+"Ljubljana (1896)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-329.html\" target=\"_blank\">ucb-329</a>",
+"Latinske vadbe za četrti gimnazijski razred. Sestavil dr. L. Požar, c. kr. gimnaz. profesor. (1901)",
+"Požar, Lovro",
+"1901",
+"Ljubljana (1901)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-330.html\" target=\"_blank\">ucb-330</a>",
+"Slovensko-nemški abecednik = Slovenisch-deutches Namenbüchlein : (für Krain) (1858)",
+"Praprotnik, Andrej",
+"1856, 1858, 1862, 1865, 1866, 1867",
+"Wien / Dunaj (1856)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-331.html\" target=\"_blank\">ucb-331</a>",
+"Slovensko-nemški abecednik = Slovenisch-deutsche Fibel (1869)",
+"Praprotnik, Andrej",
+"1869, 1871, 1872, 1873, 1878",
+"Wien / Dunaj (1869)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-332.html\" target=\"_blank\">ucb-332</a>",
+"Zgledi za pervince, ki se brati in pisati ob enem uče 1855 (?)",
+"Praprotnik, Andrej",
+"1855 (?)",
+"Ljubljana 1855 (?)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-333.html\" target=\"_blank\">ucb-333</a>",
+"Drugo berilo za slovenske šole v c.k. avstrijanskih deželah (1857)",
+"Praprotnik, Andrej",
+"1857, 1861, 1862, 1865, 1866, 1871",
+"Wien / Dunaj (1857)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-334.html\" target=\"_blank\">ucb-334</a>",
+"Abecednik za slovenske ljudske šole (1883)",
+"Praprotnik, Andrej",
+"1883, 1891, 1895",
+"Ljubljana (1883)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-335.html\" target=\"_blank\">ucb-335</a>",
+"Slovenski Abecednik za pervi razred ljudskih šol (1869)",
+"Praprotnik, Andrej",
+"1869, 1870, 1871, 1873, 1875, 1877",
+"Wien / Dunaj (1869)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-336.html\" target=\"_blank\">ucb-336</a>",
+"Spisje za slovensko mladino (1852)",
+"Praprotnik, Andrej",
+"1852, 1866, 1873, 1881, 1887",
+"Ljubljana (1852)",
+""
+],
+                     [
+"<a href=\"ucb-337.html\" target=\"_blank\">ucb-337</a>",
+"Slovenska slovnica za pervence (1869)",
+"Praprotnik, Andrej",
+"1869, 1870, 1873, 1877, 1883, 1887",
+"Ljubljana (1869)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-338.html\" target=\"_blank\">ucb-338</a>",
+"Pervo Berilo in slovnica za drugi razred slovenskih šol. (S pesemsko prilogo.) (1872)",
+"Praprotnik, Andrej",
+"1872, 1875, 1876, 1878",
+"Wien / Dunaj (1872)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-339.html\" target=\"_blank\">ucb-339</a>",
+"Pervo berilo za slovenske šole v c. k. avstrijanskih deželah (1862)",
+"Praprotnik, Andrej; Močnik, Franc",
+"1862, 1863, 1865, 1867",
+"Wien / Dunaj (1862)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-340.html\" target=\"_blank\">ucb-340</a>",
+"Prva nemška slovnica in prvo nemško berilo za slovenske ljudske šole (1888)",
+"Praprotnik, Andrej; Razinger, Anton; Žumer, Andrej",
+"1888, 1892",
+"Ljubljana (1888)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-341.html\" target=\"_blank\">ucb-341</a>",
+"Slovensko-nemški abecednik za občne ljudske šole = Slovenisch-deutsche Fibel für allgemeine Volksschulen (1884)",
+"Preschern, Karl",
+"1884, 1885, 1887, 1888, 1890, 1891, 1893, 1896, 1897, 1900, 1901, 1907, 1908, 1910, 1911, 1912, 1913, 1914, 1916",
+"Wien / Dunaj (1884)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-342.html\" target=\"_blank\">ucb-342</a>",
+"Novi némshko-slovénshki bukvar, al A. B. C. otrokon léhko sastoplen = Neues Slovenisch-Deutsches der Fassungskraft der Kinder angemessenes A. B. C. : welches auserlesene, leichte und belehrende Aufgaben, Erzählungen und Unterhaltungen enthält (1814)",
+"Primic, Janez Nepomuk",
+"1814",
+"Graz / Gradec (1814)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-343.html\" target=\"_blank\">ucb-343</a>",
+"Abezeda sa Şlovénze katéri se hózhejo Şlovénsko brati nauzhiti (1812)",
+"Primic, Janez Nepomuk",
+"1812",
+"Graz / Gradec (1812)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-344.html\" target=\"_blank\">ucb-344</a>",
+"Némshko-slovénske branja : v' katérih se snajdejo rasne právlize, basnje ali fábule v' svésanim ino prostim govóru, pogóvori, pripovísti véstniga sadershánja, pésmi, vgánke, kratek obras histórije starih Slovánov, prigóvori, mnogitere korístne vade v' govorjenju, ino sgodbe svéte na kratkim (1813)",
+"Primic, Janez Nepomuk",
+"1813",
+"Graz / Gradec (1813)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-345.html\" target=\"_blank\">ucb-345</a>",
+"Mála molitvena kniga z potrejbnimi molítvami i vnógimi peszmami za katholicsánszko mladézen. Szpíszana po Pusztai Józsefi, skolniki. (1900)",
+"Pustai, Jóžef",
+"1900",
+"Szentgotthárd / Monošter (1900)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-346.html\" target=\"_blank\">ucb-346</a>",
+"Krscsánszko katholicsánszke cerkvene peszmi sz potrejbnimi molítvami i vnógími vogrszkimi peszmami. Za skolnike, katholicsánszko mladézen, ino za vszákoga pobozsnoga krscsenika (1893)",
+"Pusztai, József",
+"1893",
+"Budapest / Budimpešta (1893)",
+"glasba, verouk"
+],
+                     [
+"<a href=\"ucb-347.html\" target=\"_blank\">ucb-347</a>",
+"Besedni zaklad z nemško-slovenskim slovarčkom. K I. delu dr. K. Tumlirzeve jezikovne vadnice (1915)",
+"Rape, Andrej",
+"1915, 1917",
+"Wien / Dunaj (1915)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-348.html\" target=\"_blank\">ucb-348</a>",
+"Abezednik sa Şhole na Kmétih po zesarskih kraljévih Deshélah = Nahmenbüchlein zum Gebrauche der Landschulen in den kaiser. königl. Staaten (1816)",
+"Ravnikar, Matevž",
+"1816 (dve izdaji), 1818, 1822, 1825, 1826",
+"Ljubljana (1816)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-349.html\" target=\"_blank\">ucb-349</a>",
+"Prvo berilo in slovnica za slovenske ljudske šole (1882)",
+"Razinger, Anton; Žumer, Andrej",
+"1882, 1885, 1888, 1890, 1891, 1893, 1901, 1902 ",
+"Ljubljana (1882)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-350.html\" target=\"_blank\">ucb-350</a>",
+"Abecednik za slovenske ljudske šole (1880)",
+"Razinger, Anton; Žumer, Andrej",
+"1880, 1882, 1883, 1885, 1887, 1888, 1890, 1891, 1895, 1896",
+"Ljubljana (1880)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-351.html\" target=\"_blank\">ucb-351</a>",
+"Slovensko-nemški abecednik = Slovenisch-deutsche Fibel (1880)",
+"Razinger, Anton; Žumer, Andrej",
+"1880, 1882, 1884",
+"Ljubljana (1880)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-352.html\" target=\"_blank\">ucb-352</a>",
+"Naravoslovje alj fiziko po domače zložil K. Robida (1849)",
+"Robida, Karel",
+"1849, 1854",
+"Ljubljana (1849)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-353.html\" target=\"_blank\">ucb-353</a>",
+"Zgodbe sztároga i nóvoga zákona za sólszko detczo poleg knige Róder Alajosa na sztári szlovenszki jezik prenesene (1873)",
+"Róder, Alajos",
+"1873, 1880, 1891",
+"s. l. (1873)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-354.html\" target=\"_blank\">ucb-354</a>",
+"Kerščanski katolški nauk okrajšan. : spisek iz velikoga katekizma v prašanjih ino odgovorih (1850)",
+"Rozman, Jožef",
+"1850, 1852, 1857, 1861, 1867, 1868, 1872, 1876, 1881, 1883, 1885, 1886, 1889, 1892, 1893, 1895",
+"Wien / Dunaj (1850)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-355.html\" target=\"_blank\">ucb-355</a>",
+"Latinsko-slovenski slovnik za tretji in četrti gimnasijski razred. Izdelan po latinsko-nemškem J. A. Rožek-a (1882)",
+"Rožek, Johann Aleksander",
+"1882",
+"Ljubljana (1882)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-356.html\" target=\"_blank\">ucb-356</a>",
+"Kratko številoslovje alj navod, kako učence iz glave rajtati učiti (1852)",
+"Rudmaš, Simon",
+"1852",
+"Klagenfurt / Celovec (1852)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-357.html\" target=\"_blank\">ucb-357</a>",
+"Navod za nedelske shole. Kako je potreba uzhiti? (1830)",
+"Rudmaš, Simon",
+"1830",
+"Graz / Gradec (1830)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-358.html\" target=\"_blank\">ucb-358</a>",
+"Domoznanstvo poknežene grofije Goriške in Gradiščanske (1882)",
+"Rutar, Simon",
+"1882",
+"Wien / Dunaj (1882)",
+"Zemljepis, zgodovina"
+],
+                     [
+"<a href=\"ucb-359.html\" target=\"_blank\">ucb-359</a>",
+"Katolicsanszki katekizmus z glávnimi zgodbami biblije za soláre I.-II. razreda (1907)",
+"Sakovič, Jožef",
+"1907, 1909",
+"Budapest / Budimpešta (1907)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-360.html\" target=\"_blank\">ucb-360</a>",
+"Zgodovinski katekizem, ali celi keršansko-katolški navk v resničnih izgledih iz zgodovine za cerkev, šolo in dom",
+"Schmid, Johann Evangelist",
+"1853",
+"Klagenfurt / Celovec (1853)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-361.html\" target=\"_blank\">ucb-361</a>",
+"Čitanka za obče ljudske šole: izdaja v štirih delih. IV. del, Za šesto, sedmo in osmo šolsko leto štiri- in večrazrednih ljudskih šol (1909)",
+"Schreiner, Henrik ",
+"1909, 1911, 1913, 1915, 1917",
+"Wien / Dunaj (1909)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-362.html\" target=\"_blank\">ucb-362</a>",
+"Čitanka za obče ljudske šole: izdaja v treh delih. Za eno- do trirazredne šole. Del 2 (1914)",
+"Schreiner, Henrik ",
+"1914",
+"Wien / Dunaj (1914)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-363.html\" target=\"_blank\">ucb-363</a>",
+"Čitanka za obče ljudske šole : izdaja v treh delih. Za peto, šesto, sedmo in osmo šolsko leto eno-trirazrednih ljudskih šol. Del 3 (1915)",
+"Schreiner, Henrik ",
+"1915",
+"Wien / Dunaj (1915)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-364.html\" target=\"_blank\">ucb-364</a>",
+"Slovenska jezikovna vadnica za tesno združeni pouk v slovnici, pravopisju in spisju : v petih zvezkih. Zv. 5, Za šesto, sedmo in osmo šolsko leto (1914)",
+"Schreiner, Henrik; Bezjak, Janko",
+"1914",
+"Wien / Dunaj (1914)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-365.html\" target=\"_blank\">ucb-365</a>",
+"Slovenska jezikovna vadnica za tesno združeni pouk v slovnici, pravopisju in spisju : v petih zvezkih. Zv. 2, Za tretje šolsko leto (1903)",
+"Schreiner, Henrik; Bezjak, Janko",
+"1903, 1905, 1917",
+"Wien / Dunaj (1903)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-366.html\" target=\"_blank\">ucb-366</a>",
+"Slovenska jezikovna vadnica za tesno združeni poduk v slovnici, pravopisju in spisju : v petih zvezkih. Zv. 1, Za drugo šolsko leto (1903)",
+"Schreiner, Henrik; Bezjak, Janko",
+"1903, 1905, 1917",
+"Wien / Dunaj (1903)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-367.html\" target=\"_blank\">ucb-367</a>",
+"Slovenska jezikovna vadnica za tesno združeni pouk v slovnici, pravopisju in spisju : v petih zvezkih. Zv. 3, Za četrto šolsko leto (1905)",
+"Schreiner, Henrik; Bezjak, Janko",
+"1905, 1907, 1917",
+"Wien / Dunaj (1905)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-368.html\" target=\"_blank\">ucb-368</a>",
+"Slovenska jezikovna vadnica za tesno združeni pouk v slovnici, pravopisju in spisju : v petih zvezkih. Zv. 4, Za peto šolsko leto (1907)",
+"Schreiner, Henrik; Bezjak, Janko",
+"1907, 1918",
+"Wien / Dunaj (1907)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-369.html\" target=\"_blank\">ucb-369</a>",
+"Učne slike k ljudskošolskim berilom. II. del: Učne slike k berilom v Čitanki za obče ljudske šole, II. del in v Drugem berilu (1903)",
+"Schreiner, Henrik; Bezjak, Janko",
+"1903, 1905",
+"Ljubljana (1903)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-370.html\" target=\"_blank\">ucb-370</a>",
+"Prva nemška vadnica za slovenske občne ljudske šole = Erstes deutsches Übungsbuch hür slovenische allgemeine Volksschulen (1897)",
+"Schreiner, Henrik; Bezjak, Janko",
+"1897, 1899, 1900, 1901, 1903, 1904, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915",
+"Wien / Dunaj (1897)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-371.html\" target=\"_blank\">ucb-371</a>",
+"Anleitung zum Gebrauche des ersten deutschen Übungsbuches für slovenische allgemeine Volksschulen = Prva nemška vadnica za slovenske občne ljudske šole (1897)",
+"Schreiner, Henrik; Bezjak, Janko",
+"1897, 1903, 1911",
+"Wien / Dunaj (1897)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-372.html\" target=\"_blank\">ucb-372</a>",
+"Druga nemška vadnica za slovenske občne ljudske šole = Zweites deutsches Übungsbuch für slovenische allgemeine Volkschulen (1899)",
+"Schreiner, Henrik; Bezjak, Janko",
+"1899, 1900, 1901, 1903, 1906, 1907, 1909, 1910, 1911, 1913, 1914, 1917",
+"Wien / Dunaj (1899)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-373.html\" target=\"_blank\">ucb-373</a>",
+"Anleitung zum Gebrauche des zweiten deutschen Übungsbuches für slovenische allgemeine Volksschulen = Druga nemška vadnica za slovenske občne ljudske šole (1899)",
+"Schreiner, Henrik; Bezjak, Janko",
+"1899",
+"Wien / Dunaj (1899)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-374.html\" target=\"_blank\">ucb-374</a>",
+"Tretja nemška vadnica za slovenske obče ljudske šole = Drittes deutsches Übungsbuch für slovenische allgemeine Volksschulen (1903)",
+"Schreiner, Henrik; Bezjak, Janko",
+"1903, 1906, 1907, 1908, 1909, 1910, 1913, 1914",
+"Wien / Dunaj (1903)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-375.html\" target=\"_blank\">ucb-375</a>",
+"Učne slike k ljudskošolskim berilom. I. del, Učne slike k berilom v Začetnici in v Abecednikih (1902)",
+"Schreiner, Henrik; Bežek, Viktor",
+"1902",
+"Ljubljana (1902)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-376.html\" target=\"_blank\">ucb-376</a>",
+"Čitanka za obče ljudske šole. Izdaja v štirih delih. III. del. Za četrto in peto šolsko leto štiri- in večrazrednih ljudskih šol (1904)",
+"Schreiner, Henrik; Hubad, Franc",
+"1904, 1907, 1909, 1911, 1912, 1915, 1916, 1918",
+"Wien / Dunaj (1904)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-377.html\" target=\"_blank\">ucb-377</a>",
+"Čitanka za obče ljudske šole. Izdaja v štirih delih. II del. Za drugo in tretjo šolsko leto štiri- in večrazrednih šol (1902)",
+"Schreiner, Henrik; Hubad, Franc",
+"1902, 1904, 1907, 1908, 1910, 1911, 1912, 1913, 1916, 1918",
+"Wien / Dunaj (1902)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-378.html\" target=\"_blank\">ucb-378</a>",
+"Navodilo k II. delu čitank za obče ljudske šole : (izdaja v štirih delih) (1902)",
+"Schreiner, Henrik; Hubad, Franc",
+"1902",
+"Wien / Dunaj (1902)",
+"Metodika, slovenščina"
+],
+                     [
+"<a href=\"ucb-379.html\" target=\"_blank\">ucb-379</a>",
+"Navodilo k III. delu čitank za obče ljudske šole : (izdaja v štirih delih) (1904)",
+"Schreiner, Henrik; Hubad, Franc",
+"1904",
+"Wien / Dunaj (1904)",
+"Metodika, slovenščina"
+],
+                     [
+"<a href=\"ucb-380.html\" target=\"_blank\">ucb-380</a>",
+"Prirodopisni pouk v ljudski šoli. Po načelih Friderik Junge-jevih (1895)",
+"Schreiner, Henrik; Koprivnik, Janez",
+"1895",
+"Maribor (1895)",
+"Naravoslovje"
+],
+                     [
+"<a href=\"ucb-381.html\" target=\"_blank\">ucb-381</a>",
+"Zgodbe Svetega pisma stare in nove zaveze : za katoliške ljudske šole (1863)",
+"Schuster, Ignaz",
+"1863, 1864, 1867, 1868, 1869, 1879, 1880, 1881, 1884, 1885, 1887, 1889, 1893, 1896, 1900, 1901, 1902, 1903, 1904, 1907, 1909, 1911, 1914",
+"Wien / Dunaj (1863)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-382.html\" target=\"_blank\">ucb-382</a>",
+"Fizika za nižje razrede srednjih šol : v berilo je vtisnenih 200 slik (1883)",
+"Senekovič, Andrej",
+"1883, 1902, 1910",
+"Ljubljana (1883)",
+"Fizika"
+],
+                     [
+"<a href=\"ucb-383.html\" target=\"_blank\">ucb-383</a>",
+"Osnovni nauki iz fizike in kemije za ljudske in meščanske šole : v treh oddelkih. I. del. (1892)",
+"Senekovič, Andrej",
+"1892, 1898, 1904, 1912",
+"Ljubljana (1892)",
+"Fizika, Kemija"
+],
+                     [
+"<a href=\"ucb-384.html\" target=\"_blank\">ucb-384</a>",
+"Osnovni nauki iz fizike in kemije za meščanske šole : v treh stopnjah. II. stopnja. (1894)",
+"Senekovič, Andrej",
+"1894, 1903, 1913",
+"Ljubljana (1894)",
+"Fizika, Kemija"
+],
+                     [
+"<a href=\"ucb-385.html\" target=\"_blank\">ucb-385</a>",
+"Osnovni nauki iz fizike in kemije za meščanske šole : v treh stopnjah. III. stopnja. (1899)",
+"Senekovič, Andrej",
+"1899, 1914",
+"Ljubljana (1899)",
+"Fizika, Kemija"
+],
+                     [
+"<a href=\"ucb-386.html\" target=\"_blank\">ucb-386</a>",
+"Slovenska čitanka za prvi razred srednjih šol (1889)",
+"Sket, Jakob ",
+"1889",
+"Klagenfurt / Celovec (1889)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-387.html\" target=\"_blank\">ucb-387</a>",
+"Slovenska čitanka za četrti razred srednjih šol (1893)",
+"Sket, Jakob ",
+"1893",
+"Klagenfurt / Celovec (1893)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-388.html\" target=\"_blank\">ucb-388</a>",
+"Slovenska čitanka za tretji razred srednjih šol (1892)",
+"Sket, Jakob ",
+"1892, 1906",
+"Klagenfurt / Celovec (1892)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-389.html\" target=\"_blank\">ucb-389</a>",
+"Slovenisches Sprach- und Übungsbuch : nebst einer Chrestomathie und einem slovenisch-deutschen und deutsch-slovenischen Wörterverzeichniß : für den ersten Unterricht (1879)",
+"Sket, Jakob ",
+"1879, 1882, 1885, 1888, 1893, 1903, 1913",
+"Klagenfurt / Celovec (1879)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-390.html\" target=\"_blank\">ucb-390</a>",
+"Slovenisches Sprach- und Übungsbuch : nebst Chrestomatie und slovenisch-deutschem und deutsch-slovenischem Wörterverzeichniss : für den ersten Unterricht (1879)",
+"Sket, Jakob; Podboj, Štefan (soavtor, 1913)",
+"1879, 1882, 1885, 1888, 1893, 1903, 1913",
+"Klagenfurt / Celovec (1879)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-391.html\" target=\"_blank\">ucb-391</a>",
+"Slovenska čitanka za četrti razred srednjih šol (1912)",
+"Sket, Jakob; Wester, Josip ",
+"1912",
+"Klagenfurt / Celovec (1912)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-392.html\" target=\"_blank\">ucb-392</a>",
+"Slovenska čitanka za prvi razred dekliškega liceja (1910)",
+"Sket, Jakob; Wester, Josip ",
+"1910",
+"Klagenfurt / Celovec (1910)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-393.html\" target=\"_blank\">ucb-393</a>",
+"Slovenska čitanka za prvi razred srednjih šol (1910)",
+"Sket, Jakob; Wester, Josip ",
+"1910",
+"Klagenfurt / Celovec (1910)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-394.html\" target=\"_blank\">ucb-394</a>",
+"Slovenska čitanka za drugi razred srednjih šol (1891)",
+"Sket, Jakob; Wester, Josip ",
+"1891, 1901, 1911",
+"Klagenfurt / Celovec (1891)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-395.html\" target=\"_blank\">ucb-395</a>",
+"Mali katekizem za pervošolce (1851)",
+"Slomšek, Anton Martin",
+"1851, 1852, 1854, 1855, 1858, 1860, 1862, 1863, 1865, 1869, 1873",
+"Wien / Dunaj (1851)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-396.html\" target=\"_blank\">ucb-396</a>",
+"Malo berilo za slovensko-nemške šole = Kleines Lesebuch für slovenisch-deutsche Schulen (1853)",
+"Slomšek, Anton Martin",
+"1853, 1857, 1860, 1863, 1866, 1864, 1868",
+"Wien / Dunaj (1853)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-397.html\" target=\"_blank\">ucb-397</a>",
+"Veliko berilo in pogovorilo za vajo učencov drugega odreda (1855)",
+"Slomšek, Anton Martin",
+"1855, 1856",
+"Wien / Dunaj (1855)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-398.html\" target=\"_blank\">ucb-398</a>",
+"Veliko berilo za slovensko-nemške šole = Grosses Lesebuch für slovenisch-deutsche Schulen (1855)",
+"Slomšek, Anton Martin",
+"1855, 1856, 1857, 1858, 1863, 1867, 1870",
+"Wien / Dunaj (1855)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-399.html\" target=\"_blank\">ucb-399</a>",
+"Nemška slovnica za slovenske šole (1852)",
+"Slomšek, Anton Martin",
+"1852, 1853",
+"Wien / Dunaj (1852)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-400.html\" target=\"_blank\">ucb-400</a>",
+"Ponovilo potrebnih naukov za nedelske šole na kmetih (1854)",
+"Slomšek, Anton Martin",
+"1854, 1868",
+"Wien / Dunaj (1854)",
+"Splošni ponavljalni pouk"
+],
+                     [
+"<a href=\"ucb-401.html\" target=\"_blank\">ucb-401</a>",
+"Sveto opravilo za šolarje (1846)",
+"Slomšek, Anton Martin",
+"1846, 1860, 1866, 1873",
+"Celje (1846)",
+"glasba, verouk"
+],
+                     [
+"<a href=\"ucb-402.html\" target=\"_blank\">ucb-402</a>",
+"Šola vesela lepega petja za pridno šolsko mladino (1853)",
+"Slomšek, Anton Martin",
+"1853",
+"Klagenfurt / Celovec (1853)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-403.html\" target=\"_blank\">ucb-403</a>",
+"Malo berilo za pervošolce (1852)",
+"Slomšek, Anton Martin / Jožef Rozman *",
+"1852, 1854, 1857",
+"Wien / Dunaj (1852)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-404.html\" target=\"_blank\">ucb-404</a>",
+"Abecednica za slovenske učence na deželi za I. leto (1849)",
+"Somer, Gregor",
+"1849",
+"Klagenfurt / Celovec (1849)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-405.html\" target=\"_blank\">ucb-405</a>",
+"Vijenac jedno- i dvoglasnih pjesama za mladež pučkih škola (1910)",
+"Sprachmann, Ivan ",
+"1910",
+"Wien / Dunaj (1910)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-406.html\" target=\"_blank\">ucb-406</a>",
+"Molitve in premishlovanja per objiskovanju shtirih k' sadoblenju odpustika svetiga-leta odlozhenih zerkva : katerim je spredpostavljen kratki nauk od svetiga léta 1826 : s' perstav'kam 41 zerkvenih ino drugih pesm sa kmete ino mlade ljudi (1826)",
+"Stanič, Valentin ",
+"1826",
+"Udine / Videm (1826)",
+"glasba, verouk"
+],
+                     [
+"<a href=\"ucb-407.html\" target=\"_blank\">ucb-407</a>",
+"Drugi perstavik starih ino novih zerkvenih ino drugih peşem, h' molitvam ino premişhlovanjam sa şveto leto (1826)",
+"Stanič, Valentin ",
+"1826",
+"Gorizia / Gorica (1826)",
+"glasba, verouk"
+],
+                     [
+"<a href=\"ucb-408.html\" target=\"_blank\">ucb-408</a>",
+"II. peşme sa kmete ino mlade ljudi (1838)",
+"Stanič, Valentin ",
+"1838",
+"Gorizia / Gorica (1838)",
+"glasba, verouk"
+],
+                     [
+"<a href=\"ucb-409.html\" target=\"_blank\">ucb-409</a>",
+"Peşme sa kmete ino mlade ljudí (1822)",
+"Stanič, Valentin ",
+"1822",
+"Gorizia / Gorica (1822)",
+"glasba, verouk"
+],
+                     [
+"<a href=\"ucb-410.html\" target=\"_blank\">ucb-410</a>",
+"Šopek mičnih napevov za šolo in dom (1878)",
+"Stegnar, Feliks (zbiratelj, urednik)",
+"1878",
+"Ljubljana (1878)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-411.html\" target=\"_blank\">ucb-411</a>",
+"Računica za ponavljalne, oziroma za kmetijsko-nadaljevalne šole (1911)",
+"Stiasny, Ljudevit",
+"1911, 1912, 1914",
+"Wien / Dunaj (1911)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-412.html\" target=\"_blank\">ucb-412</a>",
+"Praktični računar : zbirka praktičnih računskih nalog. 1, Številni obseg od 1 do 20 (1912)",
+"Stiasny, Ljudevit",
+"1912",
+"Krško (1912)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-413.html\" target=\"_blank\">ucb-413</a>",
+"Berilo za ponavljalne, oziroma za kmetijsko ponavljalne šole (1912)",
+"Stiasny, Ljudevit",
+"1912, 1914",
+"Wien / Dunaj (1912)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-414.html\" target=\"_blank\">ucb-414</a>",
+"Kratka zgodovina katoliške cerkve za šole : z 28 podobami (1904)",
+"Stroj, Alojzij",
+"1904",
+"Klagenfurt / Celovec (1904)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-415.html\" target=\"_blank\">ucb-415</a>",
+"Liturgika : nauk o bogočastnih obredih sv. katoliške Cerkve (1907)",
+"Stroj, Alojzij",
+"1907, 1916",
+"Ljubljana (1907)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-416.html\" target=\"_blank\">ucb-416</a>",
 "Katoliški verouk za realko, učiteljišče in dekliški licej. Knj. 1, Verske resnice : (dogmatika) (1912)",
 "Svetina, Ivan",
 "1912, 1913",
 "Ljubljana (1912)",
-"verouk"
+"Verouk"
+],
+                     [
+"<a href=\"ucb-417.html\" target=\"_blank\">ucb-417</a>",
+"Krátki návuk vogrszkoga jezika za zacsetníke, vödáni od Szalay Imrea. Na vandalszka vüsta prenesseni po Kossics Jó'sefi, gornyo-szinicskom plebánosi. (1833)",
+"Szalay, Imre",
+"1833",
+"Graz / Gradec (1833)",
+"Madžarščina"
+],
+                     [
+"<a href=\"ucb-418.html\" target=\"_blank\">ucb-418</a>",
+"Deutsch-Slowenisches Wörterbuch zu Prof. K. A. Madieras deutschen Lesebüchern für die 1. und 2. Klasse an Mittelschulen (1873)",
+"Šolar, Janez",
+"1873",
+"Ljubljana (1873)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-419.html\" target=\"_blank\">ucb-419</a>",
+"Deutsches Lesebuch für die 1. und 2. Klasse slovenisch-utraquistischer Mittelschulen und verwandter Lehranstalten (1897)",
+"Štritof, Anton",
+"1897, 1906, 1912",
+"Wien / Dunaj (1897)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-420.html\" target=\"_blank\">ucb-420</a>",
+"Deutsches Lesebuch für die 3. Classe slovenisch-utraquistischer Mittelschulen und verwandter Lehranstalten (1901)",
+"Štritof, Anton",
+"1901, 1910",
+"Wien / Dunaj (1901)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-421.html\" target=\"_blank\">ucb-421</a>",
+"Deutsches Lesebuch für die 4. Classe slovenisch-utraquistischer Mittelschulen und verwandter Lehranstalten (1901)",
+"Štritof, Anton",
+"1901, 1910",
+"Wien / Dunaj (1901)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-422.html\" target=\"_blank\">ucb-422</a>",
+"Slovenska slovnica za srednje šole (1884)",
+"Šuman, Josip",
+"1884",
+"Klagenfurt / Celovec (1884)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-423.html\" target=\"_blank\">ucb-423</a>",
+"Knige 'zoltárszke. Szlovencsene po Terplán Sándori. (1848)",
+"Terplán, Aleksander",
+"1848, 1883",
+"Köszeg (1848)",
+"Verouk, pouk branja"
+],
+                     [
+"<a href=\"ucb-424.html\" target=\"_blank\">ucb-424</a>",
+"Latinska slovnica. Spisal dr. Jos. Tominšek. (1906)",
+"Tominšek, Josip",
+"1906",
+"Ljubljana (1906)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-425.html\" target=\"_blank\">ucb-425</a>",
+"Grška slovnica (1908)",
+"Tominšek, Josip",
+"1908",
+"Ljubljana (1908)",
+"Stara grščina"
+],
+                     [
+"<a href=\"ucb-426.html\" target=\"_blank\">ucb-426</a>",
+"Grška vadnica (1908)",
+"Tominšek, Josip",
+"1908",
+"Ljubljana (1908)",
+"Stara grščina"
+],
+                     [
+"<a href=\"ucb-427.html\" target=\"_blank\">ucb-427</a>",
+"ABC v podobah in besedi (1869)",
+"Tomšič, Ivan",
+"1869",
+"Ljubljana (1869)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-428.html\" target=\"_blank\">ucb-428</a>",
+"Navod k naučenju italijanskega jezika za slovenske ljudske šole = Avviamento ad imperare l' italiano per scuole popolari slovene (1883)",
+"Valentič, Anton",
+"1883, 1895, 1896, 1897, 1902, 1907, 1909, 1912, 1914",
+"Wien / Dunaj (1883)",
+"Italijanščina"
+],
+                     [
+"<a href=\"ucb-429.html\" target=\"_blank\">ucb-429</a>",
+"Navod k naučenju italijanskega jezika za slovenske ljudske šole. Del 2 (1887)",
+"Valentič, Anton",
+"1887, 1897, 1904, 1908, 1910, 1914, 1917",
+"Wien / Dunaj (1887)",
+"Italijanščina"
+],
+                     [
+"<a href=\"ucb-430.html\" target=\"_blank\">ucb-430</a>",
+"Kemični poskusi s preprostimi sredstvi (1910)",
+"Vales, Alfons",
+"1910",
+"Ljubljana (1910)",
+"Kemija"
+],
+                     [
+"<a href=\"ucb-431.html\" target=\"_blank\">ucb-431</a>",
+"Kmetijska kemija, to je, Natorne postave in kemijske resnice obernjene na človeško in živalsko življenje, na kmetijstvo in njegove pridelke (1847)",
+"Vertovec, Matija",
+"1847, 1856",
+"Ljubljana (1847)",
+"pouk kmetijstva"
+],
+                     [
+"<a href=\"ucb-432.html\" target=\"_blank\">ucb-432</a>",
+"Vinoréja (1844)",
+"Vertovec, Matija",
+"1844 (kot priloga Kmetijskih in rokodelskih novic), 1845",
+"Ljubljana (1844)",
+"pouk kmetijstva"
+],
+                     [
+"<a href=\"ucb-433.html\" target=\"_blank\">ucb-433</a>",
+"Kershanski navuk sa Illirske deshele : vsét is Katehisma sa vse zerkve Franzoskiga zesarstva (1811)",
+"Vodnik, Valentin",
+"1811, 1812",
+"Ljubljana (1811)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-434.html\" target=\"_blank\">ucb-434</a>",
+"Abezeda sa perve shole (1811)",
+"Vodnik, Valentin",
+"1811",
+"Ljubljana (1811)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-435.html\" target=\"_blank\">ucb-435</a>",
+"Pismenost ali Gramatika sa perve shole (1811)",
+"Vodnik, Valentin",
+"1811",
+"Ljubljana (1811)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-436.html\" target=\"_blank\">ucb-436</a>",
+"Abezéda ali Asbuka, Das ABC-Buch, L'Abécé (1812)",
+"Vodnik, Valentin",
+"1812",
+"Ljubljana (1812)",
+"Slovenščina, nemščina, francoščina"
+],
+                     [
+"<a href=\"ucb-437.html\" target=\"_blank\">ucb-437</a>",
+"Vodnikova Krajnska pismenost okrajšana za male šole (1847)",
+"Vodnik, Valentin",
+"1847, 1854",
+"Trieste / Trst (1847)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-438.html\" target=\"_blank\">ucb-438</a>",
+"Geschichte des Herzogthums Krain, des Gebiethes von Triest und der Grafschaft Görz (1809)",
+"Vodnik, Valentin",
+"1809, 1812, 1817, 1820, 1825",
+"Wien / Dunaj (1809)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-439.html\" target=\"_blank\">ucb-439</a>",
+"Kratke zgodbe svetega pisma Stare in Nove zaveze : za nižje razrede ljudskih šol (1906)",
+"Volc, Josip",
+"1906, 1916",
+"Ljubljana (1906)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-440.html\" target=\"_blank\">ucb-440</a>",
+"Velike Zgodbe svetega pisma stare in nove zaveze : za višje razrede ljudskih šol in za meščanske šole (1909)",
+"Volc, Josip",
+"1909",
+"Ljubljana (1909)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-441.html\" target=\"_blank\">ucb-441</a>",
+"Pripovesti iz zgodovine Stajerske (1875)",
+"von Krones, Franz ",
+"1875",
+"Graz / Gradec (1875)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-442.html\" target=\"_blank\">ucb-442</a>",
+"Zgodovinske povesti za meščanske šole, II. stopnja (1893)",
+"Vrhovec, Ivan",
+"1893",
+"Ljubljana (1893)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-443.html\" target=\"_blank\">ucb-443</a>",
+"Zgodovinske povesti za meščanske šole, III. stopnja (1893)",
+"Vrhovec, Ivan",
+"1893",
+"Ljubljana (1893)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-444.html\" target=\"_blank\">ucb-444</a>",
+"Zgodovinske povesti za meščanske šole, I. stopnja (1892-1894)",
+"Vrhovec, Ivan",
+"1892-1894",
+"Ljubljana (1892-1894)",
+"zgodovina"
+],
+                     [
+"<a href=\"ucb-445.html\" target=\"_blank\">ucb-445</a>",
+"Zemljepis za prvi gimnazijski razred (1897)",
+"Vrhovec, Ivan",
+"1897",
+"Ljubljana (1897)",
+"zemljepis"
+],
+                     [
+"<a href=\"ucb-446.html\" target=\"_blank\">ucb-446</a>",
+"Početni nauk o petji za ljudske šole (1894)",
+"Weinwurm, Rudolf ",
+"1894",
+"Ljubljana (1894)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-447.html\" target=\"_blank\">ucb-447</a>",
+"Moje prvo berilo : za obče ljudske šole (1912)",
+"Wider, Karel",
+"1912, 1913, 1916, 1917, 1918",
+"Ljubljana (1912)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-448.html\" target=\"_blank\">ucb-448</a>",
+"Latinske vadbe za prvi gymnasijski razred. Sestavil Fr. Wiesthaler, c. kr. gymn. professor. (1885)",
+"Wiesthaler, Fran",
+"1885, 1892, 1898, 1910",
+"Ljubljana (1885)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-449.html\" target=\"_blank\">ucb-449</a>",
+"Latinske vadbe za drugi gymnasijski razred (1886)",
+"Wiesthaler, Fran",
+"1886, 1896, 1908",
+"Ljubljana (1886)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-450.html\" target=\"_blank\">ucb-450</a>",
+"Slovennska grammatika oder Georg Sellenko's Wendische Sprachlehre : in deutsch und wendisches Vortrag : mittels welcher sowohl der Deutsche als der Wendische auf die leichteste Art diese Sprache regelrichtig zu reden und zu schreiben von selbsten erlernen kann (1791)",
+"Zagajšek, Mihael",
+"1791",
+"Celje (1791)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-451.html\" target=\"_blank\">ucb-451</a>",
+"Umno kmetovanje in gospodarstvo : štirje deli in pristavek (1854)",
+"Zalokar, Janez",
+"1854",
+"Ljubljana (1854)",
+"pouk kmetijstva"
+],
+                     [
+"<a href=\"ucb-452.html\" target=\"_blank\">ucb-452</a>",
+"Keršanski nauk za pervi in drugi razred (1883)",
+"Zupan, Simon",
+"1883, 1884, 1888, 1889, 1892, 1894",
+"Ljubljana (1883)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-453.html\" target=\"_blank\">ucb-453</a>",
+"Keršanski nauk za pervi razred (1880)",
+"Zupan, Simon",
+"1880",
+"Ljubljana (1880)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-454.html\" target=\"_blank\">ucb-454</a>",
+"Latinsko-slovenske vaje za I. gimnasijski razred. Izdelal po Jul. Alb. Dünnebier-ju S. Žepič, profesor gimnasijski. (1875)",
+"Žepič, Sebastijan",
+"1875",
+"Novo Mesto (1875)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-455.html\" target=\"_blank\">ucb-455</a>",
+"Latinsko-slovenske vaje za II. gimnasijski razred. Izdelal po Ivanu Aleks. Rožeku S. Žepič, profesor gimnasijski. (1875)",
+"Žepič, Sebastijan",
+"1875",
+"Novo Mesto (1875)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-456.html\" target=\"_blank\">ucb-456</a>",
+"Slovar k 'Latinskim vajam' za I. in II. razred gimnasijski, I. del (1875)",
+"Žepič, Sebastijan",
+"1875",
+"Novo Mesto (1875)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-457.html\" target=\"_blank\">ucb-457</a>",
+"Slovar k 'Latinskim vajam' za I. in II. razred gimnasijski, II. del (1875)",
+"Žepič, Sebastijan",
+"1875",
+"Novo Mesto (1875)",
+"Latinščina"
+],
+                     [
+"<a href=\"ucb-458.html\" target=\"_blank\">ucb-458</a>",
+"Narodne pesmi za mladino : II. Stopnja (1911)",
+"Žirovnik, Janko ",
+"1911",
+"Ljubljana (1911)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-459.html\" target=\"_blank\">ucb-459</a>",
+"Narodne pesmi za mladino : I. stopnja (1910)",
+"Žirovnik, Janko ",
+"1910",
+"Ljubljana (1910)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-460.html\" target=\"_blank\">ucb-460</a>",
+"Narodne pesmi za šolsko mladino : I. zvezek (1907)",
+"Žirovnik, Janko ",
+"1907",
+"Ljubljana (1907)",
+"Glasba, slovenščina"
+],
+                     [
+"<a href=\"ucb-461.html\" target=\"_blank\">ucb-461</a>",
+"Abecednica s podobami za čitanje in čtetje (1873)",
+"Žnidarčič, Andrej",
+"1873",
+"Klagenfurt / Celovec (1873)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-462.html\" target=\"_blank\">ucb-462</a>",
+"Vaje v poštevanji za učence II. in III. razreda ljudskih šol v avstrijanskem cesarstvu (1854)",
+"",
+"1854",
+"Wien / Dunaj (1854)",
+"Matematika"
+],
+                     [
+"<a href=\"ucb-463.html\" target=\"_blank\">ucb-463</a>",
+"Nouvi zákon ali Testamentom goszpodna nasega Jezusa Krisztusa zdaj oprvics z grcskoga na sztári szlovenszki jezik obrnyeni po Stevan Küzmicsi Surdánszkom F. (1771)",
+"",
+"1771, 1817, 1848, 1883",
+"Halle (1771)",
+"Verouk, pouk branja"
+],
+                     [
+"<a href=\"ucb-464.html\" target=\"_blank\">ucb-464</a>",
+"Mali katekizem za obcsinszke lüdszke sole (1880)",
+"",
+"ok. 1880",
+"Radkersburg / Radgona (1880)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-465.html\" target=\"_blank\">ucb-465</a>",
+"Kershanski katolshki nauk sa male shóle na kmétih, vsét is vélikiga katekisma, sapovédaniga po z. k. Estrajshkih dershavah ",
+"",
+"1834, 1835, 1840, 1843, 1844, 1847",
+"Wien / Dunaj (1834)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-466.html\" target=\"_blank\">ucb-466</a>",
+"Kęrščanskę nauk za slovénske šole poleg katekizma po c. k. dęržavah",
+"",
+"1831",
+"Ljubljana (1831)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-467.html\" target=\"_blank\">ucb-467</a>",
+"Keršanski katolski nauk za drugo pervinskih šol",
+"",
+"1846",
+"Trieste / Trst (1846)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-468.html\" target=\"_blank\">ucb-468</a>",
+"Mali katekizem v' vprašanjih in odgovorih",
+"",
+"1846",
+"Trieste / Trst (1846)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-469.html\" target=\"_blank\">ucb-469</a>",
+"Veliki katekizem za ljudske šole (1861)",
+"",
+"1861, 1863, 1877, 1880, 1882, 1885, 1887, 1889, 1890, 1892, 1893 [standardna in revidirana izdaja], 1896",
+"Wien / Dunaj (1861)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-470.html\" target=\"_blank\">ucb-470</a>",
+"Mali katekizem (1880)",
+"",
+"1880, 1881, 1885, 1886, 1887, 1889 [standardna in revidirana izdaja], 1890, 1893, 1894, 1896 [pregledana izdaja]",
+"Wien / Dunaj (1880)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-471.html\" target=\"_blank\">ucb-471</a>",
+"Mali katekizem v vprašanjih in odgovorih : za krajnske šole (1854)",
+"",
+"1854",
+"Wien / Dunaj (1854)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-472.html\" target=\"_blank\">ucb-472</a>",
+"Mali katekizem v vprašanjih in odgovorih za katoliške ljudske šole v avstrijanskem cesarstvu (1863)",
+"",
+"1863, 1871, 1875, 1877",
+"Wien / Dunaj (1863)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-473.html\" target=\"_blank\">ucb-473</a>",
+"Keršanski Katolški Nauk za drugo pervinsko šolo (1859)",
+"",
+"1859, 1862",
+"Wien / Dunaj (1859)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-474.html\" target=\"_blank\">ucb-474</a>",
+"Keršanski nauk v vprašanjih in odgovorih za četerti razred začetnih šol (1863)",
+"",
+"1863, 1870, 1875, 1880, 1882, 1886",
+"Wien / Dunaj (1863)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-475.html\" target=\"_blank\">ucb-475</a>",
+"Sveti Listi, Berila in Evangelji za nedélje in praznike celega leta in vse dni svetega posta : z navadnimi molitvami pri službi božji (1863)",
+"",
+"1863, 1865, 1869, 1879, 1881, 1883, 1884, 1886, 1888, 1890, 1898, 1911",
+"Wien / Dunaj (1863)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-476.html\" target=\"_blank\">ucb-476</a>",
+"Srednji katekizem za ljudske šole (1889)",
+"",
+"1889, 1890, 1891, 1892, 1895, 1896, 1897",
+"Wien / Dunaj (1889)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-477.html\" target=\"_blank\">ucb-477</a>",
+"Veliki katekizem ali krščanski nauk (1896)",
+"",
+"1896, 1898, 1902, 1905, 1908, 1913",
+"Ljubljana (1896)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-478.html\" target=\"_blank\">ucb-478</a>",
+"Mali katekizem ali krščanski nauk (1897)",
+"",
+"1897, 1898, 1901, 1903, 1905, 1907, 1911",
+"Ljubljana (1897)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-479.html\" target=\"_blank\">ucb-479</a>",
+"Srednji katekizem ali krščanski nauk (1897)",
+"",
+"1897, 1898, 1900, 1903, 1904, 1905, 1907, 1910, 1913",
+"Ljubljana (1897)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-480.html\" target=\"_blank\">ucb-480</a>",
+"Mali katekizem ali krščanski nauk (1898)",
+"",
+"1898",
+"Klagenfurt / Celovec (1898)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-481.html\" target=\"_blank\">ucb-481</a>",
+"Srednji katekizem ali krščanski nauk (1898)",
+"",
+"1898, 1912",
+"Klagenfurt / Celovec (1898)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-482.html\" target=\"_blank\">ucb-482</a>",
+"Veliki katekizem ali krščanski nauk (1898)",
+"",
+"1898, 1911",
+"Klagenfurt / Celovec (1898)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-483.html\" target=\"_blank\">ucb-483</a>",
+"Ta veliki katechismuş şpraşhanjam, inu ş odgovoram sa zessarşke kralove deshele inu şholle : is nemşchkiga na şlovinşki jesik prepissan (med 1780 in 1785)",
+"",
+"med 1780 in 1785, med 1780 in 1800, 1783",
+"Graz / Gradec (med 1780 in 1785)",
+"Verouk"
+],
+                     [
+"<a href=\"ucb-484.html\" target=\"_blank\">ucb-484</a>",
+"Nov popravleni plateltaf ali Bukve teh zherk, inu besedi, sa usse katęri sé ozhjo Krajnsku brâti is fundamenta vuzhíti (1784)",
+"",
+"1784",
+"Ljubljana (1784)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-485.html\" target=\"_blank\">ucb-485</a>",
+"Abezednik sa shóle na kmétih, v' zesar. kralj. dershavah (1834)",
+"",
+"1834, 1835, 1837, 1842, 1845, 1850",
+"Wien / Dunaj (1834)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-486.html\" target=\"_blank\">ucb-486</a>",
+"Abecednik za šole na kmétih (1850)",
+"",
+"1850, 1851, 1855",
+"Trieste / Trst (1850)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-487.html\" target=\"_blank\">ucb-487</a>",
+"Abecednik za slovenske šole (1850)",
+"",
+"1850, 1852, 1853, 1854, 1862, 1867",
+"Wien / Dunaj (1850)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-488.html\" target=\"_blank\">ucb-488</a>",
+"Podučno berilo za mladost. Spisali slovenski učitelji (1879)",
+"",
+"1879",
+"Ljubljana (1879)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-489.html\" target=\"_blank\">ucb-489</a>",
+"Male povéşti : sa méstine shole po zesarskih kraljévih deshélah = Kleine Erzählungen zum Gebrauche der Stadtschulen in den kaiserl. königl. Staaten (1816)",
+"",
+"1816 (?), 1826, 1835, 1837, 1844, 1845, 1848",
+"Ljubljana (1816?)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-490.html\" target=\"_blank\">ucb-490</a>",
+"Kratke perpovédanja (povésti) sa slovenske shkole po desheli v' zesarskih kral. Dershavah = Kleine Erzählungen zum Gebrauche für Landschulen in den kaiserl. königl. Staaten (1815)",
+"",
+"1815, 1822, 1831, 1836, 1839, 1844, 1846, 1847, 1848",
+"Graz / Gradec (1815)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-491.html\" target=\"_blank\">ucb-491</a>",
+"Male povésti : sa şhole na kmétih po zesarskih kraljévih deshélah = Kleine Erzählungen zum Gebrauche der Landschulen in den kaiserl. königl. Staaten (1816)",
+"",
+"1816, 1822, 1826, 1839, 1841, 1848",
+"Ljubljana (1816)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-492.html\" target=\"_blank\">ucb-492</a>",
+"Majhine perpovedvanja = Kleine Erzählungen (1808)",
+"",
+"1808, 1809",
+"Ljubljana (1808)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-493.html\" target=\"_blank\">ucb-493</a>",
+"Abecednik za slovenske šole (1857)",
+"",
+"1857, 186?, 1862",
+"Wien / Dunaj (1857)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-494.html\" target=\"_blank\">ucb-494</a>",
+"Abecednik za slovensko-nemške šole = Namenbüchlein für Slovenisch-deutsche Schulen (1854)",
+"",
+"1854, 1858, 1860, 1862, 1866, 1867",
+"Wien / Dunaj (1854)",
+"Slovenščina, nemščina"
+],
+                     [
+"<a href=\"ucb-495.html\" target=\"_blank\">ucb-495</a>",
+"ABC bukvize sa Slovenze : taku dobru sa te odsrashene, koker te maihine otroke : kateri se brati navuzhiti shelijo (1810)",
+"",
+"1810",
+"Maribor (1810)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-496.html\" target=\"_blank\">ucb-496</a>",
+"Nov popravleni plateltaf ali Bukve teh zherk inu besedi : sa usse kateri sé ozhjo Krajnsku brâti is fundamenta vuzhiti (med 1787 in 1814)",
+"",
+"med 1787 in 1814, 18--",
+"Maribor (med 1787 in 1814)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-497.html\" target=\"_blank\">ucb-497</a>",
+"ABC Bukvize sa te, kateri se shelijo navuzhiti, slovenski Druk brati, inu posnati. (1820)",
+"",
+"1820",
+"s. l. (1820)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-498.html\" target=\"_blank\">ucb-498</a>",
+"Krajnski abezédnik sa Vuzhenze na kmétih (1829)",
+"",
+"1829, 1831",
+"Ljubljana (1829)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-499.html\" target=\"_blank\">ucb-499</a>",
+"Abeceda : sa shole na kmétih v' zesárskeh kraléveh deshélah : is némshkiga prestavlena (1807)",
+"",
+"1807",
+"Ljubljana (1807)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-500.html\" target=\"_blank\">ucb-500</a>",
+"Sto beril za otroke. Po italijanskih izvirnikih priredil Janko Leban (1896)",
+"",
+"1896",
+"Ljubljana (1896)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-501.html\" target=\"_blank\">ucb-501</a>",
+"Dodatek k ljudskošolskim berilom za III. šolsko leto ljudskih šol na Primorskem (1917)",
+"",
+"1917",
+"Wien / Dunaj (1917)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-502.html\" target=\"_blank\">ucb-502</a>",
+"Dodatek k ljudskošolskim berilom za IV. šolsko leto ljudskih šol na Primorskem (1917)",
+"",
+"1917",
+"Wien / Dunaj (1917)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-503.html\" target=\"_blank\">ucb-503</a>",
+"Dodatek k ljudskošolskim berilom za V. in VI. šolsko leto ljudskih šol na Primorskem (1917)",
+"",
+"1917",
+"Wien / Dunaj (1917)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-504.html\" target=\"_blank\">ucb-504</a>",
+"Bukvar sa shóle na kmétih v' zesárskih kraljévih deshêlah : is Némshkiga prestávljen ino sa Slovénze napràvljen (1813)",
+"",
+"1813, 1816, 1821, 1823, 1825, 1829, 1831",
+"Klagenfurt / Celovec (1813)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-505.html\" target=\"_blank\">ucb-505</a>",
+"ABC Bukvize : sa te, kateri shelijo slovenske Zherke posnati inu brati se navuzhiti (1818)",
+"",
+"1818, 1820",
+"s. l. (1818)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-506.html\" target=\"_blank\">ucb-506</a>",
+"Abc (1900-1918)",
+"",
+"1900-1918",
+"Ljubljana (1900-1918)",
+"Slovenščina"
+],
+                     [
+"<a href=\"ucb-507.html\" target=\"_blank\">ucb-507</a>",
+"Nemška pismenost za male šole (1847)",
+"",
+"1847",
+"Trieste / Trst (1847)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-508.html\" target=\"_blank\">ucb-508</a>",
+"Perva nemška slovnica za slovenske ljudske šole = Erstes deutsches Sprach- und Lesebuch für slovenische Volksschulen (1871)",
+"",
+"1868, 1871, 1875, 1877, 1879, 1881, 1882, 1883, 1884, 1885, 1886, 1889, 1891, 1892, 1895",
+"Wien / Dunaj (1871)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-509.html\" target=\"_blank\">ucb-509</a>",
+"Druga nemška slovnica za slovenske ljudske šole = Zweites deutsches Sprach- und Lesebuch für slovenische Volkschulen (1871)",
+"",
+"1869, 1871, 1876, 1879, 1886, 1887, 1889, 1891, 1896, 1897, 1898, 1900",
+"Wien / Dunaj (1871)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-510.html\" target=\"_blank\">ucb-510</a>",
+"Tretja nemška slovnica za slovenske ljudske šole = Drittes deutsches Sprachbuch für slovenische Volksschulen (1870)",
+"",
+"1870, 1872, 1880, 1881, 1884, 1886, 1892, 1895, 1896, 1899",
+"Wien / Dunaj (1870)",
+"Nemščina"
+],
+                     [
+"<a href=\"ucb-511.html\" target=\"_blank\">ucb-511</a>",
+"Navk sa ludi na kmetih, tistim shivlenje odtéti, katiri so se zadushili, vtonili, smersnili, obésli ali sadavli, katiri so strup vshili, od strele pobiti in pre sgodaj rojeni (1817)",
+"",
+"1817",
+"Celje (1817)",
+"pouk kmetijstva"
+],
+                     [
+"<a href=\"ucb-512.html\" target=\"_blank\">ucb-512</a>",
+"Cerkvena pesmarica za mladino (1916)",
+"",
+"1916",
+"Ljubljana (1916) ",
+"glasba, verouk"
+],
+                     [
+"<a href=\"ucb-513.html\" target=\"_blank\">ucb-513</a>",
+"Kirchenlieder für die k. k. Oberrealschule in Laibach = Cerkvene pesmi za c. k. višjo realko v Ljubljani (1874)",
+"",
+"1874",
+"Ljubljana (1874)",
+"glasba, verouk"
+],
+                     [
+"<a href=\"ucb-514.html\" target=\"_blank\">ucb-514</a>",
+"Liederkranz : Sammlung deutscher und slovenischer ein- und mehrstimmiger Lieder (1877)",
+"",
+"1877",
+"Ljubljana (1877)",
+"Glasba"
+],
+                     [
+"<a href=\"ucb-515.html\" target=\"_blank\">ucb-515</a>",
+"Napev in Besede Austrijske Cesarske pesmi (1896)",
+"",
+"1896",
+"Wien / Dunaj (1896)",
+"glasba"
+],
+                     [
+"<a href=\"ucb-516.html\" target=\"_blank\">ucb-516</a>",
+"Spremljevanje k Ljudski pesmarici za nabožno petje v cerkvi, v šoli in doma (1904)",
+"",
+"1904",
+"Ljubljana (1904)",
+"glasba, verouk"
 ]]
 }
