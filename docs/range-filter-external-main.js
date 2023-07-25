@@ -108,6 +108,7 @@ $(document).ready(function() {
 	    "ajax": "data-main.json",
 		"deferRender": true,
 		dom: 'Bfrtip',
+		autoFill: true,
 		buttons: [
 			'colvis',
 			/*{
@@ -119,22 +120,33 @@ $(document).ready(function() {
 			{
 				extend: 'csvHtml5',
 				exportOptions: {
-					columns: ':visible'
+					columns: '*'
 				}
 			},
 			{
 				extend: 'excelHtml5',
 				exportOptions: {
-					columns: ':visible'
+					columns: '*'
 				}
 			},
 			{
 				extend: 'pdfHtml5',
+				orientation: 'landscape',
+				pageSize: 'A1',
 				exportOptions: {
-					columns: ':visible'
+					columns: '*'
 				}
 			}
 		],
+		
+		// skrij vse stolpce razen prvih 5
+		
+		columnDefs: [
+			{
+			  targets: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14], 
+			  visible: false,
+			}
+		  ],
 		colReorder: true,
 		initComplete : function() {
 			var index = 0;
@@ -162,7 +174,7 @@ $(document).ready(function() {
 			"sInfoEmpty": "Prikazanih od 0 do 0 od skupno 0 zapisov",
 			"sInfoFiltered": "(filtrirano po vseh _MAX_ zapisih)",
 			"sInfoPostFix": "",
-			"sSearch": "Išči po vseh stolpcih:",
+			"sSearch": "Išči po vseh stolpcih (za prikaz vseh podatkov klikni naslovno povezavo):",
 			"buttons": {
 				"colvis": "Vidnost stolpcev"
 			},
