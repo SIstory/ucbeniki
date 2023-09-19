@@ -82,13 +82,14 @@
    <text>
       <front>
          <titlePage>
-            <docAuthor>
-               <forename/>
-               <surname/>
-            </docAuthor>
             <docTitle>
                <titlePart>Učbeniki</titlePart>
             </docTitle>
+            <docAuthor>
+               <forename>Neja</forename>
+               <surname>Blaj Hribar</surname>
+            </docAuthor>
+            <graphic url="oooG.jpg"></graphic>
             <docImprint>
                <publisher>Inštitut za novejšo zgodovino</publisher>
                <pubPlace>Ljubljana</pubPlace>
@@ -118,7 +119,7 @@
       </front>
       <body>
          <div type="part" xml:id="ucb-seznam"><head>Seznam učbenikov</head>
-         <div type="chapter" xml:id="ucb-001">
+         <!--<div type="chapter" xml:id="ucb-001">
             <head>Naslov (prva izdaja)</head>
             <table>
                <row>
@@ -178,7 +179,7 @@
                   <cell ana="note">Opombe</cell>
                </row>
             </table>
-         </div>
+         </div>-->
          <div type="part" xml:id="ucb-002">
             <head>Prirodopis s kepami za národne šole (1878)</head>
             <table>

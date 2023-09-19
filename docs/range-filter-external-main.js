@@ -187,6 +187,7 @@ $(document).ready(function() {
 			}
 		}
 	});
+
 	
 	
 	// Implementacija iskanja v nogi tabele: element <input type="text">
