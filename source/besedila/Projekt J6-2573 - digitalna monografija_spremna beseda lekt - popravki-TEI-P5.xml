@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <author>Neja Blaj Hribar</author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2023-10-04</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2023-10-06T08:01:14Z</date><name>Neja Blaj Hribar</name></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Učbeniki za osnovne
+                        in nižje srednje šole med letoma 1774 in 1918: komentirana bibliografija s
+                        spremno študijo</head>
+            <div>
+                <head>1 Uvod</head>
+                <p>Pričujoča digitalna monografija prinaša pregledni seznam učbenikov in
+                        sorodnega gradiva, namenjenega ali v praksi uporabljenega pri pouku v
+                        osnovnih šolah ter nižjih razredih srednjih šol med letoma 1774 in 1918.
+                        Digitalna monografija je nastala v sklopu dela pri projektu »Šole in
+                        imperialne, nacionalne in transnacionalne identifikacije: Habsburška
+                        monarhija, Jugoslavija in Slovenija« (J6-2573),<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"> Opis projekta je na voljo na
+                            spletni strani Filozofske fakultete Univerze v Ljubljani: <ref target="https://www.ff.uni-lj.si/sole-in-identifikacije">https://www.ff.uni-lj.si/sole-in-identifikacije</ref> (11.
+                            september 2023). </p></note> ki ga je sofinancirala Javna agencija
+                        za raziskovalno dejavnost Republike Slovenije iz državnega proračuna. Z
+                        zbiranjem gradiva, njegovo klasifikacijo in digitalizacijo sva se ukvarjala
+                        člana podporne skupine Neja Blaj Hribar in Jan Bernot. Pri zasnovi pričujoče
+                        digitalne monografije so nama pomagali tudi člani projektne skupine – vodja
+                        projekta Rok Stergar in raziskovalci Karin Almasy, Jernej Kosi, Jovana
+                        Mihajlović Trbovc, Tamara Pavasović Trošt, Marko Zajc, Vita Zalar. Posebno
+                        zahvalo dolgujeva Karin Almasy, ki nama je izdatno pomagala z nasveti in
+                        gradivom, zbranim med svojim raziskovalnim delom. Zahvaljujeva se tudi
+                        Mateju Hriberšku, ki je z nama prijazno delil svoje sezname učbeniškega
+                        gradiva za pouk klasičnih jezikov, in Teodorju Domeju, ki nama je prav tako
+                        pomagal s svojimi nasveti.
+                </p>
+                <p>Digitalna monografija v takšni obliki ne bi bila mogoča brez sodelavcev
+                        programa Raziskovalne infrastrukture slovenskega zgodovinopisja Inštituta za
+                        novejšo zgodovino. Posebna zahvala gre Mihaelu Ojsteršku, ki je monografijo
+                        spravil v njeno digitalno obliko, študentkama Tamari Logar in Daši Mikuž,
+                        Marku Kupljenu ter Ani Cvek za digitalizacijo učbenikov ter njihovo objavo
+                        na portalu Zgodovina Slovenije - SIstory.si.</p>
+                <p>Zahvala gre tudi Slovenskemu šolskemu muzeju in vsem zaposlenim v njihovi
+                        knjižnici, ki so nam omogočili izposojo in digitalizacijo njihovih
+                        učbenikov.</p>
+            </div>
+            <div>
+                <head>2 Struktura</head>
+                <p>Delo na uporabniškem vmesniku nam je spričo količine in raznolikosti
+                        učbeniškega gradiva, pa tudi občasne odsotnosti ali nepopolnosti tozadevno
+                        relevantnih podatkov predstavljalo nezanemarljiv izziv. Nujni so bili
+                        nekateri kompromisi in poenostavitve, ki jih bomo natančneje pojasnili v
+                        naslednjih vrsticah.</p>
+                <div>
+                    <head>2.1 Kriteriji za izbor učbeniškega
+                            gradiva</head>
+                    <p>Zaradi narave gradiva, ki v tem primeru pogosto ni enoznačna, so
+                            kriteriji, ki sva jih uporabljala pri njegovem uvrščanju v digitalno
+                            monografijo, vselej nekoliko arbitrarni. To velja zlasti za začetek
+                            obravnavanega obdobja, ko je bil razkorak med predpisanim gradivom in
+                            teksti, ki so jih učitelji in duhovniki uporabljali pri pouku mladine,
+                            pogosto znaten. Razkorak med predpisanim učbeniškim gradivom in
+                            vsakdanjo prakso se je v obravnavanem obdobju postopoma zmanjševal. Pri
+                            učbeniškem gradivu iz druge polovice 19. stoletja, zlasti pa pri tistem,
+                            ki je nastajalo po letu 1869, je orisanih odstopanj bistveno manj. V
+                            naslednjih vrsticah se bomo nekoliko podrobneje posvetili kriterijem, po
+                            katerih smo se ravnali pri uvrščanju učbeniškega gradiva v digitalno
+                            monografijo.
+                    </p>
+                    <p>1. Pričujoča obravnava je časovno zamejena s splošno šolsko naredbo iz
+                            leta 1774 in razpadom avstro-ogrske monarhije leta 1918. Seveda so
+                            nekateri teksti, ki so jih pri šolskem pouku uporabljali v terezijanski
+                            in jožefinski dobi (marsikdaj pa tudi pozneje), nastali že pred letom
+                            1774. Takšne učbenike sva v pregled vključila le v primerih, ko je bila
+                            njihova uporaba v obdobju po letu 1774 v virih in literaturi dovolj
+                            zatrdno izpričana. Seveda ni nemogoče, celo zelo verjetno je, da so bili
+                            v tem obdobju v rabi tudi drugi, starejši teksti. Vsekakor pa je to
+                            polje še vedno odprto nadaljnjim raziskavam. Tudi letnica, s katero
+                            zaključujeva pričujočo obravnavo, nikakor ni predstavljala neprodušne
+                            pregrade. Prav nasprotno! Številni učbeniki so v bolj ali manj
+                            spremenjeni obliki izhajali tudi v novem državnem okviru.<note place="foot" xml:id="ftn2" n="2"><p>
+                                Enako velja za znaten del avtorjev učbeniškega gradiva. Tudi ti
+                                    so po prevratnem letu 1918 praviloma nadaljevali z
+                                delom.</p></note> V takšni primerih v opombah navajava tudi
+                            izdaje iz časa po letu 1918.</p>
+                    <p>2. V teritorialnem pogledu sva se omejila na ozemlje, ki je do konca
+                            ostalo v okviru habsburške monarhije. Izjema je čas med letoma 1809 in
+                            1813 – učbenike, ki so nastali na ozemlju Ilirskih provinc, sva seveda
+                            upoštevala.
+                    </p>
+                    <p>3. Ker smo se v sklopu dela pri projektu osredotočali predvsem na razvoj
+                            slovenskega nacionalizma in spričo časovnih ter praktičnih omejitev, v
+                            tej fazi v digitalno monografijo nisva vključevala znatnega dela
+                            učbenikov in učnih pripomočkov v latinskem, nemškem, italijanskem,
+                            madžarskem in hrvaškem jeziku. Zavedava se, da zato umanjka velik del
+                            učbeniškega gradiva, ki je bilo v uporabi na glavnih šolah, normalkah,
+                            (pozneje) pa bodisi na utrakvističnih ljudskih šolah bodisi na ljudskih
+                            šolah z nemškim ali katerim drugim učnim jezikom ter zlasti na
+                            gimnazijah in realkah. V prihodnosti bo – bodisi kot dopolnitev
+                            pričujoče digitalne monografije bodisi v sklopu nadaljnjih raziskav – to
+                            gradivo vsekakor treba natančneje analizirati in ga vključiti v
+                            pričujoči korpus učbeniškega gradiva. 
+                    </p>
+                    <p>4. Z zgornjimi omejitvami je povezana tudi odločitev, da se v tej fazi
+                            osredotočiva na zbiranje in klasifikacijo učbeniškega gradiva, ki je
+                            prišlo v poštev v času obveznega šolanja. Tako sva se osredotočila na
+                            učbeniško gradivo, namenjeno osnovnim šolam – osnovno šolo v skladu z
+                            definicijo, ki jo v Zgodovini Slovencev uporablja Bogo Grafenauer,
+                            razumeva kot »tisto šolo, ki ne zahteva nobene prejšnje izobrazbe, v
+                            materinem jeziku vzgaja vsakogar in mu daje temeljna znanja, ne glede na
+                            njegovo družbeno pripadnost in bodoči poklic«
+                        <note place="foot" xml:id="ftn3" n="3"><p>
+                                Grafenauer, Bogo: »Podržavljenje šolstva in splošna šolska
+                                    obveznost.« V: <hi rend="italic">Zgodovina Slovencev, ur.
+                                    Čepič et. al.</hi> Ljubljana: Cankarjeva založba, 1979,
+                                    375.</p></note>
+                        – in nižjim letnikom srednjih šol. Učbeniki, namenjeni licejem, višjim
+                            gimnazijam in realkam, ter seveda tudi gradivo, ki je bilo v uporabi na
+                            učiteljiščih in v poklicnih šolah, v pričujočem pregledu tako zvečine
+                            umanjka.<note place="foot" xml:id="ftn4" n="4"><p>
+                                V prihodnosti bi bila dopolnitev pričujoče zbirke z gradivom,
+                                    namenjenim pouku v zgoraj omenjenih institucijah, vsekakor
+                                    dobrodošla.</p></note></p>
+                    <p>Seveda je tudi čas obveznega šolanja v obravnavanem obdobju vse prej kot
+                            stabilen, tako da so odločitve glede vključevanja in izključevanja
+                            učbeniškega gradiva vselej vsaj nekoliko arbitrarne. Šolska obveznost je
+                            bila s Splošno šolsko naredbo iz leta 1774 namreč sprva omejena na
+                            obdobje med začetkom šestega in dvanajstim letom starosti.<note place="foot" xml:id="ftn5" n="5"><p>
+                                Schmidt, Vlado: <hi rend="italic">Zgodovina šolstva in
+                                    pedagogike na Slovenskem I. (Od naselitve do 1805).</hi>
+                                    Ljubljana: Delavska enotnost, 1988, 180.</p></note> Ker
+                            šolski sistem v delih obravnavanega prostora, ki so v spadali v okvir
+                            Ilirskih provinc, ni poznal šolske obveznosti, sva za ta kratkotrajni
+                            intermezzo – poleg učbeniškega gradiva, namenjenega na novo formiranim
+                            enovitim štiriletnim osnovnim šolam – zavoljo razmeroma obvladljivega
+                            korpusa gradiva in spričo naglih sprememb na polju sekundarnega
+                            šolstva
+                        <note place="foot" xml:id="ftn6" n="6"><p>
+                                Šumrada Janez: »Poglavitne poteze napoleonske politike v
+                                    Ilirskih provincah«, <hi rend="italic">Zgodovinski
+                                    časopis</hi> 61, št. 1–2 (2007): 81–83.</p></note>
+                            v obzir vzela učbeniško gradivo, namenjeno šolanju na primarni in (vsaj)
+                            nižji sekundarni ravni. Po restavraciji habsburške oblasti je bil šolski
+                            sistem na ozemlju nekdanjih Ilirskih provinc povrnjen v prejšnje stanje.
+                            Z odlokom študijske dvorne komisije z dne 27. septembra 1816 je bila ta
+                            podaljšana in se je zaključila z dopolnjenim petnajstim letom, pri čemer
+                            je bil v na novo dodanem obdobju, kot poudarja Schmidt, »obvezen le
+                            nedeljski pouk«.<note place="foot" xml:id="ftn7" n="7"><p>
+                                Schmidt, Vlado: <hi rend="italic">Zgodovina šolstva in
+                                    pedagogike na Slovenskem II. (1805–1848).</hi> Ljubljana:
+                                    Državna založba Slovenije, 1964, 132.</p></note> Z
+                            liberalno šolsko reformo leta 1869 se je uveljavila težnja k splošni
+                            osemletni šolski obveznosti. Ideal osemletne šolske obveznosti je bil
+                            docela uveljavljen le na Štajerskem in Koroškem, v ostalih deželah, ki
+                            so predmet pričujoče obravnave, pa ne docela. Pravico do skrajšanja
+                            šolske obveznosti so dobile:</p>
+                    <p>– Goriška in Gradiška, kjer je, tako Schmidt, smel deželni šolski svet
+                            šolsko obveznost »skrajšati na pet let (od končanega sedmega do
+                            končanega dvanajstega leta) v tistih šolskih okoliših, kjer bi krajevne
+                            razmere to nujno zahtevale«;<note place="foot" xml:id="ftn8" n="8"><p>
+                                Schmidt, Vlado: <hi rend="italic">Zgodovina šolstva in
+                                    pedagogike na Slovenskem III. (1848–1870).</hi> Ljubljana:
+                                    Delavska enotnost, 1988, 195.</p></note>
+                    </p>
+                    <p>– Istra, kjer so se, tako Schmidt, odločili »za šestletno šolsko
+                            obveznost (od končanega šestega do končanega dvanajstega leta) z večerno
+                            ponavljalno šolo v zimskem času do končanega štirinajstega
+                            leta«;<note place="foot" xml:id="ftn9" n="9"><p>
+                                Prav tam, 195–96.</p></note></p>
+                    <p>– Kranjska, kjer je bila šolska obveznost s Postavo, kako naj se uravna
+                            napravljanje, »zdrževanje« in obiskovanje javnih ljudskih šol, določena
+                            po naslednjem ključu: »Dolžnost, v šolo hoditi (šolska dolžnost) se
+                            začenja s spolnjenim šestim letom in traja praviloma do spolnjenega 12.
+                            v mestih in trgih s tri- ali večrazrednimi šolami pa do spolnjenega
+                            štirinajstega leta. Z ozirom na posebne krajne okoliščine ali na
+                            podnebje utegne tudi okrajna šolska oblast izjemno dovoliti, da se
+                            začenja šolska dolžnost še le s spolnjenim 7. ali 8. letom. Isto tako
+                            sme okrajna šolska oblast dovoliti, da se tudi v mestih in trgih odpuste
+                            otroci iz šole, ki so spolnili 12. leto, in so se šolskih predmetov
+                            popolnoma naučili.«<note place="foot" xml:id="ftn10" n="10"><p>
+                                Prav tam, 200; Deželni zakonik za vojvodstvo kranjsko 25, št. 8
+                                    (26. 06. 1873): 57.
+                            </p></note> Na Kranjskem so bile orisane spremembe implementirane
+                            šele leta 1873, v preostalih deželah, ki so predmet pričujoče obravnave,
+                            pa leta 1870.<note place="foot" xml:id="ftn11" n="11"><p>
+                                Schmidt: <hi rend="italic">Zgodovina šolstva in pedagogike
+                                    na Slovenskem III.</hi>, 196.</p></note></p>
+                </div>
+                <div>
+                    <head>2.2 Navajanje avtorjev, soavtorjev,
+                            prevajalcev in urednikov</head>
+                    <p>Sploh v zgodnejšem obdobju so zapisi imen in priimkov avtorjev pogosto
+                            nekonsistentni. V različnih izdajah istega učbenika ali različnih
+                            učbenikih istega avtorja imamo tako pogosto opraviti z različnimi zapisi
+                            imen in priimkov avtorjev. Mestoma je to posledica sprememb v
+                            transkripciji, mestoma pa nasledek odločitve za zapis imena v drugem
+                            jeziku. Zgodi se tudi, da avtor, ki mu avtorstvo učbenika na podlagi
+                            virov in obstoječih raziskav lahko pripišemo s precejšnjo mero
+                            gotovosti, v učbeniku niti ni naveden. Ker bi striktno sledenje izvirnim
+                            napisom v posameznem učbeniku torej povzročalo nepotrebno zmedo in
+                            uporabniku oteževalo iskanje, sva vselej uporabljala standardno
+                            slovensko različico zapisa imena in priimka. Pri tem sva se opirala
+                            zlasti na SBL in Cobiss, pa tudi ostalo tozadevno relevantno
+                            literaturo.</p>
+                    <p>Poleg tega sva zaradi preglednosti ločeno navajala izvirne avtorje –
+                            vrstica: »Izvirni avtor (če gre za priredbo) / Avtor (če gre za izvirno
+                            delo)« – in avtorje poznejših priredb, prevajalce in urednike – vrstica:
+                            »Avtor priredbe / Prevajalec / Urednik«. Pri tem je treba poudariti, da
+                            distinkcija med avtorjem izvirnika in prirediteljem ni vselej povsem
+                            nedvoumna. Nekateri učbeniki so izhajali zelo dolgo. V takšnih primerih
+                            bi marsikatero predelavo učbenika (številne so nastale celo po smrti
+                            izvirnega avtorja) spričo vsebinskih sprememb brez posebnih zadržkov
+                            lahko imeli za samostojno delo, avtorja priredbe pa označili za avtorja
+                            v pravem pomenu besede. Seveda so takšne odločitve vselej vsaj nekoliko
+                            arbitrarne. Da bi se izognila nekonsistentnosti, sva se odločila za
+                            pristop, po katerem sva tudi v primerih večjih predelav vse poznejše
+                            izdaje nekega učbenika ohranila v istem vnosu – v primerih, ko sva se
+                            odločila drugače, sva svojo odločitev za samostojno obravnavo učbenika
+                            pojasnila v opombah. Ker gre pri številnih učbenikih za prevode, sva
+                            poleg izhodiščnega avtorja vselej navajala tudi prevajalce. Meja med
+                            urednikom in avtorjem je velikokrat zabrisana. Predvsem pri berilih in
+                            pesmaricah posameznik, ki ga navajava kot avtorja, pogosto ni bil avtor
+                            izbirnih tekstov, temveč le nekakšen urednik. Urednike sva navajala le
+                            izjemoma, ko so bili navedeni poleg avtorja.
+                    </p>
+                </div>
+                <div>
+                    <head>2.3 Navajanje naslovov<note place="foot" xml:id="ftn12" n="12"><p>
+                                Pri prečrkovanju naslovov iz dajnčice, metelčice in bohoričice
+                                    sva se ravnala po zapisih na Cobissu in dLib. Zavedava se, da je
+                                    način prečrkovanja na obeh spletnih straneh pogosto neustrezen
+                                    (na tem mestu se še enkrat zahvaljujeva. Teodorju Domeju, ki
+                                    naju je na to prijazno opozoril), vendar sva se zaradi lažjega
+                                    iskanja gradiva po različnih bazah podatkov odločila, da zapisov
+                                    ne bova naknadno spreminjala.</p></note></head>
+                    <p>V vrstici »Naslov (prva izdaja)« navajava naslov prve izdaje, če ta ni
+                            znan, pa naslov prve izdaje, za katero imamo natančne podatke o naslovu.
+                            V nekaterih primerih se namreč zgodi, da iz poročil sodobnikov vemo, da
+                            je učbenik izšel že prej, vendar prva izdaja ni ohranjena. Tu in tam se
+                            zgodi tudi, da sicer zanesljivi viri, ki govorijo o tem, da je učbenik
+                            izšel, ne vsebujejo podatka o natančnem naslovu. V takšnih primerih
+                            približnih naslovov nisva navajala. Vseskozi sva se namreč držala
+                            načela, da zapis naslova – če je to le mogoče – ohraniva v izvirni
+                            obliki. Ker je naslovu vselej dodana tudi letnica, bo bralec brez težav
+                            ugotovil, ali gre za naslov prve izdaje ali prve znane izdaje
+                            učbenika.
+                    </p>
+                    <p>Znane naslove vseh naslednjih izdaj navajava v vrstici »Naslov (poznejše
+                            izdaje) «. Tudi v tem primeru se pogosto zgodi, da zagotovo vemo, da je
+                            obstajala – v tem primeru največkrat na podlagi omemb prejšnje, nama
+                            nedostopne izdaje na začetku katerega od učbenikov, s katerim sva
+                            razpolagala. Zato mestoma nastopi diskrepanca med številom letnic,
+                            navedenih v vrstici »Leto (poznejše izdaje)«, in letnicami, ki so v
+                            oklepaju pripisane poleg različnih verzij naslova. Tudi v tem primeru
+                            sva vselej skušala ohraniti izvirno obliko zapisa naslova. Letnice v
+                            oklepajih pa se nanašajo na izdaje z istim naslovom.
+                    </p>
+                </div>
+                <div>
+                    <head>2.4 Navajanje krajevnih imen</head>
+                    <p>Zapisi krajevnih imen so v obravnavanem obdobju doživeli številne
+                            spremembe. Deloma gre za nasledek odsotnosti ali vsaj pomanjkljive
+                            standardizacije jezika, v katerem so pisani učbeniki, ki so bili v rabi
+                            na obravnavanem prostoru. Vse skupaj še dodatno zaplete dejstvo, da je
+                            kraj pogosto zapisan v latinskem, nemškem ali katerem drugem jeziku. Da
+                            bi bil pričujoči seznam dovolj pregleden in – kar je še bolj pomembno –
+                            bi uporabniku omogočil učinkovitejšo rabo digitalne monografije, sva
+                            kraje vselej zapisovala v sodobni varianti krajevnega imena. Imena
+                            krajev, ki so na ozemlju Republike Slovenije, sva vselej zapisovala le s
+                            slovenskim imenom. Pri krajih, ki dandanes ležijo v tujini, vendar zanje
+                            iz teh ali onih razlogov obstaja standardno slovensko poimenovanje
+                            (praviloma gre za dvojezične kraje in večja urbana središča), sva
+                            krajevno ime najprej zapisala v (najbolj razširjenem) uradnem jeziku
+                            države, v kateri se kraj dandanes nahaja, slednjemu pa dodala še
+                            slovensko varianto krajevnega imena. Pri krajih, kjer slednja ne
+                            obstaja, sva krajevno ime zapisala le v (najbolj razširjenem) uradnem
+                            jeziku države, v kateri se kraj dandanes nahaja.
+                    </p>
+                    <p>V vrstici »Kraj (prva izdaja)« navajava kraj prve znane izdaje. Kraje
+                            vseh ostalih izdaj navajava v vrstici »Kraj (poznejše izdaje)«. V zvezi
+                            z zapisovanjem letnic v oklepaju velja enako kot pri navajanju naslovov
+                            in založb oziroma založnikov.</p>
+                </div>
+                <div>
+                    <head>2.5 Navajanje založb</head>
+                    <p>Spremembe in nekonsistentnosti so pri navajanju založnikov še precej bolj
+                            izrazite kot pri navajanju krajevnih imen. Poenotenje je bilo tako nujno
+                            tudi v tem primeru. Zavedava se, da način zapisa imena založnika (enako
+                            velja tudi za zapis krajevnega imena) ni nepomemben in bi bil kot tak
+                            lahko predmet zgodovinopisne analize, vendar je v tem primeru
+                            preglednost prevladala nad tovrstnimi pomisleki. Poleg tega je bila
+                            takšna odločitev tudi posledica dejstva, da sva se zaradi obilice
+                            gradiva pogosto zanašala na vpise v sistemu Cobiss. Čeprav je v vpisih
+                            na omenjenem portalu praviloma ohranjen izvirni zapis, je do poenotenja
+                            mestoma vseeno prihajalo, tako da bi bil zapis izvirne oblike imena
+                            založbe v vsakem primeru okrnjen. Pri poenotenju sva se zvečine ravnala
+                            po zapisu, ki ga najdemo v SBL, pri obravnavi zgodnejših obdobij sva se
+                            opirala zlasti na delo Anje Dular ter seveda tudi na dela Vlada Schmidta
+                            in Ivana Andoljška.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text"> Dular, Anja: <hi rend="italic">Živeti od
+                                    knjig: zgodovina knjigotrštva na Kranjskem od začetka 19.
+                                    stoletja.</hi>
+                                Ljubljana : Zveza zgodovinskih društev
+                                    Slovenije, 2002; Schmidt: <hi rend="italic">Zgodovina
+                                    šolstva in pedagogike na Slovenskem II.</hi>
+                                in Andoljšek, Ivan:
+                                <hi rend="italic">Naš začetni bralni pouk in učbeniki
+                                    zanj I. (1550–1869).</hi>
+                                    Maribor: Dopisna delavska univerza Univerzum,
+                            1978.</p></note> Pri prekmurskih tiskih sva si pomagala
+                            predvsem z delom Ivana Škafarja. Na tem mestu je treba dodati še, da sva
+                            pri imenih založnikov prekmurskih učbenikov najprej navedla ime, nato pa
+                            priimek. Sledila sva torej zapisu, ki je standarden pri nas, ne pa
+                            izvirnemu vrstnemu redu. Vselej sva modernizirala tudi zapis tistih
+                            založb, katerih poimenovanje ni izhajalo iz osebnega imena založnika.
+                            Tudi v tem primeru v vrstici »Založnik (prva izdaja)« navajava kraj prve
+                            znane izdaje. Kraje vseh ostalih izdaj navajava v vrstici »Založnik
+                            (poznejše izdaje)«. V zvezi z zapisovanjem letnic v oklepaju velja enako
+                            kot pri navajanju naslovov in krajevnih imen.</p>
+                    <p>V primerih, ko ime založnika ni znano, navajava ime tiskarja, pri katerem
+                            je bil učbenik natisnjen. V redkih primerih, ko nama ni uspelo
+                            identificirati niti slednjega, navajava podatke o knjigarnah ali
+                            knjigotržcih, pri katerih je bil učbenik naprodaj, in sorodne
+                            podatke.</p>
+                </div>
+                <div>
+                    <head>2.6 Navajanje letnic</head>
+                    <p>Kot sva nakazala že zgoraj, število letnic izdaje posameznega učbenika
+                            občasno presega število letnic, pripisanih v vrsticah s podatki o
+                            naslovih, krajih in založnikih. V nekaterih primerih je v učbenikih
+                            naveden tudi podatek o letnici predhodne izdaje. Mestoma se zgodi, da za
+                            slednjo vemo le na podlagi tega podatka. Tako razpolagamo le z letnico,
+                            ne pa tudi z ostalimi podatki. Zato mestoma prihaja do odstopanja med
+                            letnicami, ki jih navajava v ostalih vrsticah. Čeprav je zelo verjetno,
+                            da so bili v takšnih primerih pogosto enaki tudi vsi ostali podatki – to
+                            so naslov, kraj in založnik –, tega z gotovostjo vendarle ne moreva
+                            trditi.
+                    </p>
+                    <p>Ker so ponatisni nekaterih učbenikov izhajali skoraj vsako leto, vsebina
+                            pa se ni spreminjala, sva pri učbenikih, ki so začeli izhajati po letu
+                            1869, navedla zgolj obdobje veljavnosti učbenika, ne pa vsakega ponatisa
+                            posebej.</p>
+                </div>
+                <div>
+                    <head>2.7 Navajanje podatkov o uporabi
+                            učbeniškega gradiva</head>
+                    <p>Podatki o namembnosti učbeniškega gradiva, ki jih navaja v vrstici
+                            »Predmet«, so namenjeni izključno osnovni orientaciji bralca, ne morejo
+                            pa biti osnova za podrobnejšo analizo rabe učbenikov. V vsakdanji praksi
+                            namreč raba učbenikov ni vselej ustrezala njihovemu prvotnemu namenu,
+                            poleg tega so se skozi čas spreminjala poimenovanja nekaterih predmetov
+                            in sami predmetniki. Za natančnejši vpogled v rabo posameznega učbenika
+                            si bralci lahko pomagajo z literaturo, ki jo navajava v vrstici »Viri in
+                            literatura«. Za čas po letu 1869 pa natančen vpogled v namembnost
+                            aprobiranih učbenikov omogoča tudi gradivo ministrstva za uk in
+                            bogočastje. Povezave do tozadevno relevantnega gradiva so prav tako
+                            dostopne v vrstici »Viri in literatura«.</p>
+                </div>
+            </div>
+            <div>
+                <head>3 Navodila za uporabo seznama</head>
+                <p>Seznam učbenikov se nahaja v zavihku »Tabelarni prikaz«, kjer se prikaže
+                        spletna tabela z osnovnimi podatki: Naslov prve izdaje, Avtor, Leto, Kraj
+                        (prve izdaje) in Predmet. S klikom na povezavo pri naslovu odpremo celotni
+                        opis posameznega učbenika s povezavami do digitaliziranega gradiva (če je
+                        dostopno).</p>
+                <p>Levo zgoraj lahko na gumbu »Vidnost stolpcev« spremenimo prikazane podatke. S
+                        klikom na naslov posameznega stolpca lahko učbenike tudi razvrstimo po
+                        abecedi, letu itd.</p>
+                <p>S premikanjem po straneh lahko brskamo med učbeniki ali v iskalniku desno
+                        zgoraj brskamo po vseh podatkih, na dnu tabele pa je omogočeno iskanje po
+                        osnovnih podatkih. Na vrhu strani sta možna tudi filtriranje učbenikov po
+                        letih izida in možnost prikaza izdanih učbenikov v izbranem obdobju. 
+                </p>
+                <p>Tabelo je mogoče izvoziti v formatu .csv, .xlsx in .pdf. Če so z iskalnikom
+                        že filtrirani podatki, bo izvozilo le prikazane učbenike, v nasprotnem
+                        primeru pa celotno tabelo.</p>
+                <div>
+                    <head>3.1 Navodila za uporabo seznama
+                            aprobiranih učbenikov za obdobje med letoma 1869 in 1918</head>
+                    <p>Pri ustvarjanju pričujoče digitalne monografije sva izdatno uporabljala
+                            Uradne liste Ministrstva za bogočastje in uk (»Verordnungsblatt des
+                            Ministeriums für Cultus und Unterricht«). V slednjih so bili namreč od
+                            leta 1869 navedeni vsi aprobirani učbeniki in učni pripomočki.
+                        <note place="foot" xml:id="ftn14" n="14"><p>
+                                Žigon, Tanja, Almasy, Karin in Lovšin, Andrej: <hi rend="italic">Vloga in pomen prevajanja učbenikov v 19.
+                                    stoletju: kulturnozgodovinski in jezikovni vidiki</hi>.
+                                    Ljubljana: Znanstvena založba Filozofske fakultete Univerze v
+                                    Ljubljani, 2017, 46.</p></note> Poleg tega so bili v
+                            uradnih listih od leta 1878 dalje vsako leto do razpada avstro-ogrske
+                            monarhije (razen v letih 1916 in 1918) objavljeni tudi pregledni seznami
+                            veljavnih aprobiranih učbenikov za ljudske in meščanske šole. Sočasno z
+                            letnimi seznami učbenikov za ljudske in meščanske šole so začeli voditi
+                            tudi ločene sezname učnih pripomočkov. Od leta 1884 dalje so bili
+                            približno na vsaka štiri leta priobčeni tudi pregledni seznami
+                            aprobiranih učbenikov za gimnazije in realke. </p>
+                    <p>V sklopu dela z Uradnimi listi Ministrstva za bogočastje in uk je nastal
+                            razmeroma obsežen korpus seznamov aprobiranih učbenikov in učnih
+                            pripomočkov, ki sva se ga zaradi njegove potencialne uporabnosti za
+                            raziskovalce obravnavane problematike odločila ločeno vključiti tudi v
+                            končno različico digitalne monografije. Pri prepisih naslovov sva vselej
+                            verno sledila zapisu v Uradnih listih Ministrstva za bogočastje in uk.
+                            Slednji se od dejanskih naslovov sicer lahko nekoliko razlikujejo
+                            (praviloma gre za manjše tipkarske napake ali skrajševanje daljših
+                            naslovov), vendar pa te razlike identifikacije posameznih učbenikov
+                            praviloma ne otežijo. V naslednjih vrsticah bova skušala na kratko
+                            orisati strukturo in potencialno uporabnost pričujočega korpusa
+                            seznamov. 
+                    </p>
+                    <p>Pričujoči korpus seznamov aprobiranih učbenikov in učnih pripomočkov za
+                            obdobje med letoma 1869 in 1918 je sestavljen po naslednjem
+                        ključu:</p>
+                    <p>1. V sezname so vključeni učbeniki in učni pripomočki za ljudske in
+                            meščanske šole, gimnazije, realke in dekliške liceje. Vključeno je zgolj
+                            gradivo v slovenskem jeziku oziroma gradivo, ki je bilo izrecno
+                            namenjeno pouku v ljudskih šolah s slovenskim učnim jezikom. Zlasti pri
+                            učnih pripomočkih tu seveda nastane problem, saj najbrž ne bi bilo
+                            preveč drzno domnevati, da je marsikateri učni pripomoček, ki sicer ni
+                            pisan v slovenščini ali pa ni bil izrecno namenjen pouku v šolah s
+                            slovenskim učnim jezikom, lahko služil za pouk v šolah s slovenskim
+                            učnim jezikom. Omejitev na slovenščino je tako, denimo, privedla tudi do
+                            tega, da v pričujoči seznam nisva vključila atlasov in zemljevidov
+                            posameznih dežel, če ti niso bili izdani v slovenščini, temveč v kakšnem
+                            drugem jeziku (praviloma gre za zemljevide v nemščini in
+                            italijanščini).</p>
+                    <p>2. Za obdobje med letoma 1869 in 1877 je pričujoči seznam sestavljen na
+                            podlagi seznamov »Alphabetisches Verzeichnis über Lehrbücher und
+                            Lehrmittel« in »Verfügungen, betreffend Lehrbücher und Lehrmittel«. Ti
+                            seznami nam povedo, kateri učbeniki so bili aprobirani v posameznem
+                            letu, vsebujejo podatke o avtorju, naslovu, kraju, založniku, letu
+                            izdaje, okolju, v katerem je uporaba učbenika predvidena (tu gre
+                            praviloma bodisi za posamezne tipe izobraževalnih ustanov, redkeje za
+                            deželni okvir), vrsti učbeniškega gradiva in stopnji, ki ji je bil
+                            učbenik namenjen, ne prinašajo pa celovitega seznama za posamezno leto
+                            veljavnih učbenikov. Kot sva že pojasnila, sva se pri zbiranju in
+                            digitalizaciji srednješolskega učbeniškega gradiva omejila na prve štiri
+                            letnike (v zvezi z izjemami glej 1. točko). Vsi seznami tega tipa so v
+                            pričujočem korpusu seznamov označeni po ključu
+                            »[Leto]_Vf._Lehrbücher_mittel«. Tovrstne sezname sva vodila tudi za
+                            poznejše obdobje, a sva zaradi vedno večje količine aprobiranega gradiva
+                            s sestavljanjem tega tipa seznamov, začenši z letom 1900, prenehala. Vsi
+                            učbeniki so bili od leta 1878 oziroma 1884 navedeni tudi v preglednih
+                            seznamih aprobiranih učbenikov. Tovrstne sezname sva vnovič pripravila
+                            za obdobje od leta 1915 dalje. Po letu 1915 namreč preglednih seznamov
+                            aprobiranih učbenikov za gimnazije in realke niso več sestavljali, po
+                            letu 1917 pa se je enako zgodilo tudi s preglednimi seznami učbenikov za
+                            ljudske in meščanske šole. Podatki v pričujočih seznamih so sicer
+                            nekoliko izčrpnejši od tistih, ki jih je mogoče pridobiti s preglednih
+                            seznamov, vendar pa je iskanje podatkov v razdelkih »Alphabetisches
+                            Verzeichnis über Lehrbücher und Lehrmittel« in »Verfügungen, betreffend
+                            Lehrbücher und Lehrmittel« s pomočjo pripadajočih kazal in podatkov, ki
+                            jih prinašajo pregledni seznami učbeniškega gradiva, razmeroma
+                            enostavno.
+                    </p>
+                    <p>3. Kot rečeno, so za obdobje od leta 1878 dalje (izvzemši leti 1916 in
+                            1918) nato za vsako leto na voljo pregledni seznami učbenikov za ljudske
+                            in meščanske šole, ki omogočajo dober pregled nad spremembami v
+                            strukturi učbeniškega gradiva in bi bili že sami na sebi lahko zanimiv
+                            predmet obravnave. Vsi omenjeni seznami so označeni po ključu
+                            »[Leto]_Lehrbücherverzeichnis_V_B«. Podobno velja za pregledne sezname
+                            učbenikov za gimnazije in realke. Ti so bili sicer sestavljeni v daljših
+                            časovnih presledkih in so na voljo za leta 1884, 1888, 1892, 1896, 1900,
+                            1904, 1909 in 1915. V sezname je vključeno tudi gradivo za višje razrede
+                            srednjih šol, saj se nama je to zaradi preglednosti in možnosti
+                            nadaljnje analize seznamov zdelo smiselno. Gradivo je namreč med seboj
+                            načeloma mogoče ločiti brez večjih težav. Vsi omenjeni seznami so
+                            označeni po ključu »[Leto]_Lehrbücherverzeichnis_G_R«.
+                    </p>
+                    <p>4. Sočasno z letnimi preglednimi seznami aprobiranih učbenikov za ljudske
+                            in meščanske šole so začeli voditi tudi ločene sezname učnih
+                            pripomočkov. Teh kljub temu, da so prav tako na voljo za celotno obdobje
+                            med letoma 1878 in 1918 (razen za leti 1916 in 1918), nisva sestavljala
+                            za vsako leto posebej, ampak v presledkih za leta 1878; 1880; 1890;
+                            1900; 1910; 1917. Vsi omenjeni seznami so označeni po ključu
+                            »[Leto]_Lehrmittelverzeichnis«.</p>
+                    <p><hi rend="background(yellow)">Tu bo na voljo exel datoteka za izvoz </hi><hi rend="bold background(yellow)">seznama aprobiranih učbenikov</hi><hi rend="background(yellow)">.</hi></p>
+                </div>
+            </div>
+            <div>
+                <head>4 Viri in literatura</head>
+                <list type="unordered">
+                    <item>Andoljšek, Ivan: Naš začetni bralni pouk in učbeniki zanj I.
+                            (1550–1869). Maribor: Dopisna delavska univerza Univerzum,
+                        1978.</item>
+                    <item><hi rend="italic">Deželni zakonik in vladni list za kranjsko
+                            kronovino</hi> 25, št. 8 (26. junij 1873). Dostopno na Digitalna
+                            knjižnica Slovennije – dLib: <ref target="http://www.dlib.si/?URN=URN:NBN:SI:DOC-B3JVUCGN">http://www.dlib.si/?URN=URN:NBN:SI:DOC-B3JVUCGN</ref>
+                            (23. junij 2023).</item>
+                    <item>Dular, Anja: <hi rend="italic">Živeti od knjig: zgodovina
+                            knjigotrštva na Kranjskem od začetka 19. stoletja</hi>. Ljubljana :
+                            Zveza zgodovinskih društev Slovenije, 2002.
+                    </item>
+                    <item>Grafenauer, Bogo: »Podržavljenje šolstva in splošna šolska obveznost.«
+                            V: <hi rend="italic">Zgodovina Slovencev</hi>, ur. Čepič Zdenko
+                            et. al. Ljubljana: Cankarjeva založba, 1979, 375–381.</item>
+                    <item>Schmidt, Vlado: <hi rend="italic">Zgodovina šolstva in pedagogike
+                            na Slovenskem I. (Od naselitve do 1805</hi>). Ljubljana: Delavska
+                            enotnost, 1988.</item>
+                    <item>Schmidt, Vlado: <hi rend="italic">Zgodovina šolstva in pedagogike
+                            na Slovenskem II. (1805–1848).</hi> Ljubljana: Državna založba
+                            Slovenije, 1964.</item>
+                    <item>Schmidt, Vlado: <hi rend="italic">Zgodovina šolstva in pedagogike
+                            na Slovenskem III. (1848–1870).</hi> Ljubljana: Delavska enotnost,
+                            1988.</item>
+                    <item>Šumrada, Janez: »Poglavitne poteze napoleonske politike v Ilirskih
+                            provincah.«
+                        <hi rend="italic">Zgodovinski časopis</hi> 61, št. 1–2 (2007):
+                            75–84.</item>
+                    <item>Žigon, Tanja; Almasy, Karin in Lovšin, Andrej: <hi rend="italic">Vloga in pomen prevajanja učbenikov v 19. stoletju: kulturnozgodovinski
+                            in jezikovni vidiki.</hi> Ljubljana: <hi rend="background(white)">Znanstvena založba Filozofske fakultete
+                            Univerze v Ljubljani</hi>, 2017.<lb/><ref target="https://doi.org/10.4312/9789612379773">https://doi.org/10.4312/9789612379773</ref></item>
+                </list>
+            </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
