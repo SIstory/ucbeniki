@@ -4,7 +4,6 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="sl">Učbeniki za osnovne in nižje srednje šole med letoma 1774 in 1918: komentirana bibliografija s spremno študijo</title>
-            <title xml:lang="en">Textbooks</title>
             <author>
                <forename>Jan</forename>
                <surname>Bernot</surname>
@@ -15,7 +14,7 @@
             </author>
             <respStmt>
                <resp>Lektura</resp>
-               <name>Polona Kekec</name>
+               <name>Polonca Kekec</name>
             </respStmt>
             <respStmt>
                <resp>Recenzenta</resp>
@@ -91,7 +90,7 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart>Učbeniki za osnovne in nižje srednje šole med letoma 1774 in 1918: komentirana bibliografija s spremno študijo</titlePart>
+               <titlePart xml:lang='sl'>Učbeniki za osnovne in nižje srednje šole med letoma 1774 in 1918:</titlePart><titlePart xml:lang="sl">komentirana bibliografija s spremno študijo</titlePart>
             </docTitle>            
             <docAuthor>
                <forename>Jan</forename>
@@ -580,15 +579,15 @@
                                   za vsako leto posebej, ampak v presledkih za leta 1878; 1880; 1890;
                                   1900; 1910; 1917. Vsi omenjeni seznami so označeni po ključu
                                   »[Leto]_Lehrmittelverzeichnis«.</item></list>
-            <p><ref target="D:\2023\Neja_Ucbeniki_OG\source\besedila\Projekt.xlsx">TEST</ref><hi rend="background(yellow)">Tu bo na voljo exel datoteka za izvoz </hi><hi rend="bold background(yellow)">seznama aprobiranih učbenikov</hi><hi rend="background(yellow)">.</hi></p>
-                      
+            <p><ref target="D:\2023\Neja_Ucbeniki_OG\source\besedila\Projekt.xlsx">Seznam aprobiranih učbenikov (.xslx)</ref></p>                      
                   </div>
          <div type="preface" xml:id="preface_4">
-                      <head>4 Viri in literatura</head>
+                      <head>4 Viri in literatura (spremna študija)</head>
                       <listBibl>
                           <bibl>Andoljšek, Ivan: Naš začetni bralni pouk in učbeniki zanj I.
                                   (1550–1869). Maribor: Dopisna delavska univerza Univerzum,
                               1978.</bibl>
+                          <bibl>Andoljšek, Ivan: Naš začetni bralni pouk in učbeniki zanj II. (1869-1918). Ljubljana: Dopisna delavska univerza Univerzum, 1976.</bibl>
                           <bibl><hi rend="italic">Deželni zakonik in vladni list za kranjsko
                                   kronovino</hi> 25, št. 8 (26. junij 1873). Dostopno na Digitalna
                                   knjižnica Slovenije – dLib: <ref target="http://www.dlib.si/?URN=URN:NBN:SI:DOC-B3JVUCGN">http://www.dlib.si/?URN=URN:NBN:SI:DOC-B3JVUCGN</ref>
