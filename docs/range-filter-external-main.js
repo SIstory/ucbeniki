@@ -107,6 +107,7 @@ $(document).ready(function() {
 	var table = $('.targetTable').DataTable({
 	    "ajax": "data-main.json",
 		"deferRender": true,
+		"pageLength": 20,
 		dom: 'Bfrtip',
 		autoFill: true,
 		buttons: [
