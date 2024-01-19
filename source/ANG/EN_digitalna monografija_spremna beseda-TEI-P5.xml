@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <author>Neja Blaj Hribar</author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2023-11-22</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2024-01-16T06:55:56Z</date><name>Neja Blaj Hribar</name></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p><hi rend="bold">Elementary and middle school</hi><note place="foot" xml:id="ftn1" n="1"> With middle school we refer to
+                            the first four years of Gymnasium.</note><hi rend="bold"> textbooks
+                        between 1774 and 1918: An annotated bibliography with supporting
+                    study</hi></p>
+            </div>
+            <div>
+                <head>1 Introduction</head>
+                <p>The present publication provides a comprehensive database of textbooks and
+                        related materials intended for or used in practice in classes in primary
+                        schools and lower grades of secondary schools between the years 1774 and
+                        1918. It was created as part of the work on the project "Schools and
+                        Imperial, National, and Transnational Identifications: Habsburg Empire,
+                        Yugoslavia, and Slovenia” (J6-2573),<note place="foot" xml:id="ftn2" n="2"> The description of the project is available
+                            on the website of the Faculty of Arts of the University of Ljubljana:
+                                <ref target="https://www.ff.uni-lj.si/sole-in-identifikacije">https://www.ff.uni-lj.si/sole-in-identifikacije</ref> (September
+                            11, 2023). </note> which was co-financed by the Slovene Research
+                        and Innovation Agency. Neja Blaj Hribar and Jan Bernot, members of the
+                        support team, dealt with the collection, classification, and digitization of
+                        the material. Members of the project team, including principal investigator
+                        Rok Stergar and researchers Karin Almasy, Jernej Kosi, Jovana Mihajlović
+                        Trbovc, Tamara Pavasović Trošt, Marko Zajc, and Vita Zalar, also helped us
+                        in the design of the database. Oliver Pejić also helped us with many useful
+                        tips and comments. We would like to express our sincere gratitude to Karin
+                        Almasy for her generous support and the advice and material collected during
+                        her research work. We also wish to thank Matej Hriberšek, who kindly shared
+                        with us his lists of textbook materials for classical language classes, and
+                        Teodor Domej, who also assisted us with his advice.
+                </p>
+                <p>A digital publication in this form would not have been possible without the
+                        collaborators of the infrastructure program at the Institute of Contemporary
+                        History. We would like to give particular mention to Mihael Ojsteršek who
+                        put everything into its digital form, the students Tamara Logar and Daša
+                        Mikuž, and Marko Kupljen and Ana Cvek for digitizing the textbooks and
+                        publishing them on the Sistory.si portal.
+                </p>
+                <p>Further thanks are due to the Slovene School Museum and all the employees of
+                        their library, who made it possible for us to borrow and digitize their
+                        textbooks.</p>
+            </div>
+            <div>
+                <head>2 Structure</head>
+                <p>Working on the user interface presented us with a considerable challenge in
+                        view of the amount and variety of textbook material, as well as the
+                        occasional absence or incompleteness of relevant data. Some compromises and
+                        simplifications were necessary, which will be explained in more detail in
+                        the following lines.</p>
+                <div>
+                    <head>2.1 Criteria for the selection of textbook material</head>
+                    <p>The criteria for the selection of textbooks included in the database were
+                            somewhat arbitrary. This applies especially to the beginning of the
+                            period in question, when the gap between the prescribed material and the
+                            texts that teachers and priests used to teach the youth was often
+                            significant. The gap between the prescribed textbooks and everyday
+                            practice gradually decreased during the period considered. In textbook
+                            material from the second half of the nineteenth century, especially in
+                            that which was created after 1869, there are significantly fewer
+                            outlined deviations. In the following lines, we will focus further on
+                            the criteria we used to classify the textbook material in the
+                            database.</p>
+                    <p>1. The bibliography is time-bound by the General School Ordinance from
+                            1774 and the dissolution of Austria-Hungary in 1918. Naturally, some of
+                            the texts that were used in school lessons in the Theresian and
+                            Josephinian eras (and often later) were written before 1774. We included
+                            such textbooks in the review only where their use in the period after
+                            1774 was sufficiently attested in sources and literature. It is,
+                            admittedly, possible, and indeed probable, that other older texts were
+                            also in use during that period. However, this is still open to further
+                            research. Even the year with which we conclude the bibliography was by
+                            no means an impenetrable barrier. Quite the contrary! Many textbooks
+                            were published in a more or less modified form also in the new state
+                            framework.<note place="foot" xml:id="ftn3" n="3"><p> The same
+                                    applies to a significant part of the authors of the textbook
+                                    material. After the upheaval of 1918, they also generally
+                                    continued to work.</p></note> In such cases, we also
+                            mention editions from the period after 1918 in the notes.</p>
+                    <p>2. The area in question was part of the Habsburg Empire for most of the
+                            period under consideration. The exception is the period between 1809 and
+                            1813 when parts of these lands were included in the French Illyrian
+                            provinces; we included the textbooks published during that era in the
+                            bibliography as well.
+                    </p>
+                    <p>3. Because the research project focused mainly on the development of
+                            Slovene nationalism, and due to time and practical limitations, we did
+                            not include a significant part of the textbooks and teaching aids in the
+                            Latin, German, Italian, Hungarian, and Croatian languages ​​in the
+                            database. We are aware that this is why a large part of the textbook
+                            material that was in use at major schools (Hauptschulen), normal schools
+                            (Normalschulen), and (later) either at so-called utraquist or bilingual
+                            elementary schools or at elementary schools (Volksschulen) with German
+                            or another language of instruction, and especially at high schools and
+                            Realschulen, is missing. In the future – either as a supplement to this
+                            publication or as part of further research – this material will
+                            undoubtedly need to be analyzed in more detail and included in the
+                            present corpus of textbook material. </p>
+                    <p>4. The decision to focus in this phase on the collection and
+                            classification of textbook material, which came into consideration
+                            during compulsory education, is also related to the above limitations.
+                            Thus, we focused on textbook material intended for primary
+                            schools–primary school, according to the definition used by Bogo
+                            Grafenauer in 
+                        <hi rend="italic">Zgodovina Slovencev</hi> [History of Slovenes], is
+                            understood as "a school which does not require any previous education,
+                            educates everyone in their mother tongue and gives them basic knowledge,
+                            regardless of their social affiliation and future profession"<note place="foot" xml:id="ftn4" n="4"><p> Grafenauer, Bogo:
+                                    "Podržavljenje šolstva in splošna šolska obveznost." In: 
+                                <hi rend="italic">Zgodovina Slovencev,</hi> ed. Čepič et al.
+                                    Ljubljana: Cankarjeva založba, 1979,
+                            375.</p></note>–and to lower secondary schools. Textbooks
+                            intended for lyceums, high schools,<note place="foot" xml:id="ftn5" n="5"> With high school we refer to the latter
+                                years of Gymnasium.</note> and Realschulen, as well as
+                            materials that were used in teachers training colleges
+                            (Lehrerbildungsanstalten) and vocational schools, are therefore not
+                            included.
+                        <note place="foot" xml:id="ftn6" n="6"><p> In the future, supplementing
+                                    the present collection with material intended for classes in the
+                                    above-mentioned institutions would certainly be
+                                welcome.</p></note></p>
+                    <p>Indeed, the duration of compulsory education in the period in question
+                            was anything but stable, thus the decisions regarding the inclusion and
+                            exclusion of textbook material are always at least somewhat arbitrary.
+                            Compulsory education was initially limited to the period between the
+                            ages of six and twelve years by the General School Ordinance from
+                            1774.<note place="foot" xml:id="ftn7" n="7">Schmidt, Vlado:
+                                    <hi rend="italic">Zgodovina šolstva in pedagogike na
+                                    Slovenskem I. (Od naselitve do 1805).</hi> Ljubljana:
+                                    Delavska enotnost, 1988, 180.
+                            </note>
+                        Even if there was no compulsory education in the Illyrian provinces, we
+                            took into account textbook material intended for schooling at the
+                            primary and (at least) lower secondary level for this short-term
+                            intermezzo – in addition to the textbook material intended for the newly
+                            formed uniform four-year primary schools – for the sake of a relatively
+                            manageable corpus of material and in the face of sudden changes in the
+                            field of secondary education<note place="foot" xml:id="ftn8" n="8"><p>
+                                Šumrada, Janez: "Poglavitne poteze napoleonske politike v
+                                    Ilirskih provincah,"
+                                <hi rend="italic">Zgodovinski časopis</hi> 61, No. 1–2 (2007):
+                                    81–83.</p></note>. After the restoration of Habsburg
+                            power, the school system on the territory of the former Illyrian
+                            provinces was restored to its previous state. With the decree of the
+                            Study Court Commission of September 27, 1816, compulsory education was
+                            extended and ended with the completion of fifteen years of age, whereby
+                            in the newly added period, as Schmidt points out, "only Sunday lessons
+                            were obligatory."
+                        <note place="foot" xml:id="ftn9" n="9"><p> Schmidt, Vlado: <hi rend="italic">Zgodovina šolstva in pedagogike na Slovenskem II.
+                                    (1805–1848).</hi> Ljubljana: Državna založba Slovenije,
+                                    1964, 132.</p></note> With the liberal school reform in
+                            1869, the tendency towards a general eight-year compulsory school
+                            attendance came into force. The ideal of eight-year compulsory education
+                            was fully implemented only in Styria and Carinthia, but not entirely in
+                            the other provinces included in this bibliography. The right to shorten
+                            compulsory school attendance was given to:</p>
+                    <p>– Princely County of Gorizia and Gradisca, where the provincial school
+                            board was allowed to "shorten compulsory education to five years (from
+                            completed age of seven years to completed age of twelve years) in those
+                            school districts where local conditions would require it";
+                        <note place="foot" xml:id="ftn10" n="10"><p> Schmidt, Vlado: <hi rend="italic">Zgodovina šolstva in pedagogike na Slovenskem III.
+                                    (1848–1870).</hi> Ljubljana: Delavska enotnost, 1988,
+                                    195.
+                            </p></note>
+                    </p>
+                    <p>– Istria, which opted for a "six-year compulsory education (from
+                            completed age of six years to completed age of twelve years) with review
+                            school (Wiederholungsschule) in the winter to the completed age of
+                            fourteen years";
+                        <note place="foot" xml:id="ftn11" n="11"><p> Ibid,
+                            195–96.</p></note></p>
+                    <p>– Carniola, where compulsory education was determined by the Law on how
+                            to regulate the management, maintenance, and attendance of elementary
+                            schools, as follows: "The duty to go to school (school duty) starts from
+                            the age of six and lasts, as a rule, until the age of twelve, and until
+                            the age of fourteen in cities and towns with schools that have three or
+                            more classes. With regard to special local circumstances or the climate,
+                            the district school authority may exceptionally allow that school duty
+                            begins only after the completed age of 7 or 8 years. In the same manner,
+                            the district school authority may allow children who have reached the
+                            age of twelve years and have completely learned their school subjects to
+                            be dismissed from school in cities and towns as well".<note place="foot" xml:id="ftn12" n="12"><p> Ibid, 200; Deželni zakonik za
+                                    vojvodstvo kranjsko 25, No. 8 (26. 06. 1873): 57.
+                            </p></note> In Carniola, the outlined changes were implemented only
+                            in 1873, and in 1870 in the remaining provinces included in our
+                            bibliography.
+                        <note place="foot" xml:id="ftn13" n="13"><p> Schmidt: <hi rend="italic">Zgodovina šolstva in pedagogike na Slovenskem
+                                    III.</hi>, 196.</p></note></p>
+                </div>
+                <div>
+                    <head>2.2 Authors, co-authors, translators, and editors</head>
+                    <p>Especially in the earlier period, the records of authors' names and
+                            surnames were often inconsistent. In different editions of the same
+                            textbook or different textbooks by the same author, we often have to
+                            deal with different records of the authors' names and surnames. To a
+                            certain extent this is the result of changes in transcription, and
+                            partly the result of a decision to write the name in another language.
+                            It also happens that the author, to whom the authorship of the textbook
+                            can be attributed with a considerable degree of certainty based on
+                            sources and existing research, is not even mentioned in the textbook.
+                            Since strictly following the original inscriptions in each textbook
+                            would therefore cause unnecessary confusion and make it difficult for
+                            the user to perform a search, we have always used the standard version
+                            of the name and surname records. In doing so, we relied in particular on
+                            Slovene Biographical Lexicon and the Slovene library information system
+                            Cobiss as well as other relevant literature on the subject.</p>
+                    <p>In addition, for the sake of transparency, we listed the original authors
+                            separately – field: "Original author (if it is an adaptation) / Author
+                            (if it is an original work)" – and authors of later adaptations,
+                            translators, and editors – field: "Author of the adaptation / Translator
+                            / Editor." It must be pointed out in this regard that the distinction
+                            between the author of the original and the adapter is not always
+                            completely unambiguous. Some textbooks were published for a very long
+                            period of time. In such cases, the many rewritings of the textbook (many
+                            of which were created even after the death of the original author) could
+                            be regarded as an independent work without any particular reservations,
+                            and the author of the adaptation could be considered an author in the
+                            true sense of the word. Indeed, such decisions are always at least
+                            somewhat arbitrary. In order to avoid inconsistency, we decided on an
+                            approach according to which, even in cases of major revisions, we kept
+                            all later editions of a textbook in the same entry – in cases where we
+                            decided otherwise, we explained our decision to treat the textbook
+                            independently in the notes. Since numerous textbooks are translations,
+                            we have always listed translators in addition to the original author.
+                            The line between editor and author is often blurred. Especially in the
+                            case of readers and songbooks, the individual cited as the author was
+                            often not the author of the selected texts, but only a sort of editor.
+                            We only mentioned the editors in exceptional cases, when they were
+                            listed next to the author.</p>
+                </div>
+                <div>
+                    <head>2.3 Titles<note place="foot" xml:id="ftn14" n="14"><p> When
+                                    transliterating titles from the Dajnko alphabet (dajnčica), the
+                                    Metelko alphabet (metelčica), and the Bohorič alphabet
+                                    (bohoričica), we followed the records on Cobiss and dLib. We are
+                                    aware that the transliteration method on both websites is often
+                                    inadequate (at this point we would like to thank Teodor Domej,
+                                    who has drawn our attention to the matter), but in order to make
+                                    it easier to search for material in various databases, we have
+                                    decided not to change these
+                        transliterations.</p></note></head>
+                    <p>In the field "Title (first edition)" we indicate the title of the first
+                            edition, or if this is unknown, the title of the first edition for which
+                            we have accurate title information. In some cases, it happens that we
+                            know from the reports of contemporaries that the textbook was published
+                            earlier, but the first edition has not been preserved. At times it also
+                            happens that otherwise reliable sources, which talk about the textbook
+                            being published, do not contain information about the exact title. In
+                            such cases, we did not specify approximate titles. We have consistently
+                            adhered to the principle of keeping the title record – if at all
+                            possible – in its original form. Since the year is always added to the
+                            title, the reader will easily find out whether it is the title of the
+                            first edition or the first known edition of the textbook.</p>
+                    <p>We list the known titles of all subsequent editions in the field "Title
+                            (subsequent editions)." Even in this case, it often happens that we know
+                            for sure that it existed – in this case, mostly based on the mentions of
+                            the previous, inaccessible editions at the beginning of one of the
+                            textbooks that we had at our disposal. Therefore, in some parts there is
+                            a discrepancy between the number of years indicated in the field "Year
+                            (later editions)" and the years that are written in parentheses next to
+                            the different versions of the title. In this case also we have always
+                            tried to preserve the original format of the title. Years in parentheses
+                            refer to editions with the same title.</p>
+                </div>
+                <div>
+                    <head>2.4 Places of publication
+                    </head>
+                    <p>Records of places of publication underwent many changes during the period
+                            considered. In part, it is a consequence of the absence or insufficient
+                            standardization of the language in which the textbooks used in the area
+                            considered were written. This is further complicated by the fact that
+                            the place was often written in Latin, German or some other language. In
+                            order for the present bibliography to be sufficiently transparent and,
+                            more importantly, to enable the user to use the database more
+                            efficiently, we have used the modern English versions of place names at
+                            all times. </p>
+                    <p>In the field "Place (first edition)" we indicate the place of the first
+                            known edition. Locations of all other editions are indicated in the
+                            field "Place (later editions)". In relation to writing years in
+                            parentheses, the same rules apply as when listing titles.</p>
+                </div>
+                <div>
+                    <head>2.5 Publishers</head>
+                    <p>Changes and inconsistencies are even more pronounced when listing
+                            publishers than when listing place names. Standardization was necessary
+                            in this case as well. We realize that the way the name of the publisher
+                            was written (the same applies to the place name) is important and as
+                            such could be the subject of historiographical analysis, but in this
+                            case, ease of use prevailed over any such concerns. What is more, such a
+                            decision was also a consequence of the fact that we often relied on
+                            entries in the Cobiss library information system due to the abundance of
+                            material. Although the entries on the aforementioned system generally
+                            preserve the original notation, standardization still occurred, so that
+                            the recording of the original form of the publisher's name would not
+                            always be possible in any case. When standardizing, we mostly followed
+                            the record found in the Slovene Biographical Lexicon; when dealing with
+                            earlier periods we relied principally on the work of Anja Dular, Vlado
+                            Schmidt, and Ivan Andoljšek.
+                        <note place="foot" xml:id="ftn15" n="15">Dular,
+                                Anja: <hi rend="italic">Živeti od knjig: zgodovina knjigotrštva na
+                                    Kranjskem od začetka 19. stoletja.</hi>
+                                Ljubljana: Zveza zgodovinskih društev Slovenije, 2002;
+                                Schmidt: <hi rend="italic">Zgodovina šolstva in pedagogike na
+                                    Slovenskem II.</hi> and Andoljšek, Ivan: <hi rend="italic">Naš začetni bralni pouk in učbeniki zanj I.
+                                    (1550</hi><hi rend="italic">–</hi><hi rend="italic">1869).</hi> Maribor: Dopisna delavska univerza Univerzum,
+                                    1978.</note>
+                        When working on textbooks from Prekmurje, we drew on the work of Ivan
+                            Škafar. It should also be noted that in the case of Prekmurje the names
+                            of the publishers are listed first, followed by the surname. Thus, we
+                            followed the record that is in line with our standard, and not the
+                            original order. We have also at all times standardized the records of
+                            those publishing houses whose names did not derive from the personal
+                            name of the publisher. The place of the first known edition is indicated
+                            in the field "Publisher (first edition)." The places of publication of
+                            all other editions are indicated in the field "Publisher (subsequent
+                            editions)". In relation to writing years in parentheses, the same rules
+                            apply as when citing titles and places of publication.
+                    </p>
+                    <p>In cases where the name of the publisher is unknown, the name of the
+                            printer is given. In the rare cases where we have not been able to
+                            identify even the latter, we provide information about the bookshops or
+                            booksellers where the textbook was sold and related
+                        information.</p>
+                </div>
+                <div>
+                    <head>2.6 Year of publication</head>
+                    <p>In certain instances, we only have information about the year of
+                            publication, but not other information about a textbook. In such cases,
+                            the year of publication is provided only in the "Year of publication"
+                            field, but not elsewhere. Therefore, in some places there is a
+                            discrepancy between the years, which are listed in the other fields.
+                            Although it is very likely that in such cases all other information was
+                            also often the same – i.e., title, place, and publisher – this cannot be
+                            stated with certainty.
+                    </p>
+                    <p>For textbooks that began to be published after 1869, we only indicated
+                            the period of validity of the textbook and not each reprint separately,
+                            since reprints of some textbooks were published almost every year, but
+                            the content did not change.</p>
+                </div>
+                <div>
+                    <head>2.7 Data on the use of textbook material</head>
+                    <p>The information about the purpose of the textbook material, which is
+                            listed in the "Subject" field, is intended exclusively for the basic
+                            orientation of the reader but cannot be the basis for a more detailed
+                            analysis of the use of textbooks. In everyday practice, the use of
+                            textbooks did not always correspond to their original purpose, in
+                            addition, the names of some subjects and the subjects themselves changed
+                            over time. For a more precise insight into the use of an individual
+                            textbook, readers can help themselves with the bibliography listed in
+                            the "Sources and bibliography" section. For the period after 1869, a
+                            precise insight into the purpose of the approved textbooks is also
+                            provided by the materials of the Ministry of Education. Links to
+                            relevant material are also available in the "Sources and bibliography"
+                            section.</p>
+                </div>
+            </div>
+            <div>
+                <head>3 Using the bibliography</head>
+                <p>The bibliography of textbooks is located in the "Tabular display" tab, where
+                        a table with basic data is displayed: Title of first edition, Author, Year,
+                        Place (of first edition) and Subject. By clicking on the link in the title,
+                        we open the full description of each textbook with links to digitized
+                        material (if available).
+                </p>
+                <p>At the top left, you can change the displayed data on the "Column visibility"
+                        button. By clicking on the title of each column, textbooks can also be
+                        sorted by alphabet, year, etc.</p>
+                <p>By moving through the pages, users can browse between textbooks or in the
+                        search engine at the top right, they can browse all data, and at the bottom
+                        of the table, search for basic data. At the top of the page, you can also
+                        filter textbooks by year of publication and display textbooks published in
+                        the selected period. </p>
+                <p>The table can be exported in .csv, .xlsx and .pdf formats. If the data is
+                        already filtered with the search engine, it will only export the displayed
+                        textbooks, otherwise the entire table will be exported.</p>
+                <div>
+                    <head>3.1 Using the list of approved textbooks for the period between 1869
+                            and 1918</head>
+                    <p>In creating the database, we made extensive use of the Orders of the
+                            Ministry of Education ("Verordnungsblatt des Ministeriums für Cultus und
+                            Unterricht"). Since 1869, all approved textbooks and teaching aids have
+                            been listed in the latter.<note place="foot" xml:id="ftn16" n="16"><p> Žigon, Tanja, Almasy, Karin in Lovšin, Andrej: <hi rend="italic">Vloga in pomen prevajanja učbenikov v 19.
+                                    stoletju: kulturnozgodovinski in jezikovni vidiki</hi>.
+                                    Ljubljana: Znanstvena založba Filozofske fakultete Univerze v
+                                    Ljubljani, 2017, 46.
+                            </p></note> In addition, from 1878 until the dissolution of the
+                            Austria-Hungary (except in 1916 and 1918), overview lists of valid
+                            approved textbooks for elementary schools and vocational secondary
+                            schools (Bürgerschulen) were also published in the Orders of the
+                            Ministry. Simultaneously with the annual lists of textbooks for
+                            elementary schools and secondary vocational schools, separate lists of
+                            teaching aids also began to be compiled. From 1884 onwards, overview
+                            lists of approved textbooks for high schools and Realschulen were
+                            published approximately every four years. 
+                    </p>
+                    <p>As part of the work with the Orders of the Ministry of Education, a
+                            relatively extensive corpus of lists of approved textbooks and teaching
+                            aids was created, which we decided to include separately in the final
+                            version of the publication due to its potential usefulness for
+                            researchers of the question under consideration. When transcribing the
+                            titles, we have always faithfully followed the record in the Orders of
+                            the Ministry of Education. The latter may differ slightly from the
+                            actual titles (as a rule, these are minor typographical errors or
+                            shortening of longer titles), but these differences do not, as a rule,
+                            make it difficult to identify individual textbooks. In the following
+                            lines, we will try to briefly outline the structure and potential
+                            usefulness of the present corpus of lists. </p>
+                    <p>The present corpus of lists of approved textbooks and teaching aids for
+                            the period between 1869 and 1918 is compiled according to the following
+                            key:</p>
+                    <p>1. Included in the lists are textbooks and teaching aids for elementary
+                            schools and secondary vocational schools, Gymnasia, Realschulen, and
+                            girls' lyceums. Only material in the Slovene language is included, or
+                            material that was specifically intended for classes in elementary
+                            schools with the Slovene language of instruction. A problem arises
+                            especially with teaching aids because it would probably not be too bold
+                            to assume that many teaching aids, which were not written in Slovene or
+                            were not specifically intended for classes in schools with the Slovene
+                            language of instruction, were used for classes in schools with the
+                            Slovene language of instruction. The limitation to Slovene language, for
+                            example, also led to the fact that we did not include atlases and maps
+                            of individual provinces in the present list if they were not published
+                            in Slovene, but in some other language (as a rule, maps were published
+                            in German and Italian languages).
+                    </p>
+                    <p>2. For the period between 1869 and 1877, the present list is based on the
+                            lists "Alphabetisches Verzeichnis über Lehrbücher und Lehrmittel" and
+                            "Verfügungen, betreffend Lehrbücher und Lehrmittel". These lists tell us
+                            which textbooks were approved in a particular year, they contain
+                            information about the author, title, location, publisher, year of
+                            publication, the environment in which the textbook is intended to be
+                            used (as a rule, these are individual types of educational institutions,
+                            less often for provincial framework), the type of textbook material and
+                            the level for which the textbook was intended, but they do not provide a
+                            comprehensive list of valid textbooks for an individual year. As already
+                            mentioned, when collecting and digitizing secondary school textbook
+                            material, we limited ourselves to the first four years (see point 1
+                            regarding exceptions). All lists of this type are identified in the
+                            present corpus of lists by the key "[Year]_Vf._Lehrbücher_mittel". We
+                            kept this type of lists for a later period as well, but due to the
+                            ever-increasing amount of approved material, we stopped compiling them
+                            starting from 1900. Since 1878 and 1884, all textbooks have also been
+                            listed in overview lists of approved textbooks. We have again prepared
+                            such lists for the period from 1915 onwards. Namely, after 1915,
+                            overview lists of approved textbooks for Gymnasia and Realschulen were
+                            no longer compiled, and after 1917, the same thing happened with
+                            overview lists of textbooks for elementary schools and vocational
+                            secondary schools. The information in the present lists is somewhat more
+                            comprehensive than those which can be obtained from the overview lists,
+                            but the search for information in the sections "Alphabetisches
+                            Verzeichnis über Lehrbücher und Lehrmittel" and "Verfügungen, betreffend
+                            Lehrbücher und Lehrmittel" with the help of the corresponding indexes
+                            and data, provided by overview lists of textbook material, is relatively
+                            straightforward.
+                    </p>
+                    <p>3. As stated, for the period from 1878 onwards (with the exception of
+                            1916 and 1918), overview lists of textbooks for elementary schools and
+                            vocational secondary schools or higher primary schools, are available
+                            for each year, which allow a good overview of the changes in the
+                            structure of the textbook material and could be an interesting subject
+                            of study. All the mentioned lists are marked by the key
+                            "[Year]_Lehrbücherverzeichnis_V_B". The same applies to overview lists
+                            of textbooks for Gymnasia and Realschulen. These were compiled at longer
+                            intervals and are available for the years 1884, 1888, 1892, 1896, 1900,
+                            1904, 1909, and 1915. The lists also include material for upper
+                            secondary school program, as we considered it reasonable due to
+                            transparency and the possibility of further analysis of the lists. The
+                            material can in principle be separated from each other without too much
+                            difficulty. All the mentioned lists are marked by the key
+                            "[Year]_Lehrbücherverzeichnis_G_R".</p>
+                    <p>4. Simultaneously with the annual review lists of approved textbooks for
+                            elementary schools and vocational secondary schools, separate lists of
+                            teaching aids also began to be maintained. Despite the fact that these
+                            are also available for the entire period between 1878 and 1918 (except
+                            for 1916 and 1918), we did not compile them for each year separately,
+                            but in intervals for 1878; 1880; 1890; 1900; 1910; 1917. All the
+                            mentioned lists are marked by the key
+                            "[Year]_Lehrmittelverzeichnis".</p>
+                    <p>An excel file for exporting the <hi rend="bold ">list of approved
+                            textbooks</hi> will be available here.</p>
+                </div>
+            </div>
+            <div>
+                <head>4 Sources and bibliography</head>
+                <list type="unordered">
+                    <item>Andoljšek, Ivan: <hi rend="italic">Naš začetni bralni pouk in
+                            učbeniki zanj I. (1550–1869)</hi>. Maribor: Dopisna delavska
+                            univerza Univerzum, 1978.
+                    </item>
+                    <item><hi rend="italic">Deželni zakonik in vladni list za kranjsko
+                            kronovino</hi> 25, št. 8 (June 26, 1873). Available at the Digital
+                            Library of Slovenia - dLib: <ref target="http://www.dlib.si/?URN=URN:NBN:SI:DOC-B3JVUCGN">http://www.dlib.si/?URN=URN:NBN:SI:DOC-B3JVUCGN</ref>
+                            (June 23, 2023).</item>
+                    <item>Dular, Anja: <hi rend="italic">Živeti od knjig: zgodovina
+                            knjigotrštva na Kranjskem od začetka 19. stoletja</hi>. Ljubljana:
+                            Zveza zgodovinskih društev Slovenije, 2002. </item>
+                    <item>Grafenauer, Bogo: "Podržavljenje šolstva in splošna šolska obveznost."
+                            In: 
+                        <hi rend="italic">Zgodovina Slovencev</hi>, ed. Čepič Zdenko et. al.
+                            Ljubljana: Cankarjeva založba, 1979, 375–381.</item>
+                    <item>Schmidt, Vlado: <hi rend="italic">Zgodovina šolstva in pedagogike
+                            na Slovenskem I. (Od naselitve do 1805</hi>). Ljubljana: Delavska
+                            enotnost, 1988.
+                    </item>
+                    <item>Schmidt, Vlado: <hi rend="italic">Zgodovina šolstva in pedagogike
+                            na Slovenskem II. (1805–1848).</hi> Ljubljana: Državna založba
+                            Slovenije, 1964.</item>
+                    <item>Schmidt, Vlado: <hi rend="italic">Zgodovina šolstva in pedagogike
+                            na Slovenskem III. (1848–1870).</hi> Ljubljana: Delavska enotnost,
+                            1988.
+                    </item>
+                    <item>Šumrada, Janez: "Poglavitne poteze napoleonske politike v Ilirskih
+                            provincah."
+                        <hi rend="italic">Zgodovinski časopis</hi> 61, No. 1–2 (2007):
+                            75–84.</item>
+                    <item>Žigon, Tanja; Almasy, Karin and Lovšin, Andrej: <hi rend="italic">Vloga in pomen prevajanja učbenikov v 19. stoletju: kulturnozgodovinski
+                            in jezikovni vidiki.</hi>
+                        Ljubljana: <hi rend="background(white)">Znanstvena založba
+                            Filozofske fakultete Univerze v Ljubljani</hi>, 2017.<lb/><ref target="https://doi.org/10.4312/9789612379773"><hi rend="underline color(1155CC)">https://doi.org/10.4312/9789612379773</hi></ref></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

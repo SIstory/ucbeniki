@@ -62,7 +62,7 @@
    <xsl:param name="outputDir">docs/</xsl:param>
    
    <xsl:param name="homeLabel">Ucbeniki</xsl:param>
-   <xsl:param name="homeURL">#</xsl:param>
+   <xsl:param name="homeURL">https://sistory.github.io/ucbeniki/</xsl:param>
    
    <xsl:param name="splitLevel">1</xsl:param>
    
@@ -70,6 +70,12 @@
    <xsl:param name="title-bar-sticky">false</xsl:param>
    
    <xsl:param name="chapterAsSIstoryPublications">false</xsl:param>
+   
+   <!-- Dvojezična verzija -->
+   <xsl:param name="documentationLanguage">en</xsl:param>
+   
+   <xsl:param name="languages-locale">true</xsl:param>
+   <xsl:param name="languages-locale-primary">sl</xsl:param>
    
    <!-- odstranim pri spodnjih param true -->
    <xsl:param name="numberFigures"></xsl:param>
@@ -89,7 +95,22 @@
    </doc>
    <xsl:template name="nav-body-head">
       <xsl:param name="thisLanguage"/>
-      <xsl:text>Učbeniki</xsl:text>
+      <xsl:choose>
+         <xsl:when test="$thisLanguage = 'en'">List of textbooks</xsl:when>
+         <xsl:otherwise>Seznam učbenikov</xsl:otherwise>
+      </xsl:choose>
+   </xsl:template>
+   
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc>Novo ime za indekse</desc>
+      <param name="thisLanguage"></param>
+   </doc>
+   <xsl:template name="nav-front-head">
+      <xsl:param name="thisLanguage"/>
+      <xsl:choose>
+         <xsl:when test="$thisLanguage = 'en'">Content</xsl:when>
+         <xsl:otherwise>Vsebina</xsl:otherwise>
+      </xsl:choose>
    </xsl:template>
    
    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
@@ -98,7 +119,10 @@
    </doc>
    <xsl:template name="nav-index-head">
       <xsl:param name="thisLanguage"/>
-      <xsl:text>Tabelarni prikaz</xsl:text>
+      <xsl:choose>
+         <xsl:when test="$thisLanguage = 'en'">Tabular display</xsl:when>
+         <xsl:otherwise>Tabelarni prikaz</xsl:otherwise>
+      </xsl:choose>
    </xsl:template>
    
    
@@ -116,9 +140,18 @@
       <xsl:if test="self::tei:divGen[@type='teiHeader']">
          <xsl:apply-templates select="ancestor::tei:TEI/tei:teiHeader"/>
       </xsl:if>
-      <!-- kazalo vsebine toc -->
+      <!-- kazalo vsebine toc -->      
       <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='toc'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='toc']">
-         <xsl:call-template name="mainTOC"/>
+         <xsl:choose>
+            <xsl:when test="$languages-locale='true'">
+               <xsl:call-template name="mainTOC-my">
+                  <xsl:with-param name="thisLanguage" select="$thisLanguage"/>
+               </xsl:call-template>
+            </xsl:when>
+            <xsl:otherwise>
+               <xsl:call-template name="mainTOC"/>
+            </xsl:otherwise>
+         </xsl:choose>
       </xsl:if>
       <!-- kazalo slik -->
       <xsl:if test="self::tei:divGen[@type='toc'][@xml:id='images'] | self::tei:divGen[@type='toc'][tokenize(@xml:id,'-')[last()]='images']">
@@ -163,39 +196,13 @@
          <xsl:call-template name="search"/>
       </xsl:if>
       <!-- DODAL SPODNJO SAMO ZA TO PRETVORBO! -->
-      <!-- za generiranje datateble -->
-      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='main']">
+      <!-- za generiranje datatable -->   
+      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='main-sl']">
          <xsl:call-template name="datatables-main"/>
       </xsl:if>
-      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='author']">
-         <xsl:call-template name="datatables-author"/>
-      </xsl:if>
-      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='genre']">
-         <xsl:call-template name="datatables-genre"/>
-      </xsl:if>
-      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='type']">
-         <xsl:call-template name="datatables-type"/>
-      </xsl:if>
-      <!-- genre2, Zvrstna opredelitev, row[5] -->
-      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='place']">
-         <xsl:call-template name="datatables-place"/>
-      </xsl:if>
-      <!-- year, Leto (ali šolsko leto) uprizoritve, row[6] -->
-      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='year']">
-         <xsl:call-template name="datatables-year"/>
-      </xsl:if>
-      <!-- opportunity, Priložnost uprizoritve, row[7] -->
-      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='opportunity']">
-         <xsl:call-template name="datatables-opportunity"/>
-      </xsl:if>
-      <!-- stage, Kraj uprizoritve drame, row[12] -->
-      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='stage']">
-         <xsl:call-template name="datatables-stage"/>
-      </xsl:if>
-      <!-- actorss, Kdo jo je igral?, row[13] -->
-      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='actors']">
-         <xsl:call-template name="datatables-actors"/>
-      </xsl:if>
+      <xsl:if test="self::tei:divGen[@type='index'][@xml:id='main']">
+         <xsl:call-template name="en-datatables-main"/>
+      </xsl:if>         
    </xsl:template>
    
    <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
@@ -212,6 +219,8 @@
       <link href="{concat($path-general,'themes/plugin/ImageViewer/1.1.3/imageviewer.css')}" rel="stylesheet" type="text/css" />
       <!-- dodan openseadragon -->
       <link href="{concat($path-general,'themes/library/openseadragon/2.4.2/openseadragon.css')}" rel="stylesheet" type="text/css" />
+      <!-- dodam projektno specifičen css, ki se nahaja v istem direktoriju kot ostali HTML dokumenti -->
+      <link href="project_ucb.css" rel="stylesheet" type="text/css"/> 
    </xsl:template>
    <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
       <xsldoc:desc>[html] Hook where extra Javascript functions can be defined</xsldoc:desc>
@@ -478,6 +487,7 @@
       <script src="{concat($path-general,'themes/foundation/6/js/app.js')}"></script>
       <!-- back-to-top -->
       <script src="{concat($path-general,'themes/js/plugin/back-to-top/back-to-top.js')}"></script>
+      
    </xsl:template>
    
    
@@ -611,26 +621,38 @@
    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
       <desc></desc>
    </doc>
-   <xsl:template name="datatables-main">
-      <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css'}" />
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js'}"></script>
+   <xsl:template name="en-datatables-main">
+      <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else '//cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css'}" />
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else '//cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js'}"></script>
       
       <!-- ===== Dodatne resource datoteke ======================================= -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.responsive.min.js' else 'https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.buttons.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.colVis.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.colReorder.min.js' else 'https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.responsive.min.js' else 'https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.buttons.min.js' else 'https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.colVis.min.js' else 'https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.colReorder.min.js' else 'https://cdn.datatables.net/colreorder/1.7.0/js/dataTables.colReorder.min.js'}"></script>
       
       <script type="text/javascript" src="{if ($localWebsite='true') then 'jszip.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js'}"></script><!--
       <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/plug-ins/1.13.4/dataRender/ellipsis.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/plug-ins/1.13.5/dataRender/hyperLink.js'}"></script>-->
+      <!--<script type="text/javascript">
+        $(document).ready(function () {
+            $('#datatableMain').DataTable({
+                dom: 'Bfrtip',
+                buttons:[ {
+                    extend: 'pdfHtml5',
+                    orientation: 'landscape',
+                    pageSize: 'LEGAL'
+                }]
+            });
+        });</script>-->
       <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'range-filter-external-main.js' else 'range-filter-external-main.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'en-range-filter-external-main.js' else 'en-range-filter-external-main.js'}"></script>
       
       <link href="{if ($localWebsite='true') then 'responsive.dataTables.min.css' else 'https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <link href="{if ($localWebsite='true') then 'buttons.dataTables.min.css' else 'https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css'}" rel="stylesheet" type="text/css" />
+      <link href="{if ($localWebsite='true') then 'buttons.dataTables.min.css' else 'https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css'}" rel="stylesheet" type="text/css" />
       <!-- ===== Dodatne resource datoteke ======================================= -->
       
       <style>
@@ -643,13 +665,249 @@
       </style>
       
       <script>
-         var columnIDs = [1];
+         var columnIDs = [-1];
+      </script>
+      
+      <ul class="accordion" data-accordion="" data-allow-all-closed="true">
+         <li class="accordion-item" data-accordion-item="">
+            <a href="#" class="accordion-title">Filter year</a>
+            <div class="accordion-content rangeFilterWrapper" data-target="2" data-tab-content="">
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">Filter from year</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinYear" maxlength="4" placeholder="Year"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinMonth" maxlength="2" placeholder="Month"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMinDay" maxlength="2" placeholder="Day"/>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="small-3 columns">
+                     <label for="middle-label" class="text-right middle">to year</label>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxYear" maxlength="4" placeholder="Year"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxMonth" maxlength="2" placeholder="Month"/>
+                  </div>
+                  <div class="small-3 columns">
+                     <input type="text" class="rangeMaxDay" maxlength="2" placeholder="Day"/>
+                  </div>
+                  <div class="small-12 columns" style="text-align: right;">
+                     <a class="clearRangeFilter" href="#">Clear filter</a>
+                  </div>
+               </div>
+            </div>
+         </li>
+      </ul>
+      
+      <div>
+         <table id="en-datatableMain" class="display responsive targetTable" width="100%" cellspacing="0">
+            <thead>
+               <tr>
+                  <th>Title (first edition)</th>
+                  <th>Author</th>
+                  <th>Year</th>
+                  <th>Place (first edition)</th>
+                  <th>Subject</th>
+                  <th>Author of the adaptation / Translator / Editor</th>
+                  <th>Title (subsequent editions)</th>
+                  <th>Place (later editions)</th>
+                  <th>Publisher (first edition)</th>
+                  <th>Publisher (subsequent editions)</th>
+                  <th>Links to digitized material</th>
+                  <th>COBISS (library)</th>
+                  <th>Sources and Bibliography</th>
+                  <th>ID</th>
+                  <th>Notes</th>
+               </tr>
+            </thead>
+            <tfoot>
+               <tr>
+                  <!--                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>-->
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Search" type="text"/></th>
+                  <th></th>
+               </tr>
+            </tfoot>
+            <tbody>
+            <xsl:result-document href="docs/en-data-main.json" method="text" encoding="UTF-8">
+               <xsl:text>{
+  "data": [&#xA;</xsl:text>
+               <xsl:for-each select="//tei:body/tei:div[2]/tei:div">
+                  <xsl:variable name="ebookID" select="@xml:id"/>
+                  <xsl:variable name="ebookTitle" select="descendant::tei:row/tei:cell[@ana='title']"/>
+                  <xsl:variable name="ebookAuthor" select="descendant::tei:row/tei:cell[@ana='author']"/>
+                  <xsl:variable name="ebookYear" select="descendant::tei:row/tei:cell[@ana='year']"/>
+                  <xsl:variable name="ebookPlace" select="descendant::tei:row/tei:cell[@ana='place']"/>
+                  <xsl:variable name="ebookSubject" select="descendant::tei:row/tei:cell[@ana='subject']"/>
+                  <xsl:variable name="ebookCover" select="descendant::tei:row/tei:cell[@ana='coverAuthor']"/>
+                  <xsl:variable name="ebookTitleNew" select="descendant::tei:row/tei:cell[@ana='titleNew']"/>
+                  <xsl:variable name="ebookPlaceNew" select="descendant::tei:row/tei:cell[@ana='placeNew']"/>
+                  <xsl:variable name="ebookFirstPublisher" select="descendant::tei:row/tei:cell[@ana='firstPublisher']"/>
+                  <xsl:variable name="ebookOtherPublisher" select="descendant::tei:row/tei:cell[@ana='otherPublisher']"/>
+                  <xsl:variable name="ebookLink" select="descendant::tei:row/tei:cell[@ana='link']"/>
+                  <xsl:variable name="ebookCobiss" select="descendant::tei:row/tei:cell[@ana='cobiss']"/>
+                  <xsl:variable name="ebookBiblio" select="descendant::tei:row/tei:cell[@ana='biblio']"/>
+                  <xsl:variable name="ebookNote" select="descendant::tei:row/tei:cell[@ana='note']"/>
+                  <xsl:text>[&#xA;</xsl:text>
+                  
+                  <!-- Naslov --><!--
+                  <xsl:variable name="prvihXznakov" select="substring($bookTitle, 1, 20)" />-->
+                  <xsl:text>&quot;</xsl:text>
+                  <xsl:value-of select="concat('&lt;a href=\&quot;',$ebookID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$ebookTitle,'&lt;/a&gt;')"/>
+<!--                  <xsl:value-of select="concat('&quot;',$bookTitle,'&quot;')"/>-->
+                  <xsl:text>&quot;,&#xA;</xsl:text>
+                  
+                  <!-- avtor -->
+                  <xsl:value-of select="concat('&quot;',$ebookAuthor,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  <!-- Leto -->
+                  <xsl:value-of select="concat('&quot;',$ebookYear,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  <!-- Kraj -->
+                  <xsl:value-of select="concat('&quot;',$ebookPlace,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  <!-- Predmet -->
+                  <xsl:value-of select="concat('&quot;',$ebookSubject,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  <!-- avtor priredbe -->
+                  <xsl:value-of select="concat('&quot;',$ebookCover,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  <!-- Naslov (poznejše izdaje) -->
+                  <xsl:value-of select="concat('&quot;',$ebookTitleNew,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  <!-- Kraj (poznejše izdaje) -->
+                  <xsl:value-of select="concat('&quot;',$ebookPlaceNew,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  <!-- Založnik (prva izdaja) -->
+                  <xsl:value-of select="concat('&quot;',$ebookFirstPublisher,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  <!-- Založnik (poznejše izdaje) -->
+                  <xsl:value-of select="concat('&quot;',$ebookOtherPublisher,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  <!-- Povezava na digitalizirane učbenike -->
+                  <xsl:value-of select="concat('&quot;',$ebookLink,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  <!-- Povezava na cobiss -->
+                  <xsl:value-of select="concat('&quot;',$ebookCobiss,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  <!-- viri in literatura -->
+                  <xsl:value-of select="concat('&quot;',$ebookBiblio,'&quot;')"/>
+                  <xsl:text>,&#xA;</xsl:text>
+                  
+                  
+                  <!-- ID -->
+                  <xsl:text>&quot;</xsl:text>
+                  <xsl:value-of select="concat('&lt;a href=\&quot;',$ebookID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$ebookID,'&lt;/a&gt;')"/>
+                  <xsl:text>&quot;,&#xA;</xsl:text>
+                  
+                  
+                  <!-- opombe -->
+                  <xsl:value-of select="concat('&quot;',$ebookNote,'&quot;')"/>
+                  <xsl:text>&#xA;</xsl:text>
+                  
+                  <xsl:text>]</xsl:text>
+                  <xsl:if test="position() != last()">
+                     <xsl:text>,
+                     </xsl:text>
+                  </xsl:if>
+               </xsl:for-each>
+               <xsl:text>]
+}</xsl:text>
+            </xsl:result-document>
+            
+            </tbody>
+         </table>
+         <br/>
+         <br/>
+         <br/>
+      </div>
+   </xsl:template>
+   
+   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+      <desc></desc>
+   </doc>
+   <xsl:template name="datatables-main">
+      <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else '//cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css'}" />
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else '//cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js'}"></script>
+      
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.responsive.min.js' else 'https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.buttons.min.js' else 'https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.colVis.min.js' else 'https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.colReorder.min.js' else 'https://cdn.datatables.net/colreorder/1.7.0/js/dataTables.colReorder.min.js'}"></script>
+      
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'jszip.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js'}"></script><!--
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/plug-ins/1.13.4/dataRender/ellipsis.js'}"></script>
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/plug-ins/1.13.5/dataRender/hyperLink.js'}"></script>-->
+      <!--<script type="text/javascript">
+        $(document).ready(function () {
+            $('#datatableMain').DataTable({
+                dom: 'Bfrtip',
+                buttons:[ {
+                    extend: 'pdfHtml5',
+                    orientation: 'landscape',
+                    pageSize: 'LEGAL'
+                }]
+            });
+        });</script>-->
+      <!-- določi, kje je naša dodatna DataTables js datoteka -->
+      <script type="text/javascript" src="{if ($localWebsite='true') then 'range-filter-external-main.js' else 'range-filter-external-main.js'}"></script>
+      
+      <link href="{if ($localWebsite='true') then 'responsive.dataTables.min.css' else 'https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css'}" rel="stylesheet" type="text/css" />
+      <link href="{if ($localWebsite='true') then 'buttons.dataTables.min.css' else 'https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css'}" rel="stylesheet" type="text/css" />
+      <!-- ===== Dodatne resource datoteke ======================================= -->
+      
+      <style>
+         *, *::after, *::before {
+         box-sizing: border-box;
+         }
+         .pagination .current {
+         background: #8e130b;
+         }
+      </style>
+      
+      <script>
+         var columnIDs = [-1];
       </script>
       
       <ul class="accordion" data-accordion="" data-allow-all-closed="true">
          <li class="accordion-item" data-accordion-item="">
             <a href="#" class="accordion-title">Filtriraj po letu</a>
-            <div class="accordion-content rangeFilterWrapper" data-target="3" data-tab-content="">
+            <div class="accordion-content rangeFilterWrapper" data-target="2" data-tab-content="">
                <div class="row">
                   <div class="small-3 columns">
                      <label for="middle-label" class="text-right middle">Filtriraj od leta</label>
@@ -689,685 +947,142 @@
          <table id="datatableMain" class="display responsive targetTable" width="100%" cellspacing="0">
             <thead>
                <tr>
-                  <th>ID</th>
                   <th>Naslov (prva izdaja)</th>
                   <th>Avtor</th>
                   <th>Leto</th>
                   <th>Kraj (prva izdaja)</th>
                   <th>Predmet</th>
+                  <th>Avtor priredbe / Prevajalec / Urednik</th>
+                  <th>Naslov (poznejše izdaje)</th>
+                  <th>Kraj (poznejše izdaje)</th>
+                  <th>Založnik (prva izdaja)</th>
+                  <th>Založnik (poznejše izdaje)</th>
+                  <th>Povezava do digitalizirane različice besedila</th>
+                  <th>COBISS</th>
+                  <th>Viri in literatura</th>
+                  <th>ID</th>
+                  <th>Opombe</th>
                </tr>
             </thead>
             <tfoot>
                <tr>
-                  <th></th>
                   <!--                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>-->
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                   <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-               </tr>
-            </tfoot>
-            <!--<tbody>-->
-            <xsl:result-document href="docs/data-main.json" method="text" encoding="UTF-8">
-               <xsl:text>{
-  "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:body/tei:div">
-                  <xsl:variable name="playID" select="@xml:id"/>
-                  <xsl:variable name="playTitle" select="descendant::tei:row/tei:cell[@ana='title']"/>
-                  <xsl:variable name="playAuthor" select="descendant::tei:row/tei:cell[@ana='author']"/>
-                  <xsl:variable name="playYear" select="descendant::tei:row/tei:cell[@ana='year']"/>
-                  <xsl:variable name="playPlace" select="descendant::tei:row/tei:cell[@ana='place']"/>
-                  <xsl:variable name="playSubject" select="descendant::tei:row/tei:cell[@ana='subject']"/>
-                  <xsl:text>[&#xA;</xsl:text>
-                  
-                  <!-- ID -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
-                  <xsl:text>&quot;,&#xA;</xsl:text>
-                  
-                  <!-- Naslov --><!--
-                  <xsl:variable name="prvihXznakov" select="substring($playTitle, 1, 20)" />-->
-                  <xsl:value-of select="concat('&quot;',$playTitle,'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- avtor -->
-                  <xsl:value-of select="concat('&quot;',$playAuthor,'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Leto -->
-                  <xsl:value-of select="concat('&quot;',$playYear,'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Kraj -->
-                  <xsl:value-of select="concat('&quot;',$playPlace,'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Predmet -->
-                  <xsl:value-of select="concat('&quot;',$playSubject,'&quot;')"/>
-                  <xsl:text>&#xA;</xsl:text>
-                  
-                  <xsl:text>]</xsl:text>
-                  <xsl:if test="position() != last()">
-                     <xsl:text>,
-                     </xsl:text>
-                  </xsl:if>
-               </xsl:for-each>
-               <xsl:text>]
-}</xsl:text>
-            </xsl:result-document>
-            
-            <!--</tbody>-->
-         </table>
-         <br/>
-         <br/>
-         <br/>
-      </div>
-   </xsl:template>
-   
-   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
-      <desc></desc>
-   </doc>
-   <xsl:template name="datatables-genre">
-      <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css'}" />
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js'}"></script>
-      
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.responsive.min.js' else 'https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.buttons.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.colVis.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.colReorder.min.js' else 'https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js'}"></script>
-      
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'jszip.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js'}"></script>
-      <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'range-filter-external-genre.js' else 'range-filter-external-genre.js'}"></script>
-      
-      <link href="{if ($localWebsite='true') then 'responsive.dataTables.min.css' else 'https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <link href="{if ($localWebsite='true') then 'buttons.dataTables.min.css' else 'https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      
-      <style>
-         *, *::after, *::before {
-         box-sizing: border-box;
-         }
-         .pagination .current {
-         background: #8e130b;
-         }
-      </style>
-      
-      <script>
-         var columnIDs = [1];
-      </script>
-      
-      <div>
-         <table id="datatableProvenience" class="display responsive nowrap targetTable" width="100%" cellspacing="0">
-            <thead>
-               <tr>
-                  <th>ID</th>
-                  <th>Naslov</th>
-                  <th>Predmet</th>
-               </tr>
-            </thead>
-            <tfoot>
-               <tr>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
+                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                   <th></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
                </tr>
             </tfoot>
-            <!--<tbody>-->
-            <xsl:result-document href="docs/data-genre.json" method="text" encoding="UTF-8">
-               <xsl:text>{
+            <tbody>
+               <xsl:result-document href="docs/data-main.json" method="text" encoding="UTF-8">
+                  <xsl:text>{
   "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:body/tei:div">
-                  <xsl:variable name="playID" select="@xml:id"/>
-                  <xsl:variable name="playTitle" select="descendant::tei:row/tei:cell[@ana='title']"/>
-                  <xsl:variable name="playSubject" select="descendant::tei:row/tei:cell[@ana='subject']"/>
-                  <xsl:text>[&#xA;</xsl:text>
-                  
-                  <!-- ID -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
-                  <xsl:text>&quot;,&#xA;</xsl:text>
-                  
-                  <!-- Naslov -->
-                  <xsl:value-of select="concat('&quot;',$playTitle,'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- predmet -->
-                  <xsl:value-of select="concat('&quot;',$playSubject,'&quot;')"/>
-                  <xsl:text>&#xA;</xsl:text>
-                  
-                  <xsl:text>]</xsl:text>
-                  <xsl:if test="position() != last()">
-                     <xsl:text>,
+                  <xsl:for-each select="//tei:body/tei:div[1]/tei:div">
+                     <xsl:variable name="bookID" select="@xml:id"/>
+                     <xsl:variable name="bookTitle" select="descendant::tei:row/tei:cell[@ana='title']"/>
+                     <xsl:variable name="bookAuthor" select="descendant::tei:row/tei:cell[@ana='author']"/>
+                     <xsl:variable name="bookYear" select="descendant::tei:row/tei:cell[@ana='year']"/>
+                     <xsl:variable name="bookPlace" select="descendant::tei:row/tei:cell[@ana='place']"/>
+                     <xsl:variable name="bookSubject" select="descendant::tei:row/tei:cell[@ana='subject']"/>
+                     <xsl:variable name="bookCover" select="descendant::tei:row/tei:cell[@ana='coverAuthor']"/>
+                     <xsl:variable name="bookTitleNew" select="descendant::tei:row/tei:cell[@ana='titleNew']"/>
+                     <xsl:variable name="bookPlaceNew" select="descendant::tei:row/tei:cell[@ana='placeNew']"/>
+                     <xsl:variable name="bookFirstPublisher" select="descendant::tei:row/tei:cell[@ana='firstPublisher']"/>
+                     <xsl:variable name="bookOtherPublisher" select="descendant::tei:row/tei:cell[@ana='otherPublisher']"/>
+                     <xsl:variable name="bookLink" select="descendant::tei:row/tei:cell[@ana='link']"/>
+                     <xsl:variable name="bookCobiss" select="descendant::tei:row/tei:cell[@ana='cobiss']"/>
+                     <xsl:variable name="bookBiblio" select="descendant::tei:row/tei:cell[@ana='biblio']"/>
+                     <xsl:variable name="bookNote" select="descendant::tei:row/tei:cell[@ana='note']"/>
+                     <xsl:text>[&#xA;</xsl:text>
+                     
+                     <!-- Naslov --><!--
+                  <xsl:variable name="prvihXznakov" select="substring($bookTitle, 1, 20)" />-->
+                     <xsl:text>&quot;</xsl:text>
+                     <xsl:value-of select="concat('&lt;a href=\&quot;',$bookID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$bookTitle,'&lt;/a&gt;')"/>
+                     <!--                  <xsl:value-of select="concat('&quot;',$bookTitle,'&quot;')"/>-->
+                     <xsl:text>&quot;,&#xA;</xsl:text>
+                     
+                     <!-- avtor -->
+                     <xsl:value-of select="concat('&quot;',$bookAuthor,'&quot;')"/>
+                     <xsl:text>,&#xA;</xsl:text>
+                     
+                     <!-- Leto -->
+                     <xsl:value-of select="concat('&quot;',$bookYear,'&quot;')"/>
+                     <xsl:text>,&#xA;</xsl:text>
+                     
+                     <!-- Kraj -->
+                     <xsl:value-of select="concat('&quot;',$bookPlace,'&quot;')"/>
+                     <xsl:text>,&#xA;</xsl:text>
+                     
+                     <!-- Predmet -->
+                     <xsl:value-of select="concat('&quot;',$bookSubject,'&quot;')"/>
+                     <xsl:text>,&#xA;</xsl:text>
+                     
+                     <!-- avtor priredbe -->
+                     <xsl:value-of select="concat('&quot;',$bookCover,'&quot;')"/>
+                     <xsl:text>,&#xA;</xsl:text>
+                     
+                     <!-- Naslov (poznejše izdaje) -->
+                     <xsl:value-of select="concat('&quot;',$bookTitleNew,'&quot;')"/>
+                     <xsl:text>,&#xA;</xsl:text>
+                     
+                     <!-- Kraj (poznejše izdaje) -->
+                     <xsl:value-of select="concat('&quot;',$bookPlaceNew,'&quot;')"/>
+                     <xsl:text>,&#xA;</xsl:text>
+                     
+                     <!-- Založnik (prva izdaja) -->
+                     <xsl:value-of select="concat('&quot;',$bookFirstPublisher,'&quot;')"/>
+                     <xsl:text>,&#xA;</xsl:text>
+                     
+                     <!-- Založnik (poznejše izdaje) -->
+                     <xsl:value-of select="concat('&quot;',$bookOtherPublisher,'&quot;')"/>
+                     <xsl:text>,&#xA;</xsl:text>
+                     
+                     <!-- Povezava na digitalizirane učbenike -->
+                     <xsl:value-of select="concat('&quot;',$bookLink,'&quot;')"/>
+                     <xsl:text>,&#xA;</xsl:text>
+                     
+                     <!-- Povezava na cobiss -->
+                     <xsl:value-of select="concat('&quot;',$bookCobiss,'&quot;')"/>
+                     <xsl:text>,&#xA;</xsl:text>
+                     
+                     <!-- viri in literatura -->
+                     <xsl:value-of select="concat('&quot;',$bookBiblio,'&quot;')"/>
+                     <xsl:text>,&#xA;</xsl:text>
+                     
+                     
+                     <!-- ID -->
+                     <xsl:text>&quot;</xsl:text>
+                     <xsl:value-of select="concat('&lt;a href=\&quot;',$bookID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$bookID,'&lt;/a&gt;')"/>
+                     <xsl:text>&quot;,&#xA;</xsl:text>
+                     
+                     
+                     <!-- opombe -->
+                     <xsl:value-of select="concat('&quot;',$bookNote,'&quot;')"/>
+                     <xsl:text>&#xA;</xsl:text>
+                     
+                     <xsl:text>]</xsl:text>
+                     <xsl:if test="position() != last()">
+                        <xsl:text>,
                      </xsl:text>
-                  </xsl:if>
-               </xsl:for-each>
-               <xsl:text>]
-}</xsl:text>
-            </xsl:result-document>
-            
-            <!--</tbody>-->
-         </table>
-         <br/>
-         <br/>
-         <br/>
-      </div>
-   </xsl:template>
-   
-   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
-      <desc></desc>
-   </doc>
-   <xsl:template name="datatables-type">
-      <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css'}" />
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js'}"></script>
-      
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.responsive.min.js' else 'https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.buttons.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.colVis.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.colReorder.min.js' else 'https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js'}"></script>
-      
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'jszip.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js'}"></script>
-      <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'range-filter-external-type.js' else 'range-filter-external-type.js'}"></script>
-      
-      <link href="{if ($localWebsite='true') then 'responsive.dataTables.min.css' else 'https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <link href="{if ($localWebsite='true') then 'buttons.dataTables.min.css' else 'https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      
-      <style>
-         *, *::after, *::before {
-         box-sizing: border-box;
-         }
-         .pagination .current {
-         background: #8e130b;
-         }
-      </style>
-      
-      <script>
-         var columnIDs = [1];
-      </script>
-      
-      <div>
-         <table id="datatableType" class="display responsive nowrap targetTable" width="100%" cellspacing="0">
-            <thead>
-               <tr>
-                  <th>ID</th>
-                  <th>Vrsta</th>
-                  <th>Naslov</th>
-                  <th>Priložnost</th>
-               </tr>
-            </thead>
-            <tfoot>
-               <tr>
-                  <th></th>
-                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-               </tr>
-            </tfoot>
-            <!--<tbody>-->
-            <xsl:result-document href="docs/data-type.json" method="text" encoding="UTF-8">
-               <xsl:text>{
-  "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:label[@type='type']">
-                  <xsl:variable name="playID" select="parent::tei:div/@xml:id"/>
-                  <xsl:text>[&#xA;</xsl:text>
-                  
-                  <!-- ID -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
-                  <xsl:text>&quot;,&#xA;</xsl:text>
-                  
-                  <!-- Stopnja ohranjenosti -->
-                  <xsl:value-of select="concat('&quot;',normalize-space(.),'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Naslov -->
-                  <xsl:value-of select="concat('&quot;',substring-after(normalize-space(parent::tei:div/tei:head),': '),'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Priložnost -->
-                  <xsl:value-of select="concat('&quot;',substring-before(normalize-space(parent::tei:div/tei:head),': '),'&quot;')"/>
-                  <xsl:text>&#xA;</xsl:text>
-                  
-                  <xsl:text>]</xsl:text>
-                  <xsl:if test="position() != last()">
-                     <xsl:text>,
-                     </xsl:text>
-                  </xsl:if>
-               </xsl:for-each>
-               <xsl:text>]
-}</xsl:text>
-            </xsl:result-document>
-            
-            <!--</tbody>-->
-         </table>
-         <br/>
-         <br/>
-         <br/>
-      </div>
-   </xsl:template>
-   
-   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
-      <desc></desc>
-   </doc>
-   <xsl:template name="datatables-author">
-      <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css'}" />
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js'}"></script>
-      
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.responsive.min.js' else 'https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.buttons.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.colVis.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.colReorder.min.js' else 'https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js'}"></script>
-      
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'jszip.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js'}"></script>
-      <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'range-filter-external-provenience.js' else 'range-filter-external-provenience.js'}"></script>
-      
-      <link href="{if ($localWebsite='true') then 'responsive.dataTables.min.css' else 'https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <link href="{if ($localWebsite='true') then 'buttons.dataTables.min.css' else 'https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      
-      <style>
-         *, *::after, *::before {
-         box-sizing: border-box;
-         }
-         .pagination .current {
-         background: #8e130b;
-         }
-      </style>
-      
-      <script>
-         var columnIDs = [1];
-      </script>
-      
-      <div>
-         <table id="datatableProvenience" class="display responsive targetTable" width="100%" cellspacing="0">
-            <thead>
-               <tr>
-                  <th>ID</th>
-                  <th>Naslov</th>
-                  <th>Avtor</th>
-                  <th>Avtor priredbe / Prevajalec / Urednik: </th>
-               </tr>
-            </thead>
-            <tfoot>
-               <tr>
-                  <th></th>
-                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-               </tr>
-            </tfoot>
-            <!--<tbody>-->
-            <xsl:result-document href="docs/data-author.json" method="text" encoding="UTF-8">
-               <xsl:text>{
-  "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:body/tei:div">
-                  <xsl:variable name="playID" select="@xml:id"/>
-                  <xsl:variable name="playTitle" select="descendant::tei:row/tei:cell[@ana='title']"/>
-                  <xsl:variable name="playAuthor" select="descendant::tei:row/tei:cell[@ana='author']"/>
-                  <xsl:variable name="playAuthor2" select="descendant::tei:row/tei:cell[@ana='author2']"/>
-                  <xsl:text>[&#xA;</xsl:text>
-                  
-                  <!-- ID -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
-                  <xsl:text>&quot;,&#xA;</xsl:text>
-                  
-                  <!-- Naslov --><!--
-                  <xsl:variable name="prvihXznakov" select="substring($playTitle, 1, 20)" />-->
-                  <xsl:value-of select="concat('&quot;',$playTitle,'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- avtor -->
-                  <xsl:value-of select="concat('&quot;',$playAuthor,'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- avtor priredbe/urednik/prevajalec -->
-                  <xsl:value-of select="concat('&quot;',$playAuthor2,'&quot;')"/>
-                  <xsl:text>&#xA;</xsl:text>
-                  
-                  <xsl:text>]</xsl:text>
-                  <xsl:if test="position() != last()">
-                     <xsl:text>,
-                     </xsl:text>
-                  </xsl:if>
-               </xsl:for-each>
-               <xsl:text>]
-}</xsl:text>
-            </xsl:result-document>
-            
-            <!--</tbody>-->
-         </table>
-         <br/>
-         <br/>
-         <br/>
-      </div>
-   </xsl:template>
-   
-   <!-- genre2, Zvrstna opredelitev, row[5] -->
-   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
-      <desc></desc>
-   </doc>
-   <xsl:template name="datatables-place">
-      <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css'}" />
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js'}"></script>
-      
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.responsive.min.js' else 'https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.buttons.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.colVis.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.colReorder.min.js' else 'https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js'}"></script>
-      
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'jszip.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js'}"></script>
-      <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'range-filter-external-genre2.js' else 'range-filter-external-genre2.js'}"></script>
-      
-      <link href="{if ($localWebsite='true') then 'responsive.dataTables.min.css' else 'https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <link href="{if ($localWebsite='true') then 'buttons.dataTables.min.css' else 'https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      
-      <style>
-         *, *::after, *::before {
-         box-sizing: border-box;
-         }
-         .pagination .current {
-         background: #8e130b;
-         }
-      </style>
-      
-      <script>
-         var columnIDs = [1];
-      </script>
-      
-      <div>
-         <table id="datatableGenre2" class="display responsive nowrap targetTable" width="100%" cellspacing="0">
-            <thead>
-               <tr>
-                  <th>ID</th>
-                  <th>Naslov</th>
-                  <th>Kraj (prva izdaja)</th>
-               </tr>
-            </thead>
-            <tfoot>
-               <tr>
-                  <th></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-               </tr>
-            </tfoot>
-            <!--<tbody>-->
-            <xsl:result-document href="docs/data-genre2.json" method="text" encoding="UTF-8">
-               <xsl:text>{
-  "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:body/tei:div">
-                  <xsl:variable name="playID" select="@xml:id"/>
-                  <xsl:variable name="playTitle" select="descendant::tei:row/tei:cell[@ana='title']"/>
-                  <xsl:variable name="playPlace" select="descendant::tei:row/tei:cell[@ana='place']"/>
-                  <xsl:text>[&#xA;</xsl:text>
-                  
-                  <!-- ID -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
-                  <xsl:text>&quot;,&#xA;</xsl:text>
-                  
-                  <!-- Naslov -->
-                  <xsl:value-of select="concat('&quot;',$playTitle,'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                                    
-                  <!-- Kraj -->
-                  <xsl:value-of select="concat('&quot;',$playPlace,'&quot;')"/>
-                  <xsl:text>&#xA;</xsl:text>
-                                    
-                  <xsl:text>]</xsl:text>
-                  <xsl:if test="position() != last()">
-                     <xsl:text>,
-                     </xsl:text>
-                  </xsl:if>
-               </xsl:for-each>
-               <xsl:text>]
-}</xsl:text>
-            </xsl:result-document>
-            
-            <!--</tbody>-->
-         </table>
-         <br/>
-         <br/>
-         <br/>
-      </div>
-   </xsl:template>
-   
-   <!-- year, Leto (ali šolsko leto) uprizoritve, row[6] -->
-   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
-      <desc></desc>
-   </doc>
-   <xsl:template name="datatables-year">
-      <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css'}" />
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js'}"></script>
-      
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.responsive.min.js' else 'https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.buttons.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.colVis.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.colReorder.min.js' else 'https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js'}"></script>
-      
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'jszip.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js'}"></script>
-      <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'range-filter-external-year.js' else 'range-filter-external-year.js'}"></script>
-      
-      <link href="{if ($localWebsite='true') then 'responsive.dataTables.min.css' else 'https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <link href="{if ($localWebsite='true') then 'buttons.dataTables.min.css' else 'https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      
-      <style>
-         *, *::after, *::before {
-         box-sizing: border-box;
-         }
-         .pagination .current {
-         background: #8e130b;
-         }
-      </style>
-      
-      <script>
-         var columnIDs = [1];
-      </script>
-      
-      <div>
-         <table id="datatableYear" class="display responsive nowrap targetTable" width="100%" cellspacing="0">
-            <thead>
-               <tr>
-                  <th>ID</th>
-                  <th>Naslov</th>
-                  <th>Leto</th>
-               </tr>
-            </thead>
-            <tfoot>
-               <tr>
-                  <th></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-               </tr>
-            </tfoot>
-            <!--<tbody>-->
-            <xsl:result-document href="docs/data-year.json" method="text" encoding="UTF-8">
-               <xsl:text>{
-  "data": [&#xA;</xsl:text>               
-               <xsl:for-each select="//tei:body/tei:div">
-                  <xsl:variable name="playID" select="@xml:id"/>
-                  <xsl:variable name="playTitle" select="descendant::tei:row/tei:cell[@ana='title']"/>
-                  <xsl:variable name="playYear" select="descendant::tei:row/tei:cell[@ana='year']"/>
-                  <xsl:text>[&#xA;</xsl:text>
-                  
-                  <!-- ID -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
-                  <xsl:text>&quot;,&#xA;</xsl:text>
-                  
-                  <!-- Naslov --><!--
-                  <xsl:variable name="prvihXznakov" select="substring($playTitle, 1, 20)" />-->
-                  <xsl:value-of select="concat('&quot;',$playTitle,'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                                    
-                  <!-- Leto -->
-                  <xsl:value-of select="concat('&quot;',$playYear,'&quot;')"/>
-                  <xsl:text>&#xA;</xsl:text>
-                  
-                  
-                  <xsl:text>]</xsl:text>
-                  <xsl:if test="position() != last()">
-                     <xsl:text>,
-                     </xsl:text>
-                  </xsl:if>
-               </xsl:for-each>
-               <xsl:text>]
-}</xsl:text>
-            </xsl:result-document>
-            
-            <!--</tbody>-->
-         </table>
-         <br/>
-         <br/>
-         <br/>
-      </div>
-   </xsl:template>
-   
-   <!-- opportunity, Priložnost uprizoritve, row[7] -->
-   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
-      <desc></desc>
-   </doc>
-   <xsl:template name="datatables-opportunity">
-      <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css'}" />
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js'}"></script>
-      
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.responsive.min.js' else 'https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.buttons.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.colVis.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.colReorder.min.js' else 'https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js'}"></script>
-      
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'jszip.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js'}"></script>
-      <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'range-filter-external-opportunity.js' else 'range-filter-external-opportunity.js'}"></script>
-      
-      <link href="{if ($localWebsite='true') then 'responsive.dataTables.min.css' else 'https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <link href="{if ($localWebsite='true') then 'buttons.dataTables.min.css' else 'https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      
-      <style>
-         *, *::after, *::before {
-         box-sizing: border-box;
-         }
-         .pagination .current {
-         background: #8e130b;
-         }
-      </style>
-      
-      <script>
-         var columnIDs = [1];
-      </script>
-      
-      <div>
-         <table id="datatableOpportunity" class="display responsive nowrap targetTable" width="100%" cellspacing="0">
-            <thead>
-               <tr>
-                  <th>ID</th>
-                  <th>Priložnost uprizoritve</th>
-                  <th>Naslov</th>
-                  <th>Priložnost</th>
-               </tr>
-            </thead>
-            <tfoot>
-               <tr>
-                  <th></th>
-                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-               </tr>
-            </tfoot>
-            <!--<tbody>-->
-            <xsl:result-document href="docs/data-opportunity.json" method="text" encoding="UTF-8">
-               <xsl:text>{
-  "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:table/tei:row/tei:cell[.='Priložnost uprizoritve'][string-length(following-sibling::tei:cell[1]) gt 0]">
-                  <xsl:variable name="playID" select="ancestor::tei:div[1]/@xml:id"/>
-                  <xsl:text>[&#xA;</xsl:text>
-                  
-                  <!-- ID -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
-                  <xsl:text>&quot;,&#xA;</xsl:text>
-                  
-                  <!-- Priložnost uprizoritve -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:for-each select="following-sibling::tei:cell[1]">
-                     <xsl:choose>
-                        <xsl:when test="tei:p">
-                           <xsl:value-of select="normalize-space(tei:p[1])"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                           <xsl:choose>
-                              <xsl:when test="contains(.,':')">
-                                 <xsl:value-of select="substring-before(normalize-space(.),':')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:choose>
-                                    <xsl:when test=" string-length(.) gt 50">
-                                       <xsl:value-of select="concat(substring( normalize-space(.),1,50),' [...]')"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                       <xsl:value-of select="normalize-space(.)"/>
-                                    </xsl:otherwise>
-                                 </xsl:choose>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:otherwise>
-                     </xsl:choose>
+                     </xsl:if>
                   </xsl:for-each>
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Naslov -->
-                  <xsl:value-of select="concat('&quot;',substring-after(normalize-space(ancestor::tei:div[1]/tei:head),': '),'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Priložnost -->
-                  <xsl:value-of select="concat('&quot;',substring-before(normalize-space(ancestor::tei:div[1]/tei:head),': '),'&quot;')"/>
-                  <xsl:text>&#xA;</xsl:text>
-                  
-                  <xsl:text>]</xsl:text>
-                  <xsl:if test="position() != last()">
-                     <xsl:text>,
-                     </xsl:text>
-                  </xsl:if>
-               </xsl:for-each>
-               <xsl:text>]
+                  <xsl:text>]
 }</xsl:text>
-            </xsl:result-document>
-            
-            <!--</tbody>-->
+               </xsl:result-document>
+               
+            </tbody>
          </table>
          <br/>
          <br/>
@@ -1375,449 +1090,146 @@
       </div>
    </xsl:template>
    
-   <!-- stage, Kraj uprizoritve drame, row[12] -->
-   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
-      <desc></desc>
-   </doc>
-   <xsl:template name="datatables-stage">
-      <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css'}" />
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js'}"></script>
-      
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.responsive.min.js' else 'https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.buttons.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.colVis.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.colReorder.min.js' else 'https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js'}"></script>
-      
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'jszip.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js'}"></script>
-      <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'range-filter-external-stage.js' else 'range-filter-external-stage.js'}"></script>
-      
-      <link href="{if ($localWebsite='true') then 'responsive.dataTables.min.css' else 'https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <link href="{if ($localWebsite='true') then 'buttons.dataTables.min.css' else 'https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      
-      <style>
-         *, *::after, *::before {
-         box-sizing: border-box;
-         }
-         .pagination .current {
-         background: #8e130b;
-         }
-      </style>
-      
-      <script>
-         var columnIDs = [1];
-      </script>
-      
-      <div>
-         <table id="datatableStage" class="display responsive nowrap targetTable" width="100%" cellspacing="0">
-            <thead>
-               <tr>
-                  <th>ID</th>
-                  <th>Kraj uprizoritve drame</th>
-                  <th>Naslov</th>
-                  <th>Priložnost</th>
-               </tr>
-            </thead>
-            <tfoot>
-               <tr>
-                  <th></th>
-                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-               </tr>
-            </tfoot>
-            <!--<tbody>-->
-            <xsl:result-document href="docs/data-stage.json" method="text" encoding="UTF-8">
-               <xsl:text>{
-  "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:table/tei:row/tei:cell[.='Kraj uprizoritve drame'][string-length(following-sibling::tei:cell[1]) gt 0]">
-                  <xsl:variable name="playID" select="ancestor::tei:div[1]/@xml:id"/>
-                  <xsl:text>[&#xA;</xsl:text>
-                  
-                  <!-- ID -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
-                  <xsl:text>&quot;,&#xA;</xsl:text>
-                  
-                  <!-- Kraj uprizoritve drame -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:for-each select="following-sibling::tei:cell[1]">
-                     <xsl:choose>
-                        <xsl:when test="tei:p">
-                           <xsl:value-of select="normalize-space(tei:p[1])"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                           <xsl:choose>
-                              <xsl:when test="contains(.,':')">
-                                 <xsl:value-of select="substring-before(normalize-space(.),':')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:choose>
-                                    <xsl:when test=" string-length(.) gt 50">
-                                       <xsl:value-of select="concat(substring( normalize-space(.),1,50),' [...]')"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                       <xsl:value-of select="normalize-space(.)"/>
-                                    </xsl:otherwise>
-                                 </xsl:choose>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:otherwise>
-                     </xsl:choose>
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc> NASLOVNA STRAN </xsldoc:desc>
+   </xsldoc:doc>
+   <xsl:template match="tei:titlePage">
+      <!-- avtor -->
+      <p  class="naslovnicaAvtor">
+         <xsl:for-each select="tei:docAuthor">
+            <xsl:choose>
+               <xsl:when test="tei:forename or tei:surname">
+                  <xsl:for-each select="tei:forename">
+                     <xsl:value-of select="."/>
+                     <xsl:if test="position() ne last()">
+                        <xsl:text> </xsl:text>
+                     </xsl:if>
                   </xsl:for-each>
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Naslov -->
-                  <xsl:value-of select="concat('&quot;',substring-after(normalize-space(ancestor::tei:div[1]/tei:head),': '),'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Priložnost -->
-                  <xsl:value-of select="concat('&quot;',substring-before(normalize-space(ancestor::tei:div[1]/tei:head),': '),'&quot;')"/>
-                  <xsl:text>&#xA;</xsl:text>
-                  
-                  <xsl:text>]</xsl:text>
-                  <xsl:if test="position() != last()">
-                     <xsl:text>,
-                     </xsl:text>
+                  <xsl:if test="tei:surname">
+                     <xsl:text> </xsl:text>
                   </xsl:if>
-               </xsl:for-each>
-               <xsl:text>]
-}</xsl:text>
-            </xsl:result-document>
-            
-            <!--</tbody>-->
-         </table>
-         <br/>
-         <br/>
-         <br/>
-      </div>
-   </xsl:template>
-   
-   <!-- actors, Kdo jo je igral?, row[13] -->
-   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
-      <desc></desc>
-   </doc>
-   <xsl:template name="datatables-actors">
-      <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables.min.css' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css'}" />
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables.min.js' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js'}"></script>
-      
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.responsive.min.js' else 'https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.buttons.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.colVis.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'dataTables.colReorder.min.js' else 'https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js'}"></script>
-      
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'jszip.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js'}"></script>
-      <!-- določi, kje je naša dodatna DataTables js datoteka -->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'range-filter-external-actors.js' else 'range-filter-external-actors.js'}"></script>
-      
-      <link href="{if ($localWebsite='true') then 'responsive.dataTables.min.css' else 'https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <link href="{if ($localWebsite='true') then 'buttons.dataTables.min.css' else 'https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <!-- ===== Dodatne resource datoteke ======================================= -->
-      
-      <style>
-         *, *::after, *::before {
-         box-sizing: border-box;
-         }
-         .pagination .current {
-         background: #8e130b;
-         }
-      </style>
-      
-      <script>
-         var columnIDs = [1];
-      </script>
-      
-      <div>
-         <table id="datatableActors" class="display responsive nowrap targetTable" width="100%" cellspacing="0">
-            <thead>
-               <tr>
-                  <th>ID</th>
-                  <th>Kdo jo je igral?</th>
-                  <th>Naslov</th>
-                  <th>Priložnost</th>
-               </tr>
-            </thead>
-            <tfoot>
-               <tr>
-                  <th></th>
-                  <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-                  <th><input class="filterInputText" placeholder="Iskanje" type="text"/></th>
-               </tr>
-            </tfoot>
-            <!--<tbody>-->
-            <xsl:result-document href="docs/data-actors.json" method="text" encoding="UTF-8">
-               <xsl:text>{
-  "data": [&#xA;</xsl:text>
-               <xsl:for-each select="//tei:table/tei:row/tei:cell[.='Kdo jo je igral?'][string-length(following-sibling::tei:cell[1]) gt 0]">
-                  <xsl:variable name="playID" select="ancestor::tei:div[1]/@xml:id"/>
-                  <xsl:text>[&#xA;</xsl:text>
-                  
-                  <!-- ID -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:value-of select="concat('&lt;a href=\&quot;',$playID,'.html','\&quot; target=\&quot;_blank\&quot;&gt;',$playID,'&lt;/a&gt;')"/>
-                  <xsl:text>&quot;,&#xA;</xsl:text>
-                  
-                  <!-- Kdo jo je igral? -->
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:for-each select="following-sibling::tei:cell[1]">
-                     <xsl:choose>
-                        <xsl:when test="tei:p">
-                           <xsl:value-of select="normalize-space(tei:p[1])"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                           <xsl:choose>
-                              <xsl:when test="contains(.,':')">
-                                 <xsl:value-of select="substring-before(normalize-space(.),':')"/>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <xsl:choose>
-                                    <xsl:when test=" string-length(.) gt 50">
-                                       <xsl:value-of select="concat(substring( normalize-space(.),1,50),' [...]')"/>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                       <xsl:value-of select="normalize-space(.)"/>
-                                    </xsl:otherwise>
-                                 </xsl:choose>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:otherwise>
-                     </xsl:choose>
+                  <xsl:for-each select="tei:surname">
+                     <xsl:value-of select="."/>
+                     <xsl:if test="position() ne last()">
+                        <xsl:text> </xsl:text>
+                     </xsl:if>
                   </xsl:for-each>
-                  <xsl:text>&quot;</xsl:text>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Naslov -->
-                  <xsl:value-of select="concat('&quot;',substring-after(normalize-space(ancestor::tei:div[1]/tei:head),': '),'&quot;')"/>
-                  <xsl:text>,&#xA;</xsl:text>
-                  
-                  <!-- Priložnost -->
-                  <xsl:value-of select="concat('&quot;',substring-before(normalize-space(ancestor::tei:div[1]/tei:head),': '),'&quot;')"/>
-                  <xsl:text>&#xA;</xsl:text>
-                  
-                  <xsl:text>]</xsl:text>
-                  <xsl:if test="position() != last()">
-                     <xsl:text>,
-                     </xsl:text>
-                  </xsl:if>
-               </xsl:for-each>
-               <xsl:text>]
-}</xsl:text>
-            </xsl:result-document>
-            
-            <!--</tbody>-->
-         </table>
-         <br/>
-         <br/>
-         <br/>
-      </div>
+               </xsl:when>
+               <xsl:otherwise>
+                  <xsl:apply-templates/>
+               </xsl:otherwise>
+            </xsl:choose>
+            <xsl:if test="position() ne last()">
+               <br/>
+            </xsl:if>
+         </xsl:for-each>
+      </p>
+      <!-- naslov: spremenjeno procesiranje naslovov -->
+      <xsl:for-each select="tei:docTitle/tei:titlePart[@xml:lang='sl']">
+         <h1 class="text-center"><xsl:value-of select="."/></h1>
+      </xsl:for-each>
+      <hr/>
+      <xsl:for-each select="tei:docTitle/tei:titlePart[@xml:lang='en']">
+         <h4 class="text-center"><xsl:value-of select="."/></h4>
+      </xsl:for-each>
+      <br/><!--
+      <xsl:if test="tei:figure">
+         <div class="text-center">
+            <p>
+               <img src="{tei:figure/tei:graphic/@url}" alt="naslovna slika"/>
+            </p>
+         </div>
+      </xsl:if>-->
+      <xsl:if test="tei:graphic">
+         <div class="text-center">
+            <p>
+               <img src="{tei:graphic/@url}" alt="naslovna slika" style="max-height: 600px;"/>
+            </p>
+         </div>
+      </xsl:if>
+      <br/>
+      <p class="text-center">
+         <!-- založnik -->
+         <xsl:for-each select="tei:docImprint/tei:publisher">
+            <xsl:value-of select="."/>
+            <br/>
+         </xsl:for-each>
+         <!-- kraj izdaje -->
+         <xsl:for-each select="tei:docImprint/tei:pubPlace">
+            <xsl:value-of select="."/>
+            <br/>
+         </xsl:for-each>
+         <!-- leto izdaje -->
+         <xsl:for-each select="tei:docImprint/tei:docDate">
+            <xsl:value-of select="."/>
+            <br/>
+         </xsl:for-each>
+      </p>
    </xsl:template>
    
-   
-   <!--<doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
-      <desc></desc>
-   </doc>
-   <xsl:template name="datatable">
-      <link rel="stylesheet" type="text/css" href="{if ($localWebsite='true') then 'datatables/datatables.min.css' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.css'}" />
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables/datatables.min.js' else 'https://cdn.datatables.net/v/zf/dt-1.10.13/cr-1.3.2/datatables.min.js'}"></script>
-      
-      <!-\- ===== Dodatne resource datoteke ======================================= -\->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables/dataTables.responsive.min.js' else 'https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables/dataTables.buttons.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/dataTables.buttons.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables/buttons.colVis.min.js' else 'https://cdn.datatables.net/buttons/1.4.1/js/buttons.colVis.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables/dataTables.colReorder.min.js' else 'https://cdn.datatables.net/colreorder/1.3.3/js/dataTables.colReorder.min.js'}"></script>
-      
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables/jszip.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables/pdfmake.min.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables/vfs_fonts.js' else 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js'}"></script>
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables/buttons.html5.min.js' else 'https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js'}"></script>
-      <!-\- določi, kje je naša dodatna DataTables js datoteka -\->
-      <script type="text/javascript" src="{if ($localWebsite='true') then 'datatables/range-filter-external.js' else 'https://www2.sistory.si/publikacije/themes/js/plugin/DataTables/range-filter-external.js'}"></script>
-      
-      <link href="{if ($localWebsite='true') then 'datatables/responsive.dataTables.min.css' else 'https://cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <link href="{if ($localWebsite='true') then 'datatables/buttons.dataTables.min.css' else 'https://cdn.datatables.net/buttons/1.4.1/css/buttons.dataTables.min.css'}" rel="stylesheet" type="text/css" />
-      <!-\- ===== Dodatne resource datoteke ======================================= -\->
-      
-      <style>
-         *, *::after, *::before {
-         box-sizing: border-box;
-         }
-         .pagination .current {
-         background: #8e130b;
-         }
-      </style>
-      
-      <script>
-         var columnIDs = [0, 1, 2, 3, 4, 5, 6];
-      </script>
-      
-      <ul class="accordion" data-accordion="" data-allow-all-closed="true">
-         <li class="accordion-item" data-accordion-item="">
-            <a href="#" class="accordion-title">Filtriraj po letu izdaje</a>
-            <div class="accordion-content rangeFilterWrapper" data-target="3" data-tab-content="">
-               <div class="row">
-                  <div class="small-3 columns">
-                     <label for="middle-label" class="text-right middle">Filtriraj po letu izdaje od</label>
-                  </div>
-                  <div class="small-3 columns">
-                     <input type="text" class="rangeMinValue" maxlength="4" placeholder="Leto izdaje (min)"/>
-                  </div>
-                  <div class="small-3 columns">
-                     <label for="middle-label" class="text-center middle">do</label>
-                  </div>
-                  <div class="small-3 columns">
-                     <input type="text" class="rangeMaxValue" maxlength="4" placeholder="Leto izdaje (max)"/>
-                  </div>
-                  <div class="small-12 columns" style="text-align: right;">
-                     <a class="clearRangeFilter" href="#">Počisti filter</a>
-                  </div>
-               </div>
-            </div>
-         </li>
-      </ul>
-      
-      <table id="datatablePorocevalec" class="display responsive nowrap targetTable" data-order="[[ 4, &quot;asc&quot; ]]" width="100%" cellspacing="0">
-         <thead>
-            <tr>
-               <th>Naslov</th>
-               <th>Avtor</th>
-               <th>Letnik</th>
-               <th>Leto izdaje</th>
-               <th>Predmet</th>
-               <th>Založnik</th>
-               <th>Povezava</th>
-            </tr>
-         </thead>
-         <tfoot>
-            <tr>
-               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
-               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
-               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
-               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
-               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
-               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
-               <th><select class="filterSelect"><option value="">Prikaži vse</option></select></th>
-               <th></th>
-            </tr>
-         </tfoot>
-         <tbody>
-            <xsl:for-each select="ancestor::tei:TEI/tei:text/tei:body/tei:div[@type='listBibl']/tei:listBibl//tei:biblStruct[tei:monogr/tei:title[@level='j']]">
-               <xsl:sort select="tei:monogr/tei:imprint/tei:date/@when"/>
-               <xsl:variable name="sistoryID">
-                  <xsl:choose>
-                     <xsl:when test="parent::tei:relatedItem[@type='included']">
-                        <xsl:value-of select="ancestor::tei:biblStruct[@xml:id]/tei:monogr/tei:idno[@type='sistory']"/>
-                     </xsl:when>
-                     <xsl:otherwise>
-                        <xsl:value-of select="tei:monogr/tei:idno[@type='sistory']"/>
-                     </xsl:otherwise>
-                  </xsl:choose>
-               </xsl:variable>
-               <tr>
-                  <td>
-                     <xsl:for-each select="tei:monogr/tei:title[@level='j']">
+   <xsldoc:doc xmlns:xsldoc="http://www.oxygenxml.com/ns/doc/xsl">
+      <xsldoc:desc>Angleški naslov v svojo vrstico</xsldoc:desc>
+   </xsldoc:doc>
+   <xsl:template match="tei:titleStmt" mode="kolofon">
+      <!-- avtor -->
+      <p>
+         <xsl:for-each select="tei:author">
+            <span itemprop="author">
+               <xsl:choose>
+                  <xsl:when test="tei:forename or tei:surname">
+                     <xsl:for-each select="tei:forename">
                         <xsl:value-of select="."/>
-                        <xsl:if test="position() != last()">: </xsl:if>
+                        <xsl:if test="position() ne last()">
+                           <xsl:text> </xsl:text>
+                        </xsl:if>
                      </xsl:for-each>
-                  </td>
-                  <td>
-                     <xsl:value-of select="concat(tei:monogr/tei:biblScope[@unit='volume'],' ')"/>
-                  </td>
-                  <td>
-                     <xsl:value-of select="tei:monogr/tei:biblScope[@unit='issue']"/>
-                  </td>
-                  <td>
-                     <xsl:value-of select="tokenize(tei:monogr/tei:imprint/tei:date/@when,'-')[1]"/>
-                  </td>
-                  <!-\- datum -\->
-                  <xsl:variable name="date" select="tei:monogr/tei:imprint/tei:date/@when"/>
-                  <xsl:variable name="year" select="tokenize($date,'-')[1]"/>
-                  <xsl:variable name="month" select="tokenize($date,'-')[2]"/>
-                  <xsl:variable name="day" select="tokenize($date,'-')[3]"/>
-                  <xsl:variable name="dateDisplay">
-                     <xsl:if test="string-length($day) gt 0">
-                        <xsl:value-of select="concat(number($day),'. ')"/>
+                     <xsl:if test="tei:surname">
+                        <xsl:text> </xsl:text>
                      </xsl:if>
-                     <xsl:if test="string-length($month) gt 0">
-                        <xsl:value-of select="concat(number($month),'. ')"/>
-                     </xsl:if>
-                     <xsl:if test="string-length($year) gt 0">
-                        <xsl:value-of select="$year"/>
-                     </xsl:if>
-                  </xsl:variable>
-                  <td data-order="{$date}">
-                     <xsl:value-of select="$dateDisplay"/>
-                  </td>
-                  <td>
-                     <xsl:for-each select="tei:monogr/tei:imprint/tei:publisher">
+                     <xsl:for-each select="tei:surname">
                         <xsl:value-of select="."/>
-                        <xsl:if test="position() != last()">, </xsl:if>
+                        <xsl:if test="position() ne last()">
+                           <xsl:text> </xsl:text>
+                        </xsl:if>
                      </xsl:for-each>
-                  </td>
-                  <td>
-                     <xsl:value-of select="tei:monogr/tei:idno[@type='issn']"/>
-                  </td>
-                  <td data-order="{$sistoryID}">
-                     <xsl:choose>
-                        <xsl:when test="parent::tei:relatedItem[@type='included']">
-                           <xsl:variable name="sistoryFile">
-                              <xsl:choose>
-                                 <xsl:when test="tei:ref">
-                                    <xsl:value-of select="tei:ref"/>
-                                 </xsl:when>
-                                 <xsl:otherwise>
-                                    <xsl:value-of select="ancestor::tei:biblStruct[@xml:id]/tei:ref"/>
-                                 </xsl:otherwise>
-                              </xsl:choose>
-                           </xsl:variable>
-                           <xsl:variable name="pdfPage">
-                              <xsl:choose>
-                                 <xsl:when test="tei:monogr/tei:biblScope[@unit='page']">
-                                    <xsl:value-of select="tei:monogr/tei:biblScope[@unit='page']"/>
-                                 </xsl:when>
-                                 <xsl:otherwise>1</xsl:otherwise>
-                              </xsl:choose>
-                           </xsl:variable>
-                           <xsl:variable name="sistoryPath" select="concat('/cdn/publikacije/',(xs:integer(round(number($sistoryID)) div 1000) * 1000) + 1,'-',(xs:integer(round(number($sistoryID)) div 1000) * 1000) + 1000,'/',$sistoryID,'/')"/>
-                           <xsl:choose>
-                              <xsl:when test="$localWebsite='true'">
-                                 <a href="{concat('PDF/',$sistoryFile,'#page=',$pdfPage)}">PDF</a>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <a href="{concat('https://www.sistory.si',$sistoryPath,$sistoryFile,'#page=',$pdfPage)}" title="Zgodovina Slovenije - SIstory" target="_blank">SIstory</a>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:when>
-                        <xsl:otherwise>
-                           <xsl:choose>
-                              <xsl:when test="$localWebsite='true'">
-                                 <a href="{concat('PDF/',tei:ref)}" title="PDF datoteka" target="_blank">PDF</a>
-                              </xsl:when>
-                              <xsl:otherwise>
-                                 <a href="{concat('https://sistory.si/11686/',$sistoryID)}" title="Zgodovina Slovenije - SIstory" target="_blank">SIstory</a>
-                              </xsl:otherwise>
-                           </xsl:choose>
-                        </xsl:otherwise>
-                     </xsl:choose>
-                  </td>
-               </tr>
+                  </xsl:when>
+                  <xsl:otherwise>
+                     <xsl:value-of select="."/>
+                  </xsl:otherwise>
+               </xsl:choose>
+            </span>
+            <xsl:if test="position() != last()">
+               <br/>
+            </xsl:if>
+         </xsl:for-each>
+      </p>
+      <!-- Naslov mora vedno biti, zato ne preverjam, če obstaja. -->
+      <p itemprop="name">
+         <xsl:for-each select="tei:title[1]">
+            <b><xsl:value-of select="."/></b>
+            <xsl:if test="following-sibling::tei:title">
+               <br/>
+               <br/>
+            </xsl:if>
+            <xsl:for-each select="following-sibling::tei:title">
+               <b><xsl:value-of select="."/></b>
+               <xsl:if test="position() != last()">
+                  <xsl:text>, </xsl:text>
+               </xsl:if>
             </xsl:for-each>
-         </tbody>
-      </table>
+         </xsl:for-each>
+      </p>
       <br/>
+      <xsl:apply-templates select="tei:respStmt" mode="kolofon"/>
       <br/>
+      <xsl:if test="tei:funder">
+         <xsl:for-each select="tei:funder">
+            <p itemprop="funder">
+               <xsl:value-of select="."/>
+            </p>
+         </xsl:for-each>
+      </xsl:if>
       <br/>
-   </xsl:template>-->
-   
+   </xsl:template>
    
 </xsl:stylesheet>
